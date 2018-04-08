@@ -112,7 +112,7 @@ architecture rtl of wiener_ctrl is
 
   type PIPELINE_T is array (11 downto 0) of 
                        std_logic_vector(FFT_WIDTH_CT-1 downto 0);
-                       
+  --长序列频域值                     
   constant DEMOD_CT : std_logic_vector(52 downto 0) :=
         "11110101001100000101011001011110101100111111010110011";  --bit 26 is multiplied by 0
 
@@ -739,12 +739,12 @@ begin
     --
     i_add3      <= i_add3_v;
     q_add3      <= q_add3_v;
-    -- 
+    --加9 
     i_acc_plus9_v   := SXT(i_acc, i_acc_plus9_v'length) + 
                        conv_std_logic_vector(9, i_acc_plus9_v'length);
     q_acc_plus9_v   := SXT(q_acc, q_acc_plus9_v'length) + 
                        conv_std_logic_vector(9, i_acc_plus9_v'length);
-
+    --除8
     i_acc_scaled_v := SSHR(i_acc_plus9_v,conv_std_logic_vector(3, 2));
     q_acc_scaled_v := SSHR(q_acc_plus9_v,conv_std_logic_vector(3, 2));
 
@@ -824,6 +824,7 @@ begin
           tmpq_v := q_i;
           case conv_integer(count_data) is
             when 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 =>
+              --根据长序列的正负对输入数据取反，也就得到了信道初始估计值
               if DEMOD_CT(conv_integer(count_data)) = '0' then
                 tmpi_v := not(tmpi_v) + '1';
                 tmpq_v := not(tmpq_v) + '1';
@@ -872,6 +873,7 @@ begin
       if sync_reset_n = '0' then
         chanwien_a <= (others => '0');
       elsif start_of_burst_i = '1' then
+        --根据维纳窗口大小，选择不同的滤波系数
         case wf_window_i is
           when "00" =>
             -----------------------------------------------------------------

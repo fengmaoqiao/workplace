@@ -1,0 +1,1720 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+abscnt_timers	.\abscnt_timers.vhd	/^entity abscnt_timers is$/;"	e
+ACCU_PLUS1_CT	.\peak_detect_RTL.vhd	/^  constant ACCU_PLUS1_CT : integer := accu_size_g+1;$/;"	c
+ACCU_PLUS2_CT	.\peak_detect_RTL.vhd	/^  constant ACCU_PLUS2_CT : integer := accu_size_g+2;$/;"	c
+ackto_timer	.\ackto_timer.vhd	/^entity ackto_timer is$/;"	e
+ADCDAC_SCALE_ADDR_CT	.\regbank_maxim.vhd	/^  constant ADCDAC_SCALE_ADDR_CT       : std_logic_vector(7 downto 0) := "00000000";$/;"	c
+ADC_MODE_T	.\mdma2_rx_sm_rtl.vhd	/^  type ADC_MODE_T is (ADC_PD, ADC_ON, ADC_SLEEP);$/;"	t
+ADDEND_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ADDEND_SIZE_CT      : integer := STEP_SIZE_CT+1;$/;"	c
+adder4	.\adder4.vhd	/^entity adder4 is$/;"	e
+adder_level1_type	.\viterbi_rtl.vhd	/^  type adder_level1_type is array (TRELLIS_CT\/2-1 downto 0) of$/;"	t
+adder_level2_type	.\viterbi_rtl.vhd	/^  type adder_level2_type is array (TRELLIS_CT\/4-1 downto 0) of$/;"	t
+adder_level3_type	.\viterbi_rtl.vhd	/^  type adder_level3_type is array (TRELLIS_CT\/8-1 downto 0) of$/;"	t
+adder_level4_type	.\viterbi_rtl.vhd	/^  type adder_level4_type is array (TRELLIS_CT\/16-1 downto 0) of$/;"	t
+adder_level5_type	.\viterbi_rtl.vhd	/^  type adder_level5_type is array (TRELLIS_CT\/32-1 downto 0) of$/;"	t
+adder_level6_type	.\viterbi_rtl.vhd	/^  type adder_level6_type is array (TRELLIS_CT\/64-1 downto 0) of$/;"	t
+ADDRMISMATCH_CT	.\bup2_general_sm_RTL.vhd	/^  constant ADDRMISMATCH_CT : std_logic_vector(1 downto 0) := "01";$/;"	c
+ADDR_MAX_CT	.\interl_ctrl_RTL.vhd	/^  constant ADDR_MAX_CT      : std_logic_vector( 4 downto 0) := "10111"; -- 23$/;"	c
+ADDR_START_RD_CT	.\interl_ctrl_RTL.vhd	/^  constant ADDR_START_RD_CT : std_logic_vector( 4 downto 0) := "00100"; -- 4$/;"	c
+ADD_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant ADD_ST_CT  : std_logic_vector(3 downto 0) := "0011";$/;"	c
+ADJUST_131072HZ_CT	.\bup2_timers_RTL.vhd	/^  constant ADJUST_131072HZ_CT    : std_logic_vector(26 downto 0)$/;"	c
+ADJUST_32768HZ_CT	.\bup2_timers_RTL.vhd	/^  constant ADJUST_32768HZ_CT     : std_logic_vector(26 downto 0)$/;"	c
+ADJUST_32kHZ_CT	.\bup2_timers_RTL.vhd	/^  constant ADJUST_32kHZ_CT       : std_logic_vector(26 downto 0)$/;"	c
+aesbc_state_type	.\aes_sm_RTL.vhd	/^type aesbc_state_type is (idle_state,      -- Idle phase$/;"	t
+aes_blockcipher	.\aes_blockcipher.vhd	/^entity aes_blockcipher is$/;"	e
+aes_blockcipher_pkg	.\aes_blockcipher_pkg.vhd	/^package aes_blockcipher_pkg is$/;"	P
+aes_ccm	.\aes_ccm.vhd	/^entity aes_ccm is$/;"	e
+aes_ccm_pkg	.\aes_ccm_pkg.vhd	/^package aes_ccm_pkg is$/;"	P
+aes_control	.\aes_control.vhd	/^entity aes_control is$/;"	e
+aes_decrypt	.\aes_decrypt.vhd	/^entity aes_decrypt is$/;"	e
+aes_encrypt	.\aes_encrypt.vhd	/^entity aes_encrypt is$/;"	e
+aes_invmixcolumns	.\aes_invmixcolumns.vhd	/^entity aes_invmixcolumns is$/;"	e
+aes_invshiftrows	.\aes_invshiftrows.vhd	/^entity aes_invshiftrows is$/;"	e
+aes_invsubbytes	.\aes_invsubbytes.vhd	/^entity aes_invsubbytes is$/;"	e
+aes_keyschedule	.\aes_keyschedule.vhd	/^entity aes_keyschedule is$/;"	e
+aes_mixcolumns	.\aes_mixcolumns.vhd	/^entity aes_mixcolumns is$/;"	e
+aes_shiftrows	.\aes_shiftrows.vhd	/^entity aes_shiftrows is$/;"	e
+aes_sm	.\aes_sm.vhd	/^entity aes_sm is$/;"	e
+AES_STATE_TYPE	.\aes_control_RTL.vhd	/^  type AES_STATE_TYPE is ($/;"	t
+aes_subbytes	.\aes_subbytes.vhd	/^entity aes_subbytes is$/;"	e
+AGCADCCNTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCADCCNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "10100000";$/;"	c
+AGCADCTGT_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCADCTGT_ADDR_CT          : std_logic_vector(7 downto 0) := "01011100";$/;"	c
+AGCCCAOVNRG_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCCAOVNRG_ADDR_CT        : std_logic_vector(7 downto 0) := "01000000";$/;"	c
+AGCCCATHR_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCCATHR_ADDR_CT          : std_logic_vector(7 downto 0) := "10100100";$/;"	c
+AGCCNTL0_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL0_ADDR_CT           : std_logic_vector(7 downto 0) := "00101100";$/;"	c
+AGCCNTL10_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL10_ADDR_CT          : std_logic_vector(7 downto 0) := "10101100";$/;"	c
+AGCCNTL1_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL1_ADDR_CT           : std_logic_vector(7 downto 0) := "00110000";$/;"	c
+AGCCNTL2_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL2_ADDR_CT           : std_logic_vector(7 downto 0) := "00110100";$/;"	c
+AGCCNTL3_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL3_ADDR_CT           : std_logic_vector(7 downto 0) := "00111000";$/;"	c
+AGCCNTL4_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL4_ADDR_CT           : std_logic_vector(7 downto 0) := "00111100";$/;"	c
+AGCCNTL5_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL5_ADDR_CT           : std_logic_vector(7 downto 0) := "01000100";$/;"	c
+AGCCNTL6_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL6_ADDR_CT           : std_logic_vector(7 downto 0) := "01101100";$/;"	c
+AGCCNTL7_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL7_ADDR_CT           : std_logic_vector(7 downto 0) := "01111000";$/;"	c
+AGCCNTL8_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL8_ADDR_CT           : std_logic_vector(7 downto 0) := "10000100";$/;"	c
+AGCCNTL9_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCNTL9_ADDR_CT           : std_logic_vector(7 downto 0) := "00000100"; $/;"	c
+AGCCSFORCE_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCCSFORCE_ADDR_CT         : std_logic_vector(7 downto 0) := "10001000";$/;"	c
+AGCDEL2ANT_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCDEL2ANT_ADDR_CT         : std_logic_vector(7 downto 0) := "01100100";$/;"	c
+AGCDELCS_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCDELCS_ADDR_CT           : std_logic_vector(7 downto 0) := "01100000";$/;"	c
+AGCDELDCFORCE_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCDELDCFORCE_ADDR_CT      : std_logic_vector(7 downto 0) := "10001100";$/;"	c
+AGCDELFE_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCDELFE_ADDR_CT           : std_logic_vector(7 downto 0) := "01110100";$/;"	c
+AGCGAINMAXMIN_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCGAINMAXMIN_ADDR_CT      : std_logic_vector(7 downto 0) := "01101000";$/;"	c
+AGCGAIN_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCGAIN_ADDR_CT            : std_logic_vector(7 downto 0) := "01011000";$/;"	c
+AGCMODEDC_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCMODEDC_ADDR_CT          : std_logic_vector(7 downto 0) := "01110000";$/;"	c
+AGCSTAT0_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCSTAT0_ADDR_CT           : std_logic_vector(7 downto 0) := "01001000";$/;"	c
+AGCSTAT1_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCSTAT1_ADDR_CT           : std_logic_vector(7 downto 0) := "01001100";$/;"	c
+AGCSTAT2_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCSTAT2_ADDR_CT           : std_logic_vector(7 downto 0) := "01010000";$/;"	c
+AGCSTAT3_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCSTAT3_ADDR_CT           : std_logic_vector(7 downto 0) := "01010100";$/;"	c
+AGCTGTDG_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCTGTDG_ADDR_CT           : std_logic_vector(7 downto 0) := "10000000";$/;"	c
+AGCTHRACRATIO_ADDR_CT	.\regbank_maxim.vhd	/^  constant AGCTHRACRATIO_ADDR_CT      : std_logic_vector(7 downto 0) := "01111100";$/;"	c
+AGC_BB_STATE_TYPE	.\agc_cca_hissbb_pkg.vhd	/^  type AGC_BB_STATE_TYPE is (idle, wait_deldc, wait1_signal_valid, wait_cs, $/;"	t
+agc_cca	.\agc_cca.vhd	/^entity agc_cca is$/;"	e
+agc_cca_hissbb	.\agc_cca_hissbb.vhd	/^entity agc_cca_hissbb is$/;"	e
+agc_cca_hissbb_pkg	.\agc_cca_hissbb_pkg.vhd	/^package agc_cca_hissbb_pkg is$/;"	P
+agc_cca_pkg	.\agc_cca_pkg.vhd	/^package agc_cca_pkg is$/;"	P
+AGC_RESET_ST_CT	.\cca_maxim_pkg.vhd	/^  constant AGC_RESET_ST_CT              : std_logic_vector(4 downto 0) := "10011";$/;"	c
+AGC_STATE_TYPE	.\agc_cca_RTL.vhd	/^  type AGC_STATE_TYPE is (init_gainsett_state,$/;"	t
+ahb_config_pkg	.\ahb_config_pkg.vhd	/^package ahb_config_pkg is$/;"	P
+ALL_ONE_CT	.\cnt_sr_e_i_rtl.vhd	/^  constant ALL_ONE_CT : std_logic_vector(depth_g-1 downto 0) := (others => '1');$/;"	c
+ALL_ONE_CT	.\dec_sr_e_i_rtl.vhd	/^  constant ALL_ONE_CT   : std_logic_vector(depth_g-1 downto 0) := (others => '1');$/;"	c
+ALL_ZERO_CT	.\dec_sr_e_i_rtl.vhd	/^  constant ALL_ZERO_CT  : std_logic_vector(depth_g-1 downto 0) := (others => '0');$/;"	c
+alpha_shift	.\alpha_shift.vhd	/^entity alpha_shift is$/;"	e
+ALTERA	.\config_pkg.vhd	/^  constant ALTERA         : integer := 1;$/;"	c
+ALTERA	.\target_config_pkg.vhd	/^  constant ALTERA     : integer := 1;$/;"	c
+ana_int_ctrl	.\ana_int_ctrl.vhd	/^entity ana_int_ctrl is$/;"	e
+ANA_INT_STATE_TYPE	.\ana_int_ctrl_RTL.vhd	/^  type ANA_INT_STATE_TYPE is (idle_state,       -- Idle state$/;"	t
+AngleArray	.\cordic_combstage_rtl.vhd	/^  type AngleArray   is array (natural range <>) of $/;"	t
+AngleArray	.\cordic_RTL.vhd	/^  type AngleArray   is array (natural range <>) of $/;"	t
+angle_add	.\functions_pkg_body.vhd	/^function angle_add $/;"	f
+angle_add_barker	.\functions_pkg_body.vhd	/^function angle_add_barker $/;"	f
+ANGLE_ARRAY_T	.\comb_stage_vectoring_rtl.vhd	/^  type ANGLE_ARRAY_T   is array (natural range <>) of $/;"	t
+ANGLE_ARRAY_T	.\cordic_vectoring_rtl.vhd	/^  type ANGLE_ARRAY_T   is array (natural range <>) of $/;"	t
+ANGLE_TYPE	.\phase_computation_RTL.vhd	/^  type ANGLE_TYPE       is (bet_pi2_mpi2,           -- between pi\/2 and -pi\/2$/;"	t
+arctan_lut	.\arctan_lut.vhd	/^entity arctan_lut is$/;"	e
+ARRAY16OFSLV12_TYPE	.\preprocessing_RTL.vhd	/^  type ARRAY16OFSLV12_TYPE is array(0 to 16) of std_logic_vector(11 downto 0);$/;"	t
+ARRAY16OFSLV_TYPE	.\peak_search_RTL.vhd	/^  type ARRAY16OFSLV_TYPE is array(0 to 15) of std_logic_vector(yb_size_g+2 downto 0);$/;"	t
+ARRAY2OF_XD_TYPE	.\coarse_freq_sync_RTL.vhd	/^  type ARRAY2OF_XD_TYPE  is array(0 to 1) of std_logic_vector(xp_size_g+4 downto 0);$/;"	t
+ARRAY4OFSLV_TYPE	.\phase_computation_RTL.vhd	/^  type ARRAY4OFSLV_TYPE is array (0 to 2) of std_logic_vector(xb_size_g+3-1 downto 0);$/;"	t
+ARRAY4OF_XP_TYPE	.\coarse_freq_sync_RTL.vhd	/^  type ARRAY4OF_XP_TYPE  is array(0 to 3) of std_logic_vector(xp_size_g-1 downto 0);$/;"	t
+ARRAY4OF_XU_TYPE	.\coarse_freq_sync_RTL.vhd	/^  type ARRAY4OF_XU_TYPE  is array(0 to 3) of std_logic_vector(xp_size_g+3 downto 0);$/;"	t
+ArrayOfDataReg	.\correlator_RTL.vhd	/^  type ArrayOfDataReg is array (0 to 15) of std_logic_vector(size_in_g-1 downto 0);$/;"	t
+ArrayOfDataReg	.\preprocessing_RTL.vhd	/^  type ArrayOfDataReg is array (0 to 15) of std_logic_vector(size_n_g-1 downto 0);  $/;"	t
+ArrayOfDataReg	.\three_correlators_RTL.vhd	/^  type ArrayOfDataReg is array (0 to 15) of std_logic_vector(size_in_g-1 downto 0);$/;"	t
+ArrayOfSLV	.\peak_detect_RTL.vhd	/^  type ArrayOfSLV is array (natural range <>) of $/;"	t
+ArrayOfSLV10	.\slv_pkg.vhd	/^  type ArrayOfSLV10 is array (natural range <>) of $/;"	t
+ArrayOfSLV11	.\slv_pkg.vhd	/^  type ArrayOfSLV11 is array (natural range <>) of $/;"	t
+ArrayOfSLV12	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLV12 is array (0 to coeff_g-1) of$/;"	t
+ArrayOfSLV12	.\slv_pkg.vhd	/^  type ArrayOfSLV12 is array (natural range <>) of $/;"	t
+ArrayOfSLV13	.\slv_pkg.vhd	/^  type ArrayOfSLV13 is array (natural range <>) of $/;"	t
+ArrayOfSLV14	.\slv_pkg.vhd	/^  type ArrayOfSLV14 is array (natural range <>) of $/;"	t
+ArrayOfSLV15	.\slv_pkg.vhd	/^  type ArrayOfSLV15 is array (natural range <>) of $/;"	t
+ArrayOfSLV16	.\slv_pkg.vhd	/^  type ArrayOfSLV16 is array (natural range <>) of $/;"	t
+ArrayOfSLV17	.\slv_pkg.vhd	/^  type ArrayOfSLV17 is array (natural range <>) of $/;"	t
+ArrayOfSLV18	.\slv_pkg.vhd	/^  type ArrayOfSLV18 is array (natural range <>) of $/;"	t
+ArrayOfSLV19	.\slv_pkg.vhd	/^  type ArrayOfSLV19 is array (natural range <>) of $/;"	t
+ArrayOfSLV20	.\slv_pkg.vhd	/^  type ArrayOfSLV20 is array (natural range <>) of $/;"	t
+ArrayOfSLV21	.\slv_pkg.vhd	/^  type ArrayOfSLV21 is array (natural range <>) of $/;"	t
+ArrayOfSLV22	.\slv_pkg.vhd	/^  type ArrayOfSLV22 is array (natural range <>) of $/;"	t
+ArrayOfSLV23	.\slv_pkg.vhd	/^  type ArrayOfSLV23 is array (natural range <>) of $/;"	t
+ArrayOfSLV24	.\slv_pkg.vhd	/^  type ArrayOfSLV24 is array (natural range <>) of $/;"	t
+ArrayOfSLV25	.\slv_pkg.vhd	/^  type ArrayOfSLV25 is array (natural range <>) of $/;"	t
+ArrayOfSLV26	.\slv_pkg.vhd	/^  type ArrayOfSLV26 is array (natural range <>) of $/;"	t
+ArrayOfSLV27	.\slv_pkg.vhd	/^  type ArrayOfSLV27 is array (natural range <>) of $/;"	t
+ArrayOfSLV28	.\slv_pkg.vhd	/^  type ArrayOfSLV28 is array (natural range <>) of $/;"	t
+ArrayOfSLV29	.\slv_pkg.vhd	/^  type ArrayOfSLV29 is array (natural range <>) of $/;"	t
+ArrayOfSLV30	.\slv_pkg.vhd	/^  type ArrayOfSLV30 is array (natural range <>) of $/;"	t
+ArrayOfSLV31	.\slv_pkg.vhd	/^  type ArrayOfSLV31 is array (natural range <>) of $/;"	t
+ArrayOfSLV32	.\cordic_pkg.vhd	/^  type ArrayOfSLV32 is array (natural range <>) of $/;"	t
+ArrayOfSLV32	.\slv_pkg.vhd	/^  type ArrayOfSLV32 is array (natural range <>) of $/;"	t
+ArrayOfSLV8	.\slv_pkg.vhd	/^  type ArrayOfSLV8 is array (natural range <>) of $/;"	t
+ArrayOfSLV9	.\slv_pkg.vhd	/^  type ArrayOfSLV9  is array (natural range <>) of $/;"	t
+ArrayOfSLVcacsize	.\equalizer_global_pkg.vhd	/^  type ArrayOfSLVcacsize is array       (0 to coeff_ct-1) of $/;"	t
+ArrayOfSLVcacsize	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLVcacsize is array (0 to coeff_g-1) of$/;"	t
+ArrayOfSLVcacsize1	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLVcacsize1 is array (0 to coeff_g-1) of$/;"	t
+ArrayOfSLVcsize	.\equalizer_global_pkg.vhd	/^   type ArrayOfSLVcsize is array        ( 0 to coeff_ct-1) of$/;"	t
+ARRAYOFSLVDATA_SIZE_T	.\fft_2cordic_pkg.vhd	/^  TYPE ARRAYOFSLVDATA_SIZE_T IS ARRAY (NATURAL RANGE <>) OF$/;"	t
+ArrayOfSLVdsize	.\cordic_vect_RTL.vhd	/^  type ArrayOfSLVdsize is array (natural range <>) of $/;"	t
+ArrayOfSLVdsize	.\equalizer_RTL.vhd	/^  type ArrayOfSLVdsize is array (natural range <>) of $/;"	t
+ArrayOfSLVdsize	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLVdsize is array (0 to coeff_g-1) of$/;"	t
+ArrayOfSLVdsize1	.\equalizer_global_pkg.vhd	/^  type ArrayOfSLVdsize1 is array        (0 to coeff_ct-1) of $/;"	t
+ArrayOfSLVdsize1	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLVdsize1 is array (0 to coeff_g-1) of$/;"	t
+ArrayOfSLVoutsize	.\equalizer_RTL.vhd	/^  type ArrayOfSLVoutsize is array (natural range <>) of $/;"	t
+ArrayOfSLVshiftasize	.\equalizer_global_pkg.vhd	/^  type ArrayOfSLVshiftasize is array    (0 to coeff_ct-1) of $/;"	t
+ArrayOfSLVshiftasize	.\ffwd_estimation_RTL.vhd	/^  type ArrayOfSLVshiftasize is array (0 to coeff_g-1) of$/;"	t
+ARRAY_12_T	.\est_mag_rtl.vhd	/^  type ARRAY_12_T is array (3 downto 0) of std_logic_vector(10 downto 0);$/;"	t
+ARRAY_BUF	.\hiss_buffer_RTL.vhd	/^  type ARRAY_BUF is array (1 to buf_size_g) of$/;"	t
+ARRAY_BUF_TYPE	.\buffer_for_seria_RTL.vhd	/^  type ARRAY_BUF_TYPE is array (1 to buf_size_g)$/;"	t
+ARRAY_MULT_IN_SHIFTED	.\fft_2cordic_pkg.vhd	/^  TYPE ARRAY_MULT_IN_SHIFTED IS ARRAY (0 TO 17) OF STD_LOGIC_VECTOR (2*data_size_g DOWNTO 0);$/;"	t
+ARRAY_OF_SLV32_T	.\cordic_vectoring_pkg.vhd	/^  type ARRAY_OF_SLV32_T is array (natural range <>) of $/;"	t
+ARRAY_SLV10	.\bup2_timers_RTL.vhd	/^  type ARRAY_SLV10 is array (natural range <>) of std_logic_vector(9 downto 0);$/;"	t
+ARRAY_SLV26	.\abscnt_timers_RTL.vhd	/^  type ARRAY_SLV26 is array (natural range <>) of std_logic_vector(25 downto 0);$/;"	t
+ARRAY_SLV4	.\bup2_timers_RTL.vhd	/^  type ARRAY_SLV4 is array (natural range <>) of std_logic_vector(3 downto 0);$/;"	t
+ASIC	.\target_config_pkg.vhd	/^  constant ASIC : integer := 1;$/;"	c
+AV_G_MAX_CT	.\iq_mism_g_est_rtl.vhd	/^  constant AV_G_MAX_CT         : std_logic_vector(AV_G_SIZE_CT-1 downto 0) := (others => '1');$/;"	c
+AV_G_MIN_CT	.\iq_mism_g_est_rtl.vhd	/^  constant AV_G_MIN_CT         : std_logic_vector(AV_G_SIZE_CT-1 downto 0) := (others => '0');$/;"	c
+AV_G_RESET_CT	.\iq_mism_g_est_rtl.vhd	/^  constant AV_G_RESET_CT       : std_logic_vector(AV_G_SIZE_CT-1 downto 0)$/;"	c
+AV_G_SIZE_CT	.\iq_mism_g_est_rtl.vhd	/^  constant AV_G_SIZE_CT        : integer := 20;$/;"	c
+AV_PH_MAX_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant AV_PH_MAX_CT         : std_logic_vector(AV_PH_SIZE_CT-1 downto 0) := (others => '1');$/;"	c
+AV_PH_MIN_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant AV_PH_MIN_CT         : std_logic_vector(AV_PH_SIZE_CT-1 downto 0) := (others => '0');$/;"	c
+AV_PH_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant AV_PH_SIZE_CT       : integer := 20;-- internal accumulator size$/;"	c
+A_SHIFT_CT	.\master_deseria_RTL.vhd	/^  constant A_SHIFT_CT      : std_logic_vector(3 downto 0) := "1011";  -- 12-1 $/;"	c
+A_SHIFT_CT	.\master_seria_RTL.vhd	/^  constant A_SHIFT_CT      : std_logic_vector(4 downto 0) := "01011";  -- 12-1 $/;"	c
+A_TIME_BEFORE_READ_CT	.\bup2_tx_sm_RTL.vhd	/^  constant A_TIME_BEFORE_READ_CT : std_logic_vector(4 downto 0) $/;"	c
+A_U_LAW_ENCODER_CT	.\config_boost_platform_pkg.vhd	/^  constant A_U_LAW_ENCODER_CT    : BOOLEAN := false;$/;"	c
+B1_ADJUST_CT	.\master_deseria_RTL.vhd	/^  constant B1_ADJUST_CT    : std_logic_vector(3 downto 0) := "1001";  -- 10-1 $/;"	c
+B1_ADJUST_CT	.\master_seria_RTL.vhd	/^  constant B1_ADJUST_CT    : std_logic_vector(3 downto 0) := "1001";  -- 10-1 $/;"	c
+B1_SHIFT_CT	.\master_deseria_RTL.vhd	/^  constant B1_SHIFT_CT     : std_logic_vector(3 downto 0) := "1010";  -- 11-1 $/;"	c
+B1_SHIFT_CT	.\master_seria_RTL.vhd	/^  constant B1_SHIFT_CT     : std_logic_vector(4 downto 0) := "10101";  -- 22-1 $/;"	c
+B2_ADJUST_CT	.\master_deseria_RTL.vhd	/^  constant B2_ADJUST_CT    : std_logic_vector(3 downto 0) := "0000";  -- 1-1$/;"	c
+B2_ADJUST_CT	.\master_seria_RTL.vhd	/^  constant B2_ADJUST_CT    : std_logic_vector(3 downto 0) := "0000";  -- 1-1$/;"	c
+B2_SHIFT_CT	.\master_deseria_RTL.vhd	/^  constant B2_SHIFT_CT     : std_logic_vector(3 downto 0) := "1001";  -- 10-1$/;"	c
+B2_SHIFT_CT	.\master_seria_RTL.vhd	/^  constant B2_SHIFT_CT     : std_logic_vector(4 downto 0) := "10011";  -- 20-1$/;"	c
+backoff2	.\backoff2.vhd	/^entity backoff2 is$/;"	e
+BACKOFF_SM_TYPE	.\backoff2_RTL.vhd	/^  type BACKOFF_SM_TYPE is (idle_state,    -- Backoff idle, wait for end of SIFS$/;"	t
+barker_cor	.\barker_cor.vhd	/^entity barker_cor is$/;"	e
+barker_cor_pkg	.\barker_cor_pkg.vhd	/^package barker_cor_pkg is$/;"	P
+BARKER_SEQ_CT	.\dsss_demod_RTL.vhd	/^  constant BARKER_SEQ_CT : std_logic_vector (10 downto 0)  $/;"	c
+BARKER_SEQ_CT	.\spreading_RTL.vhd	/^  constant BARKER_SEQ_CT : std_logic_vector (10 downto 0)  $/;"	c
+beta_shift	.\beta_shift.vhd	/^entity beta_shift is$/;"	e
+biggest_picker	.\biggest_picker.vhd	/^entity biggest_picker is$/;"	e
+biggest_picker_4	.\biggest_picker_4.vhd	/^entity biggest_picker_4 is$/;"	e
+biggest_picker_pkg	.\biggest_picker_pkg.vhd	/^package biggest_picker_pkg is$/;"	P
+BIG_ENDIAN_MODE_CT	.\config_pkg.vhd	/^  constant BIG_ENDIAN_MODE_CT : BOOLEAN := false;$/;"	c
+BITS_PER_SYMBOL_BPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_BPSK_1_2_CT  : integer :=  24;$/;"	c
+BITS_PER_SYMBOL_BPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_BPSK_3_4_CT  : integer :=  36;$/;"	c
+BITS_PER_SYMBOL_QAM16_1_2_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QAM16_1_2_CT : integer :=  96;$/;"	c
+BITS_PER_SYMBOL_QAM16_3_4_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QAM16_3_4_CT : integer := 144;$/;"	c
+BITS_PER_SYMBOL_QAM64_2_3_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QAM64_2_3_CT : integer := 192;$/;"	c
+BITS_PER_SYMBOL_QAM64_3_4_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QAM64_3_4_CT : integer := 216;$/;"	c
+BITS_PER_SYMBOL_QPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QPSK_1_2_CT  : integer :=  48;$/;"	c
+BITS_PER_SYMBOL_QPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant BITS_PER_SYMBOL_QPSK_3_4_CT  : integer :=  72;$/;"	c
+bit_ser_adder	.\bit_ser_adder.vhd	/^entity bit_ser_adder is$/;"	e
+bit_ser_adder_pkg	.\bit_ser_adder_pkg.vhd	/^package bit_ser_adder_pkg is$/;"	P
+bit_ser_mult	.\bit_ser_mult.vhd	/^entity bit_ser_mult is$/;"	e
+bit_ser_mult_pkg	.\bit_ser_mult_pkg.vhd	/^package bit_ser_mult_pkg is$/;"	P
+block_pkg	.\block_pkg.vhd	/^package block_pkg is$/;"	P
+boostchip_config_pkg	.\boostchip_config_pkg.vhd	/^package boostchip_config_pkg is$/;"	P
+BOUNDARY32_CT	.\sp_ahb_access_RTL.vhd	/^  constant BOUNDARY32_CT : std_logic_vector(9 downto 0) $/;"	c
+BOUNDARY8_CT	.\sp_ahb_access_RTL.vhd	/^  constant BOUNDARY8_CT  : std_logic_vector(9 downto 0) $/;"	c
+BPSK_CT	.\freq_domain_pack.vhd	/^  constant BPSK_CT  : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "11"; $/;"	c
+BPSK_CT	.\interl_ctrl_RTL.vhd	/^  constant BPSK_CT          : std_logic_vector( 1 downto 0) := "11";$/;"	c
+BPSK_CT	.\mapper_RTL.vhd	/^  constant BPSK_CT          : std_logic_vector( 1 downto 0) := "11";$/;"	c
+BPSK_CT	.\modem802_11a2_pack.vhd	/^  constant BPSK_CT  : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "11"; $/;"	c
+BPSK_MODE_CT	.\decode_path_RTL.vhd	/^  constant BPSK_MODE_CT       : std_logic_vector (1 downto 0) := "00";$/;"	c
+BPSK_MODE_CT	.\deserializer_RTL.vhd	/^  constant BPSK_MODE_CT       : std_logic_vector (1 downto 0) := "00";$/;"	c
+BUF1_STATE_T	.\fft_shell_RTL.vhd	/^  type BUF1_STATE_T is (idle_e, read_input_e, store_e);$/;"	t
+buffer_for_seria	.\buffer_for_seria.vhd	/^entity buffer_for_seria is$/;"	e
+BUF_ELEMENT_P1_T	.\fft_shell_RTL.vhd	/^  type BUF_ELEMENT_P1_T is array (0 to 63)$/;"	t
+BUF_ELEMENT_T	.\fft_shell_RTL.vhd	/^  type BUF_ELEMENT_T is array (0 to 63)$/;"	t
+bup2modem_sync	.\bup2modem_sync.vhd	/^entity bup2modem_sync is$/;"	e
+bup2modem_sync_pkg	.\bup2modem_sync_pkg.vhd	/^package bup2modem_sync_pkg is$/;"	P
+bup2_general_sm	.\bup2_general_sm.vhd	/^entity bup2_general_sm is$/;"	e
+bup2_intgen	.\bup2_intgen.vhd	/^entity bup2_intgen is$/;"	e
+bup2_intgen_pkg	.\bup2_intgen_pkg.vhd	/^package bup2_intgen_pkg is$/;"	P
+bup2_kernel	.\bup2_kernel.vhd	/^entity bup2_kernel is$/;"	e
+bup2_kernel_pkg	.\bup2_kernel_pkg.vhd	/^package bup2_kernel_pkg is$/;"	P
+bup2_registers	.\bup2_registers.vhd	/^entity bup2_registers is$/;"	e
+bup2_registers_pkg	.\bup2_registers_pkg.vhd	/^package bup2_registers_pkg is$/;"	P
+bup2_rx_sm	.\bup2_rx_sm.vhd	/^entity bup2_rx_sm is$/;"	e
+bup2_sm	.\bup2_sm.vhd	/^entity bup2_sm is$/;"	e
+bup2_sm_pkg	.\bup2_sm_pkg.vhd	/^package bup2_sm_pkg is$/;"	P
+bup2_timers	.\bup2_timers.vhd	/^entity bup2_timers is$/;"	e
+bup2_timers_pkg	.\bup2_timers_pkg.vhd	/^package bup2_timers_pkg is$/;"	P
+bup2_tx_sm	.\bup2_tx_sm.vhd	/^entity bup2_tx_sm is$/;"	e
+BUPABSCNT0_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT0_ADDR_CT      : std_logic_vector(7 downto 0) := "00011000";--h'18$/;"	c
+BUPABSCNT10_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT10_ADDR_CT     : std_logic_vector(7 downto 0) := "11100100";--h'E4$/;"	c
+BUPABSCNT11_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT11_ADDR_CT     : std_logic_vector(7 downto 0) := "11101000";--h'E8$/;"	c
+BUPABSCNT12_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT12_ADDR_CT     : std_logic_vector(7 downto 0) := "11101100";--h'EC$/;"	c
+BUPABSCNT13_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT13_ADDR_CT     : std_logic_vector(7 downto 0) := "11110000";--h'F0$/;"	c
+BUPABSCNT14_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT14_ADDR_CT     : std_logic_vector(7 downto 0) := "11110100";--h'F4$/;"	c
+BUPABSCNT15_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT15_ADDR_CT     : std_logic_vector(7 downto 0) := "11111000";--h'F8$/;"	c
+BUPABSCNT1_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT1_ADDR_CT      : std_logic_vector(7 downto 0) := "11000000";--h'C0$/;"	c
+BUPABSCNT2_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT2_ADDR_CT      : std_logic_vector(7 downto 0) := "11000100";--h'C4$/;"	c
+BUPABSCNT3_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT3_ADDR_CT      : std_logic_vector(7 downto 0) := "11001000";--h'C8$/;"	c
+BUPABSCNT4_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT4_ADDR_CT      : std_logic_vector(7 downto 0) := "11001100";--h'CC$/;"	c
+BUPABSCNT5_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT5_ADDR_CT      : std_logic_vector(7 downto 0) := "11010000";--h'D0$/;"	c
+BUPABSCNT6_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT6_ADDR_CT      : std_logic_vector(7 downto 0) := "11010100";--h'D4$/;"	c
+BUPABSCNT7_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT7_ADDR_CT      : std_logic_vector(7 downto 0) := "11011000";--h'D8$/;"	c
+BUPABSCNT8_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT8_ADDR_CT      : std_logic_vector(7 downto 0) := "11011100";--h'DC$/;"	c
+BUPABSCNT9_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNT9_ADDR_CT      : std_logic_vector(7 downto 0) := "11100000";--h'E0$/;"	c
+BUPABSCNTACK_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNTACK_ADDR_CT    : std_logic_vector(7 downto 0) := "10111100";--h'BC$/;"	c
+BUPABSCNTMASK_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNTMASK_ADDR_CT   : std_logic_vector(7 downto 0) := "10111000";--h'B8$/;"	c
+BUPABSCNTSTAT_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPABSCNTSTAT_ADDR_CT   : std_logic_vector(7 downto 0) := "10110100";--h'B4$/;"	c
+BUPADDR1H_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPADDR1H_ADDR_CT       : std_logic_vector(7 downto 0) := "00111000";--h'38$/;"	c
+BUPADDR1L_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPADDR1L_ADDR_CT       : std_logic_vector(7 downto 0) := "00110100";--h'34$/;"	c
+BUPADDR1MSK_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPADDR1MSK_ADDR_CT     : std_logic_vector(7 downto 0) := "10101000";--h'A8$/;"	c
+BUPBUILD_CT	.\bup2_registers_pkg.vhd	/^   constant BUPBUILD_CT   : std_logic_vector(15 downto 0) := "0000000000000000";$/;"	c
+BUPCHASSBSY_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCHASSBSY_ADDR_CT     : std_logic_vector(7 downto 0) := "10100000";--h'A0$/;"	c
+BUPCHASSTIM_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCHASSTIM_ADDR_CT     : std_logic_vector(7 downto 0) := "10100100";--h'A4$/;"	c
+BUPCNTL_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "00000100";--h'04$/;"	c
+BUPCOUNT0_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCOUNT0_ADDR_CT       : std_logic_vector(7 downto 0) := "00101100";--h'2C$/;"	c
+BUPCOUNT1_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCOUNT1_ADDR_CT       : std_logic_vector(7 downto 0) := "01111100";--h'7C$/;"	c
+BUPCOUNT2_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCOUNT2_ADDR_CT       : std_logic_vector(7 downto 0) := "10110000";--h'B0$/;"	c
+BUPCSPTR_IAC_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPCSPTR_IAC_ADDR_CT    : std_logic_vector(7 downto 0) := "10011000";--h'98$/;"	c
+BUPINTACK_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPINTACK_ADDR_CT       : std_logic_vector(7 downto 0) := "00101000";--h'28$/;"	c
+BUPINTMASK_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPINTMASK_ADDR_CT      : std_logic_vector(7 downto 0) := "00011100";--h'1C$/;"	c
+BUPINTSTAT_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPINTSTAT_ADDR_CT      : std_logic_vector(7 downto 0) := "00100000";--h'20$/;"	c
+BUPINTTIME_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPINTTIME_ADDR_CT      : std_logic_vector(7 downto 0) := "00100100";--h'24$/;"	c
+BUPMACHDR_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPMACHDR_ADDR_CT       : std_logic_vector(7 downto 0) := "00110000";--h'30$/;"	c
+BUPRELEASE_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRELEASE_CT : std_logic_vector(7 downto 0) := "00000010";$/;"	c
+BUPRXABTCNT_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXABTCNT_ADDR_CT     : std_logic_vector(7 downto 0) := "10101100";--h'AC$/;"	c
+BUPRXCS0_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXCS0_ADDR_CT        : std_logic_vector(7 downto 0) := "10000000";--h'80$/;"	c
+BUPRXCS1_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXCS1_ADDR_CT        : std_logic_vector(7 downto 0) := "10000100";--h'84$/;"	c
+BUPRXOFF_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXOFF_ADDR_CT        : std_logic_vector(7 downto 0) := "01000100";--h'44$/;"	c
+BUPRXPTR_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXPTR_ADDR_CT        : std_logic_vector(7 downto 0) := "01000000";--h'40$/;"	c
+BUPRXSIZE_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXSIZE_ADDR_CT       : std_logic_vector(7 downto 0) := "01001100";--h'4C$/;"	c
+BUPRXUNLOAD_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPRXUNLOAD_ADDR_CT     : std_logic_vector(7 downto 0) := "01111000";--h'78$/;"	c
+BUPSCRATCH0_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPSCRATCH0_ADDR_CT     : std_logic_vector(7 downto 0) := "10001000";--h'88$/;"	c
+BUPSCRATCH1_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPSCRATCH1_ADDR_CT     : std_logic_vector(7 downto 0) := "10001100";--h'8C$/;"	c
+BUPSCRATCH2_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPSCRATCH2_ADDR_CT     : std_logic_vector(7 downto 0) := "10010000";--h'90$/;"	c
+BUPSCRATCH3_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPSCRATCH3_ADDR_CT     : std_logic_vector(7 downto 0) := "10010100";--h'94$/;"	c
+BUPTESTDATA_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTESTDATA_ADDR_CT     : std_logic_vector(7 downto 0) := "00010100";--h'14$/;"	c
+BUPTESTDIN_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTESTDIN_ADDR_CT      : std_logic_vector(7 downto 0) := "10011100";--h'9C$/;"	c
+BUPTEST_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTEST_ADDR_CT         : std_logic_vector(7 downto 0) := "00001000";--h'08$/;"	c
+BUPTIME_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTIME_ADDR_CT         : std_logic_vector(7 downto 0) := "00010000";--h'10$/;"	c
+BUPTXCNTL_ACP0_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP0_ADDR_CT  : std_logic_vector(7 downto 0) := "01010000";--h'50$/;"	c
+BUPTXCNTL_ACP1_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP1_ADDR_CT  : std_logic_vector(7 downto 0) := "01010100";--h'54$/;"	c
+BUPTXCNTL_ACP2_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP2_ADDR_CT  : std_logic_vector(7 downto 0) := "01011000";--h'58$/;"	c
+BUPTXCNTL_ACP3_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP3_ADDR_CT  : std_logic_vector(7 downto 0) := "01011100";--h'5C$/;"	c
+BUPTXCNTL_ACP4_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP4_ADDR_CT  : std_logic_vector(7 downto 0) := "01100000";--h'60$/;"	c
+BUPTXCNTL_ACP5_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP5_ADDR_CT  : std_logic_vector(7 downto 0) := "01100100";--h'64$/;"	c
+BUPTXCNTL_ACP6_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP6_ADDR_CT  : std_logic_vector(7 downto 0) := "01101000";--h'68$/;"	c
+BUPTXCNTL_ACP7_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_ACP7_ADDR_CT  : std_logic_vector(7 downto 0) := "01101100";--h'6C$/;"	c
+BUPTXCNTL_BCON_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_BCON_ADDR_CT  : std_logic_vector(7 downto 0) := "01110100";--h'74$/;"	c
+BUPTXCNTL_IAC_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXCNTL_IAC_ADDR_CT   : std_logic_vector(7 downto 0) := "01110000";--h'70$/;"	c
+BUPTXPTR_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPTXPTR_ADDR_CT        : std_logic_vector(7 downto 0) := "01001000";--h'48$/;"	c
+BUPUPGRADE_CT	.\bup2_registers_pkg.vhd	/^   constant BUPUPGRADE_CT : std_logic_vector(7 downto 0) := "00001001";$/;"	c
+BUPVCS_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPVCS_ADDR_CT          : std_logic_vector(7 downto 0) := "00001100";--h'0C$/;"	c
+BUPVERSION_ADDR_CT	.\bup2_registers_pkg.vhd	/^   constant BUPVERSION_ADDR_CT      : std_logic_vector(7 downto 0) := "00000000";--h'00$/;"	c
+BUP_STATE_TYPE	.\bup2_general_sm_RTL.vhd	/^type BUP_STATE_TYPE is (idle_state,      -- idle state, radio is on    $/;"	t
+BURST_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   BURST_ARRAY_T         is array (5 downto 1) of std_logic;$/;"	t
+BURST_RATE_T	.\rx_equ_rtl.vhd	/^   type   BURST_RATE_T          is array (2 downto 0) of std_logic_vector (BURST_RATE_WIDTH_CT-1 downto 0);$/;"	t
+BURST_RATE_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant BURST_RATE_WIDTH_CT  :    integer := 4;$/;"	c
+BUSY_CT	.\ahb_config_pkg.vhd	/^  constant  BUSY_CT    : std_logic_vector(1 downto 0) := "01";$/;"	c
+BUS_WIDTH_CT	.\config_pkg.vhd	/^  constant BUS_WIDTH_CT       : STD_LOGIC_VECTOR(1 downto 0) := "10";$/;"	c
+butterfly	.\butterfly.vhd	/^entity butterfly is$/;"	e
+BYTE_CT	.\ahb_config_pkg.vhd	/^  constant BYTE_CT    : std_logic_vector(2 downto 0)  := "000";$/;"	c
+BYTE_CT	.\bup2_sm_pkg.vhd	/^  constant BYTE_CT  : std_logic_vector(1 downto 0) := "10";$/;"	c
+BYTE_CT	.\endianness_converter_pkg.vhd	/^  constant BYTE_CT  : std_logic_vector(1 downto 0) := "10";$/;"	c
+BYTE_TX_STATE_TYPE_T	.\bup2_tx_sm_RTL.vhd	/^type BYTE_TX_STATE_TYPE_T is (idle_state,      -- idle state     $/;"	t
+B_TIME_BEFORE_READ_CT	.\bup2_tx_sm_RTL.vhd	/^  constant B_TIME_BEFORE_READ_CT : std_logic_vector(4 downto 0) $/;"	c
+cacsize_ct	.\equalizer_global_pkg.vhd	/^    constant cacsize_ct : integer := 19;          -- accumulated coeff size  $/;"	c
+CALC_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant CALC_ST_CT : std_logic_vector(3 downto 0) := "1000";$/;"	c
+calibration_mux	.\calibration_mux.vhd	/^entity calibration_mux is$/;"	e
+calibration_mux_pkg	.\calibration_mux_pkg.vhd	/^package calibration_mux_pkg is$/;"	P
+CALIBSETTIME1	.\txrxcntl.vhd	/^   constant  CALIBSETTIME1         :  std_logic_vector(15 downto 0) := "0011000001110000";$/;"	c
+CALIBSETTIME2	.\txrxcntl.vhd	/^   constant  CALIBSETTIME2         :  std_logic_vector(15 downto 0) := "0001000100110000";$/;"	c
+CALIB_RADIO	.\txrxcntl.vhd	/^   constant  CALIB_RADIO           :  std_logic_vector(2 downto 0) := "110"; -- calibration radio state added for airoha$/;"	c
+CAL_VAL1_AIROHA	.\serialif.vhd	/^   constant  CAL_VAL1_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000001101100001111111";$/;"	c
+CAL_VAL2_AIROHA	.\serialif.vhd	/^   constant  CAL_VAL2_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000000111100001111111";$/;"	c
+carrier_detect	.\carrier_detect.vhd	/^entity carrier_detect is$/;"	e
+CARRIER_TYPE_T	.\interl_ctrl_RTL.vhd	/^  type CARRIER_TYPE_T is (null_carrier_type,$/;"	t
+CARR_T	.\deintpun_pkg.vhd	/^  subtype CARR_T is integer range 0 to SUBCARRIER_PER_SYMBOL_CT-1;$/;"	T
+CARR_TABLE_T	.\deintpun_pkg.vhd	/^  type CARR_TABLE_T is array (1 to BITS_PER_SYMBOL_QAM64_3_4_CT) of CARR_T;$/;"	t
+CCACTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant CCACTL_ADDR_CT             : std_logic_vector(7 downto 0) := "00100000";$/;"	c
+CCADEL0_ADDR_CT	.\regbank_maxim.vhd	/^  constant CCADEL0_ADDR_CT            : std_logic_vector(7 downto 0) := "00100100";$/;"	c
+CCAED_ADDR_CT	.\regbank_maxim.vhd	/^  constant CCAED_ADDR_CT              : std_logic_vector(7 downto 0) := "00101000";$/;"	c
+cca_fsm_maxim	.\cca_fsm_maxim.vhd	/^entity cca_fsm_maxim is$/;"	e
+cca_gen_maxim	.\cca_gen_maxim.vhd	/^entity cca_gen_maxim is$/;"	e
+cca_maxim	.\cca_maxim.vhd	/^entity cca_maxim is$/;"	e
+cca_maxim_pkg	.\cca_maxim_pkg.vhd	/^package cca_maxim_pkg is$/;"	P
+cca_resync_maxim	.\cca_resync_maxim.vhd	/^entity cca_resync_maxim is$/;"	e
+CCA_RSSI_T	.\mdma2_rx_sm_rtl.vhd	/^  type CCA_RSSI_T is (CCA_BUSY, CCA_MAYBE, CCA_IDLE);$/;"	t
+CCA_SHIFT_CT	.\master_deseria_RTL.vhd	/^  constant CCA_SHIFT_CT    : std_logic_vector(3 downto 0) := "1011";  -- 3 (x2 cca only) $/;"	c
+CCA_STATE_T	.\cca_fsm_maxim.vhd	/^  type CCA_STATE_T is (rfoff_st,$/;"	t
+cca_timers_maxim	.\cca_timers_maxim.vhd	/^entity cca_timers_maxim is$/;"	e
+CCK11_MODE_CT	.\decode_path_RTL.vhd	/^  constant CCK11_MODE_CT      : std_logic_vector (1 downto 0) := "11";$/;"	c
+CCK11_MODE_CT	.\deserializer_RTL.vhd	/^  constant CCK11_MODE_CT      : std_logic_vector (1 downto 0) := "11";$/;"	c
+CCK55_MODE_CT	.\decode_path_RTL.vhd	/^  constant CCK55_MODE_CT      : std_logic_vector (1 downto 0) := "10";$/;"	c
+CCK55_MODE_CT	.\deserializer_RTL.vhd	/^  constant CCK55_MODE_CT      : std_logic_vector (1 downto 0) := "10";$/;"	c
+cck_form	.\cck_form.vhd	/^entity cck_form is$/;"	e
+CCK_MAX_CT	.\agc_cca_RTL.vhd	/^  constant CCK_MAX_CT : std_logic_vector(15 downto 0) :=  "0000111001000010";$/;"	c
+cck_mod	.\cck_mod.vhd	/^entity cck_mod is$/;"	e
+cck_mod_pkg	.\cck_mod_pkg.vhd	/^package cck_mod_pkg is$/;"	P
+CCK_STATE	.\cck_form_RTL.vhd	/^  type CCK_STATE is  ( idle,          -- idle phase$/;"	t
+CCM_AFLAGS	.\aes_control_RTL.vhd	/^  constant CCM_AFLAGS  : std_logic_vector( 7 downto 0) := "00000001";$/;"	c
+CCM_BFLAGS	.\aes_control_RTL.vhd	/^  constant CCM_BFLAGS  : std_logic_vector( 7 downto 0) := "01011001";$/;"	c
+CELL	.\target_config_pkg.vhd	/^  constant CELL     : integer := 0;$/;"	c
+channel_decoder	.\channel_decoder.vhd	/^entity channel_decoder is$/;"	e
+channel_decoder_control	.\channel_decoder_control.vhd	/^entity channel_decoder_control is$/;"	e
+channel_decoder_data	.\channel_decoder_data.vhd	/^entity channel_decoder_data is$/;"	e
+channel_decoder_pkg	.\channel_decoder_pkg.vhd	/^package channel_decoder_pkg is$/;"	P
+channel_decoder_signal	.\channel_decoder_signal.vhd	/^entity channel_decoder_signal is$/;"	e
+CHASSTIM_MAX_CT	.\bup2_timers_pkg.vhd	/^  constant CHASSTIM_MAX_CT : std_logic_vector(25 downto 0) := (others => '1');$/;"	c
+chass_timers	.\chass_timers.vhd	/^entity chass_timers is$/;"	e
+CHFIFO_MEM_DEPTH_CT	.\freq_domain_pack.vhd	/^  constant CHFIFO_MEM_DEPTH_CT      : integer := 144; -- 3 symbols of 48 samples$/;"	c
+CHFIFO_MEM_DEPTH_CT	.\modem802_11a2_pack.vhd	/^  constant CHFIFO_MEM_DEPTH_CT      : integer := 144; -- 3 symbols of 48 samples$/;"	c
+CHFIFO_MEM_DEPTH_LOG2_CT	.\freq_domain_pack.vhd	/^  constant CHFIFO_MEM_DEPTH_LOG2_CT : integer := 8;$/;"	c
+CHFIFO_MEM_DEPTH_LOG2_CT	.\modem802_11a2_pack.vhd	/^  constant CHFIFO_MEM_DEPTH_LOG2_CT : integer := 8;$/;"	c
+CHFIFO_MEM_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant CHFIFO_MEM_WIDTH_CT      : integer := 2*FFT_WIDTH_CT;$/;"	c
+CHFIFO_MEM_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant CHFIFO_MEM_WIDTH_CT      : integer := 2*FFT_WIDTH_CT;$/;"	c
+CHFIFO_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant CHFIFO_WIDTH_CT        : integer := FFT_WIDTH_CT; -- $/;"	c
+CHFIFO_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant CHFIFO_WIDTH_CT        : integer := FFT_WIDTH_CT; -- $/;"	c
+CHMEM_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant CHMEM_WIDTH_CT       : integer := FFT_WIDTH_CT; -- $/;"	c
+CHMEM_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant CHMEM_WIDTH_CT       : integer := FFT_WIDTH_CT; -- $/;"	c
+CLK_IMPLEMENTATION_CT	.\target_config_pkg.vhd	/^  constant CLK_IMPLEMENTATION_CT  : CLK_t := VHDL;$/;"	c
+CLK_SKIP_CT	.\master_dec_data_RTL.vhd	/^  constant CLK_SKIP_CT : std_logic_vector(9 downto 0) := "1100000000";$/;"	c
+CLK_SPEED_MEM_INIT_CT	.\decode_add_RTL.vhd	/^  constant CLK_SPEED_MEM_INIT_CT   : std_logic_vector(2 downto 0) := "001";  -- 01h$/;"	c
+CLK_SWITCH_TIMEOUT_CT	.\reqdata_handler_RTL.vhd	/^  constant CLK_SWITCH_TIMEOUT_CT  : std_logic_vector(12 downto 0) := "1011101110000";  -- 15 us$/;"	c
+CLK_t	.\target_config_pkg.vhd	/^  subtype CLK_t is integer; $/;"	T
+CNTL_STATE_T	.\viterbi_boundary_RTL.vhd	/^  type CNTL_STATE_T is (IDLE,$/;"	t
+CNT_MAX63_CT	.\output_modes_RTL.vhd	/^  constant CNT_MAX63_CT : std_logic_vector (5 downto 0) := "111111"; --63d$/;"	c
+CNT_MAX_CT	.\fft_serial_RTL.vhd	/^  constant CNT_MAX_CT   : std_logic_vector(5 downto 0) := "111111"; -- 63$/;"	c
+cnt_max_e_i	.\cnt_max_e_i.vhd	/^entity cnt_max_e_i is$/;"	e
+cnt_max_min_e	.\cnt_max_min_e.vhd	/^entity cnt_max_min_e is$/;"	e
+cnt_max_pl_e_i	.\cnt_max_pl_e_i.vhd	/^entity cnt_max_pl_e_i is$/;"	e
+cnt_max_sr_e_i	.\cnt_max_sr_e_i.vhd	/^entity cnt_max_sr_e_i is$/;"	e
+CNT_RST_CT	.\rx_equ_pkg.vhd	/^  constant CNT_RST_CT       : std_logic_vector (5 downto 0) := "000001";$/;"	c
+cnt_sr_e	.\cnt_sr_e.vhd	/^entity cnt_sr_e is$/;"	e
+cnt_sr_e_i	.\cnt_sr_e_i.vhd	/^entity cnt_sr_e_i is$/;"	e
+CNT_START_CT	.\fft_serial_RTL.vhd	/^  constant CNT_START_CT : std_logic_vector(5 downto 0) := "110000"; -- 48$/;"	c
+coarse_freq_sync	.\coarse_freq_sync.vhd	/^entity coarse_freq_sync is$/;"	e
+COARSE_STATE_TYPE	.\coarse_freq_sync_RTL.vhd	/^  type COARSE_STATE_TYPE is (idle,  -- Wait for xp_valid$/;"	t
+CODING_RATE12_CT	.\padding_RTL.vhd	/^  constant CODING_RATE12_CT : std_logic_vector(1 downto 0) := "00";$/;"	c
+CODING_RATE12_CT	.\punct_cpath_RTL.vhd	/^  constant CODING_RATE12_CT : std_logic_vector(1 downto 0) := "00";$/;"	c
+CODING_RATE23_CT	.\padding_RTL.vhd	/^  constant CODING_RATE23_CT : std_logic_vector(1 downto 0) := "10";$/;"	c
+CODING_RATE23_CT	.\punct_cpath_RTL.vhd	/^  constant CODING_RATE23_CT : std_logic_vector(1 downto 0) := "10";$/;"	c
+CODING_RATE34_CT	.\padding_RTL.vhd	/^  constant CODING_RATE34_CT : std_logic_vector(1 downto 0) := "11";$/;"	c
+CODING_RATE34_CT	.\punct_cpath_RTL.vhd	/^  constant CODING_RATE34_CT : std_logic_vector(1 downto 0) := "11";$/;"	c
+coeff_ct	.\equalizer_global_pkg.vhd	/^    constant coeff_ct   : integer := 36;  -- Number of filter coefficients (31 to 50)$/;"	c
+COEF_F0_CT	.\core_filter_RTL.vhd	/^  constant COEF_F0_CT  : std_logic_vector(7 downto 0) := "11111110"; -- -(2^-6)$/;"	c
+COEF_F10_CT	.\core_filter_RTL.vhd	/^  constant COEF_F10_CT : std_logic_vector(7 downto 0) := "00001100"; -- 2^-4 + 2^-5$/;"	c
+COEF_F11_CT	.\core_filter_RTL.vhd	/^  constant COEF_F11_CT : std_logic_vector(7 downto 0) := "00000001"; -- 2^-7$/;"	c
+COEF_F12_CT	.\core_filter_RTL.vhd	/^  constant COEF_F12_CT : std_logic_vector(7 downto 0) := "11101101"; -- -(2^-3 + 2^-6 + 2^-7)$/;"	c
+COEF_F13_CT	.\core_filter_RTL.vhd	/^  constant COEF_F13_CT : std_logic_vector(7 downto 0) := "11100110"; -- -(2^-3 + 2^-4 + 2^-6)$/;"	c
+COEF_F14_CT	.\core_filter_RTL.vhd	/^  constant COEF_F14_CT : std_logic_vector(7 downto 0) := "11111110"; -- -(2^-6)$/;"	c
+COEF_F15_CT	.\core_filter_RTL.vhd	/^  constant COEF_F15_CT : std_logic_vector(7 downto 0) := "00110010"; -- 2^-2 + 2^-3 + 2^-6$/;"	c
+COEF_F16_CT	.\core_filter_RTL.vhd	/^  constant COEF_F16_CT : std_logic_vector(7 downto 0) := "01101001"; -- 2^-1 + 2^-2 + 2^-4 + 2^-7$/;"	c
+COEF_F17_CT	.\core_filter_RTL.vhd	/^  constant COEF_F17_CT : std_logic_vector(7 downto 0) := "01111111"; -- 2^-1 + 2^-2 + 2^-3 + 2^-4 + 2^-5 + 2^-6 + 2^-7$/;"	c
+COEF_F1_CT	.\core_filter_RTL.vhd	/^  constant COEF_F1_CT  : std_logic_vector(7 downto 0) := "11111101"; -- -(2^-6 + 2^-7)$/;"	c
+COEF_F2_CT	.\core_filter_RTL.vhd	/^  constant COEF_F2_CT  : std_logic_vector(7 downto 0) := "11111111"; -- -(2^-7)$/;"	c
+COEF_F3_CT	.\core_filter_RTL.vhd	/^  constant COEF_F3_CT  : std_logic_vector(7 downto 0) := "00000010"; -- 2^-6$/;"	c
+COEF_F4_CT	.\core_filter_RTL.vhd	/^  constant COEF_F4_CT  : std_logic_vector(7 downto 0) := "00000100"; -- 2^-5$/;"	c
+COEF_F5_CT	.\core_filter_RTL.vhd	/^  constant COEF_F5_CT  : std_logic_vector(7 downto 0) := "00000000"; -- 0$/;"	c
+COEF_F6_CT	.\core_filter_RTL.vhd	/^  constant COEF_F6_CT  : std_logic_vector(7 downto 0) := "11111010"; -- -(2^-5 + 2^-6)$/;"	c
+COEF_F7_CT	.\core_filter_RTL.vhd	/^  constant COEF_F7_CT  : std_logic_vector(7 downto 0) := "11111000"; -- -(2^-4)$/;"	c
+COEF_F8_CT	.\core_filter_RTL.vhd	/^  constant COEF_F8_CT  : std_logic_vector(7 downto 0) := "11111111"; -- -(2^-7)$/;"	c
+COEF_F9_CT	.\core_filter_RTL.vhd	/^  constant COEF_F9_CT  : std_logic_vector(7 downto 0) := "00001001"; -- 2^-4 + 2^-7$/;"	c
+COLUMNS_CT	.\aes_invmixcolumns_RTL.vhd	/^constant COLUMNS_CT : integer := 4;     -- Number of columns in the State.$/;"	c
+COLUMNS_CT	.\aes_invshiftrows_RTL.vhd	/^constant COLUMNS_CT : integer := 4;     -- Number of columns in the State.$/;"	c
+COLUMNS_CT	.\aes_mixcolumns_RTL.vhd	/^constant COLUMNS_CT : integer := 4;     -- Number of columns in the State.$/;"	c
+COLUMNS_CT	.\aes_shiftrows_RTL.vhd	/^constant COLUMNS_CT : integer := 4;     -- Number of columns in the State.$/;"	c
+comb_stage_vectoring	.\comb_stage_vectoring.vhd	/^entity comb_stage_vectoring is$/;"	e
+complex_4mult	.\complex_4mult.vhd	/^entity complex_4mult is$/;"	e
+complex_mult	.\complex_mult.vhd	/^entity complex_mult is$/;"	e
+complex_mult_autocorr	.\complex_mult_autocorr.vhd	/^entity complex_mult_autocorr is$/;"	e
+complex_mult_corr	.\complex_mult_corr.vhd	/^entity complex_mult_corr is$/;"	e
+comp_angle	.\comp_angle.vhd	/^entity comp_angle is$/;"	e
+comp_level1_type	.\viterbi_rtl.vhd	/^  type comp_level1_type is array (TRELLIS_CT\/2-1 downto 0) of index_type;$/;"	t
+comp_level2_type	.\viterbi_rtl.vhd	/^  type comp_level2_type is array (TRELLIS_CT\/4-1 downto 0) of index_type;$/;"	t
+comp_level3_type	.\viterbi_rtl.vhd	/^  type comp_level3_type is array (TRELLIS_CT\/8-1 downto 0) of index_type;$/;"	t
+comp_level4_type	.\viterbi_rtl.vhd	/^  type comp_level4_type is array (TRELLIS_CT\/16-1 downto 0) of index_type;$/;"	t
+comp_level5_type	.\viterbi_rtl.vhd	/^  type comp_level5_type is array (TRELLIS_CT\/32-1 downto 0) of index_type;$/;"	t
+comp_level6_type	.\viterbi_rtl.vhd	/^  type comp_level6_type is array (TRELLIS_CT\/64-1 downto 0) of index_type;$/;"	t
+config_boost_platform_pkg	.\config_boost_platform_pkg.vhd	/^package config_boost_platform_pkg is$/;"	P
+config_pkg	.\config_pkg.vhd	/^package config_pkg is$/;"	P
+control_filter	.\control_filter.vhd	/^entity control_filter is$/;"	e
+CONTROL_STATE_T	.\channel_decoder_control_RTL.vhd	/^  type CONTROL_STATE_T is (IDLE,$/;"	t
+conv_pkg	.\conv_pkg.vhd	/^package conv_pkg is$/;"	P
+conv_pkg	.\conv_pkg_body.vhd	/^package body conv_pkg is$/;"	P
+conv_state_to_slv	.\agc_cca_hissbb_RTL.vhd	/^   function conv_state_to_slv (state : AGC_BB_STATE_TYPE)$/;"	f
+cordic	.\cordic.vhd	/^entity cordic is$/;"	e
+cordic_combstage	.\cordic_combstage.vhd	/^entity cordic_combstage is$/;"	e
+cordic_fft2	.\fft_2cordic_pkg.vhd	/^ENTITY cordic_fft2 IS$/;"	e
+cordic_fft2_pkg	.\cordic_fft2_pkg.vhd	/^package cordic_fft2_pkg is$/;"	P
+cordic_fft2_stage	.\cordic_fft2_stage.vhd	/^entity cordic_fft2_stage is $/;"	e
+CORDIC_MAX_CT	.\ff_estim_compute_RTL.vhd	/^  constant CORDIC_MAX_CT    : integer:= 2 ** (10)-1; $/;"	c
+CORDIC_MAX_CT	.\phase_computation_RTL.vhd	/^  constant CORDIC_MAX_CT    : integer:= 2 ** (xb_size_g-1)-1; $/;"	c
+CORDIC_MIN_CT	.\ff_estim_compute_RTL.vhd	/^  constant CORDIC_MIN_CT    : integer:= -(2 ** (10));$/;"	c
+CORDIC_MIN_CT	.\phase_computation_RTL.vhd	/^  constant CORDIC_MIN_CT    : integer:= -(2 ** (xb_size_g-1));$/;"	c
+cordic_pkg	.\cordic_pkg.vhd	/^package cordic_pkg is$/;"	P
+cordic_vect	.\cordic_vect.vhd	/^entity cordic_vect is$/;"	e
+cordic_vectoring	.\cordic_vectoring.vhd	/^entity cordic_vectoring is$/;"	e
+cordic_vectoring_pkg	.\cordic_vectoring_pkg.vhd	/^package cordic_vectoring_pkg is$/;"	P
+cordic_vect_pkg	.\cordic_vect_pkg.vhd	/^package cordic_vect_pkg is$/;"	P
+core_filter	.\core_filter.vhd	/^entity core_filter is$/;"	e
+CORMAN_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   CORMAN_ARRAY_T        is array (5 downto 3) of std_logic_vector (MANTLEN_CT   downto 0);$/;"	t
+CORMAN_INSTAGE_T	.\rx_equ_rtl.vhd	/^   type   CORMAN_INSTAGE_T      is array (2 downto 1) of std_logic_vector (CORMAN_PROD_WIDTH_CT-1 downto 0);$/;"	t
+CORMAN_PROD_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant CORMAN_PROD_WIDTH_CT : integer := (FFT_WIDTH_CT + CHMEM_WIDTH_CT -4); $/;"	c
+correlator	.\correlator.vhd	/^entity correlator is$/;"	e
+COUNTER_LENGTH_T	.\viterbi_boundary_RTL.vhd	/^  subtype COUNTER_LENGTH_T is integer$/;"	T
+COUNT_CCK_CT	.\peak_detect_RTL.vhd	/^  constant COUNT_CCK_CT   : std_logic_vector(5 downto 0) := "011111";$/;"	c
+COUNT_DSSS_CT	.\peak_detect_RTL.vhd	/^  constant COUNT_DSSS_CT  : std_logic_vector(5 downto 0) := "101011";$/;"	c
+crc16_8	.\crc16_8.vhd	/^entity crc16_8 is$/;"	e
+crc16_8_pkg	.\crc16_8_pkg.vhd	/^package crc16_8_pkg is$/;"	P
+crc32_4	.\crc32_4.vhd	/^entity crc32_4 is$/;"	e
+crc32_8	.\crc32_8.vhd	/^entity crc32_8 is$/;"	e
+crc32_pkg	.\crc32_pkg.vhd	/^package crc32_pkg is$/;"	P
+CRC_SIZE_CT	.\rc4_control_RTL.vhd	/^  constant CRC_SIZE_CT     : std_logic_vector(3 downto 0) := "0100"; -- 4 bytes$/;"	c
+csize_ct	.\equalizer_global_pkg.vhd	/^    constant csize_ct   : integer := 8;           -- Coeff size (output)$/;"	c
+csize_g	.\equalizer_global_pkg.vhd	/^    constant csize_g    : integer := 8;  -- Coefficient size$/;"	c
+CURRENT_SYMB_T	.\rx_equ_rtl.vhd	/^   type   CURRENT_SYMB_T        is array (2 downto 0) of std_logic_vector (1 downto 0);$/;"	t
+CVSD_LINKS_NB_CT	.\config_pkg.vhd	/^  constant CVSD_LINKS_NB_CT   : INTEGER := 1;$/;"	c
+DataArray	.\cordic_combstage_rtl.vhd	/^  type DataArray    is array (natural range <>) of $/;"	t
+DataArray	.\cordic_RTL.vhd	/^  type DataArray    is array (natural range <>) of $/;"	t
+DATA_ARRAY_T	.\comb_stage_vectoring_rtl.vhd	/^  type DATA_ARRAY_T    is array (natural range <>) of $/;"	t
+DATA_ARRAY_T	.\cordic_vectoring_rtl.vhd	/^  type DATA_ARRAY_T    is array (natural range <>) of $/;"	t
+data_control	.\data_control.vhd	/^entity data_control is$/;"	e
+DATA_CONTROL_STATE_T	.\data_control_RTL.vhd	/^  type DATA_CONTROL_STATE_T is (IDLE,$/;"	t
+data_datapath	.\data_datapath.vhd	/^entity data_datapath is$/;"	e
+DATA_FIELD_CT	.\rx_equ_pkg.vhd	/^  constant DATA_FIELD_CT    : std_logic_vector (1 downto 0) := "10";$/;"	c
+DATA_LENGTH_G_MINUS_STAGE_G_CT	.\shift_adder_rtl.vhd	/^  constant DATA_LENGTH_G_MINUS_STAGE_G_CT : integer := data_length_g - stage_g;$/;"	c
+DATA_RATE12_CT	.\padding_RTL.vhd	/^  constant DATA_RATE12_CT   : std_logic_vector(2 downto 0) := "010";$/;"	c
+DATA_RATE18_CT	.\padding_RTL.vhd	/^  constant DATA_RATE18_CT   : std_logic_vector(2 downto 0) := "110";$/;"	c
+DATA_RATE24_CT	.\padding_RTL.vhd	/^  constant DATA_RATE24_CT   : std_logic_vector(2 downto 0) := "001";$/;"	c
+DATA_RATE36_CT	.\padding_RTL.vhd	/^  constant DATA_RATE36_CT   : std_logic_vector(2 downto 0) := "101";$/;"	c
+DATA_RATE48_CT	.\padding_RTL.vhd	/^  constant DATA_RATE48_CT   : std_logic_vector(2 downto 0) := "000";$/;"	c
+DATA_RATE54_CT	.\padding_RTL.vhd	/^  constant DATA_RATE54_CT   : std_logic_vector(2 downto 0) := "100";$/;"	c
+DATA_RATE6_CT	.\padding_RTL.vhd	/^  constant DATA_RATE6_CT    : std_logic_vector(2 downto 0) := "011";$/;"	c
+DATA_RATE9_CT	.\padding_RTL.vhd	/^  constant DATA_RATE9_CT    : std_logic_vector(2 downto 0) := "111";$/;"	c
+data_shift	.\data_shift.vhd	/^entity data_shift is$/;"	e
+DATA_STATE_T	.\viterbi_boundary_RTL.vhd	/^  type DATA_STATE_T is (IDLE_MODE,$/;"	t
+DATA_VALID_STATE_T	.\deintpun_control_RTL.vhd	/^  type DATA_VALID_STATE_T is (DATA_INVALID,$/;"	t
+DATA_VALID_STATE_T	.\viterbi_boundary_RTL.vhd	/^  type DATA_VALID_STATE_T is (VALID_MODE,$/;"	t
+dcacsize_ct	.\equalizer_global_pkg.vhd	/^    constant dcacsize_ct : integer := 17;         -- accumulated dc_offset size  $/;"	c
+dccoeff_ct	.\equalizer_global_pkg.vhd	/^    constant dccoeff_ct  : integer := 19;  -- numbers of bits kept from coeff to calc sum.$/;"	c
+dcsize_ct	.\equalizer_global_pkg.vhd	/^    constant dcsize_ct   : integer := 6;           -- DC_offset size (output)$/;"	c
+DC_CT	.\rx_predmx_pkg.vhd	/^  constant DC_CT            : integer := 0; --26;$/;"	c
+DC_PRE_ESTIM_LIMIT_CT	.\control_filter_RTL.vhd	/^  constant DC_PRE_ESTIM_LIMIT_CT : integer := 39-3;$/;"	c
+DEBUG_CT	.\config_pkg.vhd	/^  constant DEBUG_CT           : BOOLEAN := true;$/;"	c
+decode_add	.\decode_add.vhd	/^entity decode_add is$/;"	e
+decode_path	.\decode_path.vhd	/^entity decode_path is$/;"	e
+decode_path_pkg	.\decode_path_pkg.vhd	/^package decode_path_pkg is$/;"	P
+dec_sr_e_i	.\dec_sr_e_i.vhd	/^entity dec_sr_e_i is$/;"	e
+DEEP_SLEEP_COUNT_MAX_CT	.\decode_add_RTL.vhd	/^  constant DEEP_SLEEP_COUNT_MAX_CT : std_logic_vector(4 downto 0) := "11001";-- 19h=25d$/;"	c
+DEFAULT_INPUT_CT	.\rx_equ_pkg.vhd	/^  constant DEFAULT_INPUT_CT	:std_logic_vector (1 downto 0) := "00";$/;"	c
+DEFAULT_TXPWR	.\txrxcntl.vhd	/^   constant  DEFAULT_TXPWR         :  std_logic_vector(5 downto 0)  := "010000";$/;"	c
+DEF_CALIB_CNT_AIROHA	.\serialif.vhd	/^   constant  DEF_CALIB_CNT_AIROHA  :  std_logic_vector(1 downto 0) := "11";    -- calibration count$/;"	c
+DEF_CHAN_CNT_AIROHA	.\serialif.vhd	/^   constant  DEF_CHAN_CNT_AIROHA   :  std_logic_vector(1 downto 0) := "10";$/;"	c
+DEF_CHAN_CNT_MAXIM	.\serialif.vhd	/^   constant  DEF_CHAN_CNT_MAXIM    :  std_logic_vector(1 downto 0) := "10";$/;"	c
+DEF_CNT_AIROHA	.\serialif.vhd	/^   constant  DEF_CNT_AIROHA        :  std_logic_vector(4 downto 0) := "01111"; -- 15 registers in Airoha$/;"	c
+DEF_CNT_MAXIM	.\serialif.vhd	/^   constant  DEF_CNT_MAXIM         :  std_logic_vector(4 downto 0) := "10000"; -- 16 registers in Maxim$/;"	c
+def_nb_bit_p_symb	.\agc_cca_hissbb_RTL.vhd	/^  function def_nb_bit_p_symb ($/;"	f
+def_nb_bit_p_symb	.\cca_timers_maxim.vhd	/^  function def_nb_bit_p_symb ($/;"	f
+def_nb_bit_p_symb	.\mdma2_rx_sm_rtl.vhd	/^  function def_nb_bit_p_symb ($/;"	f
+DEF_VAL0_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL0_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000111111011110010000";$/;"	c
+DEF_VAL0_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL0_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000000111010000000000";$/;"	c
+DEF_VAL10_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL10_AIROHA      :  std_logic_vector(31 downto 0) := "00000000000000000001101110111010";$/;"	c
+DEF_VAL10_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL10_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000011101101001001010";$/;"	c
+DEF_VAL11_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL11_AIROHA      :  std_logic_vector(31 downto 0) := "00000000000000000000111110011011";$/;"	c
+DEF_VAL11_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL11_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000000000011111111011";$/;"	c
+DEF_VAL12_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL12_AIROHA      :  std_logic_vector(31 downto 0) := "00000000000000111000110110001100";$/;"	c
+DEF_VAL12_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL12_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000000001010000001100";$/;"	c
+DEF_VAL13_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL13_AIROHA      :  std_logic_vector(31 downto 0) := "00000000000010000000000000001101";$/;"	c
+DEF_VAL13_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL13_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000001110100100101101";$/;"	c
+DEF_VAL14_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL14_AIROHA      :  std_logic_vector(31 downto 0) := "00000000000000000101100001111111";$/;"	c
+DEF_VAL14_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL14_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000000011001110111110";$/;"	c
+DEF_VAL15_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL15_MAXIM       :  std_logic_vector(31 downto 0) := "00000000000000001101010001011111";$/;"	c
+DEF_VAL1_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL1_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000110011001100110001";$/;"	c
+DEF_VAL1_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL1_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000010001100110100001";$/;"	c
+DEF_VAL2_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL2_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000001011100000000010";$/;"	c
+DEF_VAL2_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL2_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000010000000000110010";$/;"	c
+DEF_VAL3_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL3_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000001110011111110011"; $/;"	c
+DEF_VAL3_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL3_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000000000011110010011";$/;"	c
+DEF_VAL4_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL4_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000010010000010110100100";$/;"	c
+DEF_VAL4_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL4_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000110110011001100100";$/;"	c
+DEF_VAL5_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL5_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000011110100110111000101";$/;"	c
+DEF_VAL5_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL5_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000000000101001000101";$/;"	c
+DEF_VAL6_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL6_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000010000000010110110110";$/;"	c
+DEF_VAL6_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL6_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000000000011000000110";$/;"	c
+DEF_VAL7_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL7_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000000010001011011000111";$/;"	c
+DEF_VAL7_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL7_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000010000001000100111";$/;"	c
+DEF_VAL8_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL8_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000001011011011010001000";$/;"	c
+DEF_VAL8_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL8_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000100000001000011000";$/;"	c
+DEF_VAL9_AIROHA	.\serialif.vhd	/^   constant  DEF_VAL9_AIROHA       :  std_logic_vector(31 downto 0) := "00000000000001010100001110111001";$/;"	c
+DEF_VAL9_MAXIM	.\serialif.vhd	/^   constant  DEF_VAL9_MAXIM        :  std_logic_vector(31 downto 0) := "00000000000000000011101101011001";$/;"	c
+deintpun	.\deintpun.vhd	/^entity deintpun is$/;"	e
+deintpun_control	.\deintpun_control.vhd	/^entity deintpun_control is$/;"	e
+deintpun_datapath	.\deintpun_datapath.vhd	/^entity deintpun_datapath is$/;"	e
+deintpun_pkg	.\deintpun_pkg.vhd	/^package deintpun_pkg is$/;"	P
+delay_line18	.\delay_line18.vhd	/^entity delay_line18 is$/;"	e
+delay_line36	.\delay_line36.vhd	/^entity delay_line36 is$/;"	e
+DELAY_LINE_LENGTH_CT	.\core_filter_RTL.vhd	/^  constant DELAY_LINE_LENGTH_CT : integer := 35;$/;"	c
+delay_line_type	.\core_filter_RTL.vhd	/^  type delay_line_type is array (DELAY_LINE_LENGTH_CT-1 downto 0)$/;"	t
+DELTA_1_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_1_CT  : std_logic_vector(30 downto 0) := "1000110000100100001100101110110";$/;"	c
+DELTA_2_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_2_CT  : std_logic_vector(30 downto 0) := "0101110100101101111001000010110";$/;"	c
+DELTA_3_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_3_CT  : std_logic_vector(30 downto 0) := "1001100001100100010000001000110";$/;"	c
+DELTA_4_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_4_CT  : std_logic_vector(30 downto 0) := "0001110000010001111010011011010";$/;"	c
+DELTA_5_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_5_CT  : std_logic_vector(30 downto 0) := "1000000010011000010011100101010";$/;"	c
+DELTA_6_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_6_CT  : std_logic_vector(30 downto 0) := "1001100001000101001000101110010";$/;"	c
+DELTA_7_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_7_CT  : std_logic_vector(30 downto 0) := "0100010101001100000001000010010";$/;"	c
+DELTA_8_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_8_CT  : std_logic_vector(30 downto 0) := "1111011011111001010111110000010";$/;"	c
+DELTA_N1_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N1_CT : std_logic_vector(30 downto 0) := "0111001111011011110011010001001";$/;"	c
+DELTA_N2_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N2_CT : std_logic_vector(30 downto 0) := "1010001011010010000110111101001";$/;"	c
+DELTA_N3_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N3_CT : std_logic_vector(30 downto 0) := "0110011110011011101111110111001";$/;"	c
+DELTA_N4_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N4_CT : std_logic_vector(30 downto 0) := "1110001111101110000101100100101";$/;"	c
+DELTA_N5_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N5_CT : std_logic_vector(30 downto 0) := "0111111101100111101100011010101";$/;"	c
+DELTA_N6_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N6_CT : std_logic_vector(30 downto 0) := "0110011110111010110111010001101";$/;"	c
+DELTA_N7_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N7_CT : std_logic_vector(30 downto 0) := "1011101010110011111110111101101";$/;"	c
+DELTA_N8_CT	.\fft_2cordic_rtl.vhd	/^  constant DELTA_N8_CT : std_logic_vector(30 downto 0) := "1111011011111001010111110000011";$/;"	c
+DEL_144_US_44MHZ_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_144_US_44MHZ_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+DEL_144_US_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_144_US_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+DEL_16_US_44MHZ_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_16_US_44MHZ_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+DEL_16_US_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_16_US_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+DEL_1_US_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_1_US_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+DEL_3_65_MS_44MHZ_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_3_65_MS_44MHZ_CT : STD_LOGIC_VECTOR (21 downto 0)$/;"	c
+DEL_3_65_MS_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_3_65_MS_CT : STD_LOGIC_VECTOR (21 downto 0)$/;"	c
+DEL_4_US_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant DEL_4_US_CT : STD_LOGIC_VECTOR (14 downto 0)$/;"	c
+demapping	.\demapping.vhd	/^entity demapping is$/;"	e
+demapping_pkg	.\demapping_pkg.vhd	/^package demapping_pkg is$/;"	P
+DEMOD_CT	.\wiener_ctrl_rtl.vhd	/^  constant DEMOD_CT : std_logic_vector(52 downto 0) :=$/;"	c
+descrambling8_8	.\descrambling8_8.vhd	/^entity descrambling8_8 is$/;"	e
+deserializer	.\deserializer.vhd	/^entity deserializer is$/;"	e
+deserializer_pkg	.\deserializer_pkg.vhd	/^package deserializer_pkg is$/;"	P
+diff_decoder	.\diff_decoder.vhd	/^entity diff_decoder is$/;"	e
+diff_decoder_pkg	.\diff_decoder_pkg.vhd	/^package diff_decoder_pkg is$/;"	P
+DIV3_CT	.\control_filter_RTL.vhd	/^  constant DIV3_CT  : std_logic_vector(10 downto 0) := "00101010101";$/;"	c
+divider	.\divider.vhd	/^entity divider is$/;"	e
+divider_cell	.\divider_cell.vhd	/^entity divider_cell is$/;"	e
+divider_pkg	.\divider_pkg.vhd	/^package divider_pkg is$/;"	P
+DIV_CONTROL_T	.\inv_matrix_rtl.vhd	/^  type DIV_CONTROL_T is (idle, comp_det, start_div, compute, div_ready);$/;"	t
+DMX_STATE_T	.\rx_predmx_rtl.vhd	/^  type DMX_STATE_T is (idle_e, $/;"	t
+DMX_STATE_T	.\t1t2_demux_RTL.vhd	/^  type DMX_STATE_T is (idle_e,            -- wait for start_of_burst$/;"	t
+dsize_ct	.\equalizer_global_pkg.vhd	/^    constant dsize_ct   : integer := 8;           -- Data Input size$/;"	c
+dsss_demod	.\dsss_demod.vhd	/^entity dsss_demod is$/;"	e
+dsss_demod_pkg	.\dsss_demod_pkg.vhd	/^package dsss_demod_pkg is$/;"	P
+DSSS_SEARCH_ST_CT	.\cca_maxim_pkg.vhd	/^  constant DSSS_SEARCH_ST_CT            : std_logic_vector(4 downto 0) := "01000";$/;"	c
+EM_ADDRESS_SIZE_CT	.\config_pkg.vhd	/^  constant EM_ADDRESS_SIZE_CT : INTEGER := 13;$/;"	c
+ENABLE_ETM7_CT	.\wild_config_pkg.vhd	/^  constant ENABLE_ETM7_CT   : BOOLEAN := false;$/;"	c
+encoder	.\encoder.vhd	/^entity encoder is$/;"	e
+encoder_pkg	.\encoder_pkg.vhd	/^package encoder_pkg is$/;"	P
+endianness_converter	.\endianness_converter.vhd	/^entity endianness_converter is$/;"	e
+endianness_converter_pkg	.\endianness_converter_pkg.vhd	/^package endianness_converter_pkg is$/;"	P
+END_OF_RF_RX_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant END_OF_RF_RX_CT : integer := 120; $/;"	c
+ENHANCED_UART16550_CT	.\config_boost_platform_pkg.vhd	/^  constant ENHANCED_UART16550_CT : BOOLEAN := false;$/;"	c
+en_20m_gen	.\en_20m_gen.vhd	/^entity en_20m_gen is$/;"	e
+EQPARAM_UPDATE_STATE_TYPE	.\rx_ctrl_RTL.vhd	/^  type EQPARAM_UPDATE_STATE_TYPE is (idle_state,     -- idle state  $/;"	t
+EQTIME_STATE_TYPE	.\rx_ctrl_RTL.vhd	/^  type EQTIME_STATE_TYPE is (idle_state,          -- idle state  $/;"	t
+equalizer	.\equalizer.vhd	/^entity equalizer is$/;"	e
+equalizer_global_pkg	.\equalizer_global_pkg.vhd	/^package equalizer_global_pkg is$/;"	P
+equalizer_pkg	.\equalizer_pkg.vhd	/^package equalizer_pkg is$/;"	P
+equalize_pilots	.\equalize_pilots.vhd	/^entity equalize_pilots is$/;"	e
+EQU_CTRL1_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant EQU_CTRL1_ADDR_CT      : std_logic_vector(5 downto 0) := "011000";$/;"	c
+EQU_CTRL2_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant EQU_CTRL2_ADDR_CT      : std_logic_vector(5 downto 0) := "011100";$/;"	c
+EQU_SYMB_LENGTH_CT	.\rx_equ_pkg.vhd	/^  constant EQU_SYMB_LENGTH_CT : integer := 48; -- symbol lenght$/;"	c
+EQU_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant EQU_WIDTH_CT           : integer := FFT_WIDTH_CT;  --$/;"	c
+EQU_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant EQU_WIDTH_CT           : integer := FFT_WIDTH_CT;  --$/;"	c
+ERROR_CT	.\ahb_config_pkg.vhd	/^  constant  ERROR_CT  : std_logic_vector(1 downto 0)  := "01";$/;"	c
+error_gen	.\error_gen.vhd	/^entity error_gen is$/;"	e
+ERROR_ST_CT	.\cca_maxim_pkg.vhd	/^  constant ERROR_ST_CT                  : std_logic_vector(4 downto 0) := "10010";$/;"	c
+err_phasor	.\err_phasor.vhd	/^entity err_phasor is$/;"	e
+est_mag	.\est_mag.vhd	/^entity est_mag is$/;"	e
+ESZ_MINUS10_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS10_CT : integer := esize_g - 10;$/;"	c
+ESZ_MINUS11_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS11_CT : integer := esize_g - 11;$/;"	c
+ESZ_MINUS1_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS1_CT : integer := esize_g - 1;$/;"	c
+ESZ_MINUS2_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS2_CT : integer := esize_g - 2;$/;"	c
+ESZ_MINUS3_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS3_CT : integer := esize_g - 3;$/;"	c
+ESZ_MINUS4_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS4_CT : integer := esize_g - 4;$/;"	c
+ESZ_MINUS5_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS5_CT : integer := esize_g - 5;$/;"	c
+ESZ_MINUS6_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS6_CT : integer := esize_g - 6;$/;"	c
+ESZ_MINUS7_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS7_CT : integer := esize_g - 7;$/;"	c
+ESZ_MINUS8_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS8_CT : integer := esize_g - 8;$/;"	c
+ESZ_MINUS9_CT	.\filter_RTL.vhd	/^  constant ESZ_MINUS9_CT : integer := esize_g - 9;$/;"	c
+ESZ_PLUS1_CT	.\filter_RTL.vhd	/^  constant ESZ_PLUS1_CT  : integer := esize_g + 1;$/;"	c
+ESZ_PLUS2_CT	.\filter_RTL.vhd	/^  constant ESZ_PLUS2_CT  : integer := esize_g + 2;$/;"	c
+ESZ_PLUS3_CT	.\filter_RTL.vhd	/^  constant ESZ_PLUS3_CT  : integer := esize_g + 3;$/;"	c
+eucl_divider	.\eucl_divider.vhd	/^entity eucl_divider is$/;"	e
+eucl_divider_pkg	.\eucl_divider_pkg.vhd	/^package eucl_divider_pkg is$/;"	P
+eucl_divider_top	.\eucl_divider_top.vhd	/^entity eucl_divider_top is$/;"	e
+even_parity	.\channel_decoder_control_RTL.vhd	/^  function even_parity (arg: std_logic_vector) return std_logic is$/;"	f
+EXTERNAL_ARM_CT	.\wild_config_pkg.vhd	/^  constant EXTERNAL_ARM_CT  : INTEGER := 0; $/;"	c
+ext_sto_cpe	.\ext_sto_cpe.vhd	/^entity ext_sto_cpe is$/;"	e
+fa	.\fa.vhd	/^entity fa is$/;"	e
+FC_MASK_CT	.\aes_control_RTL.vhd	/^  constant FC_MASK_CT  : std_logic_vector(15 downto 0) := "1100011110001111";$/;"	c
+FEDCCKCNTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant FEDCCKCNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "10010100";$/;"	c
+FEOFDMCNTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant FEOFDMCNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "10010000";$/;"	c
+FESINECNTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant FESINECNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "10011000";$/;"	c
+FETESTCNTL_ADDR_CT	.\regbank_maxim.vhd	/^  constant FETESTCNTL_ADDR_CT         : std_logic_vector(7 downto 0) := "10011100";$/;"	c
+FETXCONST_ADDR_CT	.\regbank_maxim.vhd	/^  constant FETXCONST_ADDR_CT          : std_logic_vector(7 downto 0) := "10101000";$/;"	c
+FFEST_STATE_TYPE	.\ff_estim_sm_RTL.vhd	/^  type FFEST_STATE_TYPE is (idle_e,     -- wait for a start of burst$/;"	t
+fft_2cordic	.\fft_2cordic.vhd	/^entity fft_2cordic is$/;"	e
+fft_2cordic_pkg	.\fft_2cordic_pkg.vhd	/^package fft_2cordic_pkg is$/;"	P
+FFT_ARRAY_T	.\freq_domain_pack.vhd	/^  type FFT_ARRAY_T is array(0 to 63) of std_logic_vector(FFT_WIDTH_CT-1 downto 0);$/;"	t
+FFT_ARRAY_T	.\modem802_11a2_pack.vhd	/^  type FFT_ARRAY_T is array(0 to 63) of std_logic_vector(FFT_WIDTH_CT-1 downto 0);$/;"	t
+fft_serial	.\fft_serial.vhd	/^entity fft_serial is$/;"	e
+fft_serial_pkg	.\fft_serial_pkg.vhd	/^package fft_serial_pkg is$/;"	P
+fft_shell	.\fft_shell.vhd	/^entity fft_shell is$/;"	e
+fft_shell_pkg	.\fft_shell_pkg.vhd	/^package fft_shell_pkg is$/;"	P
+FFT_SIGNALS_T	.\fft_serial_pkg.vhd	/^  type FFT_SIGNALS_T is array (0 to 63) of std_logic_vector(11 downto 0);$/;"	t
+FFT_STATE_T	.\fft_shell_RTL.vhd	/^  type FFT_STATE_T  is (idle_e, read_input_e, processing_e, done_e);$/;"	t
+FFT_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant FFT_WIDTH_CT         : integer  := 12;$/;"	c
+FFT_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant FFT_WIDTH_CT         : integer  := 12;$/;"	c
+ffwd_estimation	.\ffwd_estimation.vhd	/^entity ffwd_estimation is$/;"	e
+ffwd_filter	.\ffwd_filter.vhd	/^entity ffwd_filter is$/;"	e
+ff_estim_compute	.\ff_estim_compute.vhd	/^entity ff_estim_compute is$/;"	e
+ff_estim_sm	.\ff_estim_sm.vhd	/^entity ff_estim_sm is$/;"	e
+FIELD_LENGTH_SIGNAL_CT	.\channel_decoder_control_RTL.vhd	/^  constant FIELD_LENGTH_SIGNAL_CT  : FIELD_LENGTH_T := SIGNAL_FIELD_LENGTH_CT +$/;"	c
+FIELD_LENGTH_T	.\freq_domain_pack.vhd	/^  subtype FIELD_LENGTH_T is integer$/;"	T
+FIELD_LENGTH_T	.\modem802_11a2_pack.vhd	/^  subtype FIELD_LENGTH_T is integer$/;"	T
+FIFO_DEPTH_CT	.\sample_fifo_RTL.vhd	/^  constant FIFO_DEPTH_CT               : integer := 26; $/;"	c
+FIFO_TYPE_T	.\shared_fifo_mem_rtl.vhd	/^  type   FIFO_TYPE_T is array(0 to depth_g - 1) of $/;"	t
+FIFO_WIDTH_CT	.\sample_fifo_RTL.vhd	/^  constant FIFO_WIDTH_CT               : integer := 22; $/;"	c
+FIFTEEN_CT	.\preprocessing_RTL.vhd	/^  constant FIFTEEN_CT    : std_logic_vector(4 downto 0) := "01111";--15;$/;"	c
+filter	.\filter.vhd	/^entity filter is$/;"	e
+FILTER_SAMP_CT	.\ffwd_filter_RTL.vhd	/^  constant FILTER_SAMP_CT : std_logic_vector(1 downto 0) := "11";$/;"	c
+fine_freq_estim	.\fine_freq_estim.vhd	/^entity fine_freq_estim is$/;"	e
+fine_freq_estim_pkg	.\fine_freq_estim_pkg.vhd	/^package fine_freq_estim_pkg is$/;"	P
+FLIPFLOP	.\target_config_pkg.vhd	/^  constant FLIPFLOP : integer := 1;$/;"	c
+FLY_STATE_T	.\fft_2cordic_rtl.vhd	/^  type FLY_STATE_T is (idle, fly_state_1, fly_state_2, fly_state_3,$/;"	t
+FormatType	.\conv_pkg.vhd	/^  type FormatType is (HEX, DEC, BIN);$/;"	t
+FOURUS_CT	.\agc_cca_RTL.vhd	/^  constant FOURUS_CT  : std_logic_vector(8 downto 0) := "010101111";$/;"	c
+FOUR_THIRD_CT	.\residual_dc_offset_RTL.vhd	/^  constant FOUR_THIRD_CT : std_logic_vector(8 downto 0) := "101010101"; -- 4\/3$/;"	c
+FPGA	.\target_config_pkg.vhd	/^  constant FPGA : integer := 0;$/;"	c
+freq_corr	.\freq_corr.vhd	/^entity freq_corr is$/;"	e
+freq_corr_pkg	.\freq_corr_pkg.vhd	/^package freq_corr_pkg is$/;"	P
+FREQ_CORR_STATE_TYPE	.\freq_corr_RTL.vhd	/^  type FREQ_CORR_STATE_TYPE is ( no_coarse_e,       -- No correction$/;"	t
+freq_domain	.\freq_domain.vhd	/^entity freq_domain is$/;"	e
+freq_domain_pack	.\freq_domain_pack.vhd	/^package freq_domain_pack is $/;"	P
+freq_domain_pkg	.\freq_domain_pkg.vhd	/^package freq_domain_pkg is$/;"	P
+fsize_in_tx_ct	.\modem802_11g_core_RTL.vhd	/^  constant fsize_in_tx_ct  : integer := 10;$/;"	c
+fsize_in_tx_ct	.\modem802_11g_wildrf_RTL.vhd	/^  constant fsize_in_tx_ct  : integer := 10;$/;"	c
+FSIZE_OUT_TX_CT	.\modem802_11a2_core_RTL.vhd	/^  constant FSIZE_OUT_TX_CT : integer := 8;$/;"	c
+fsize_out_tx_ct	.\modem802_11g_core_RTL.vhd	/^  constant fsize_out_tx_ct : integer := 8;$/;"	c
+fsize_out_tx_ct	.\modem802_11g_wildrf_RTL.vhd	/^  constant fsize_out_tx_ct : integer := 8;$/;"	c
+FSM_STATE_TYPE	.\output_modes_RTL.vhd	/^  type   FSM_STATE_TYPE is (idle,            -- wait for the 1st symbol$/;"	t
+functions_pkg	.\functions_pkg.vhd	/^package functions_pkg is$/;"	P
+functions_pkg	.\functions_pkg_body.vhd	/^package body functions_pkg is$/;"	P
+fwt	.\fwt.vhd	/^entity fwt is$/;"	e
+fwt_pkg	.\fwt_pkg.vhd	/^package fwt_pkg is$/;"	P
+GATED_CLOCK_CT	.\config_pkg.vhd	/^  constant GATED_CLOCK_CT     : BOOLEAN := false;$/;"	c
+gating_control	.\gating_control.vhd	/^entity gating_control is$/;"	e
+GET_CORDIC_TYPE	.\phase_computation_RTL.vhd	/^  type GET_CORDIC_TYPE  is (idle,            -- wait for a f_position$/;"	t
+GI_LENGTH_CT	.\sample_fifo_sm_RTL.vhd	/^  constant GI_LENGTH_CT      : std_logic_vector(6 downto 0) := "0001111";  -- 15 (16-1)$/;"	c
+G_EST_INIT_CT	.\iq_estimation_rtl.vhd	/^  constant G_EST_INIT_CT           : std_logic_vector(G_EST_SIZE_CT-1 downto 0)$/;"	c
+G_EST_INIT_CT	.\iq_mism_g_est_rtl.vhd	/^  constant G_EST_INIT_CT           : std_logic_vector(G_EST_SIZE_CT-1 downto 0)$/;"	c
+G_EST_SEL_CT	.\iq_mism_g_est_rtl.vhd	/^  constant G_EST_SEL_CT          : integer := AV_G_SIZE_CT-G_EST_SIZE_CT;$/;"	c
+G_EST_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant G_EST_SIZE_CT       : integer := gain_width_g;$/;"	c
+G_EST_SIZE_CT	.\iq_mism_g_est_rtl.vhd	/^  constant G_EST_SIZE_CT       : integer := gain_width_g;$/;"	c
+G_IQ_ACCUM_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant G_IQ_ACCUM_SIZE_CT  : integer := 10;$/;"	c
+G_PSET_SIZE_CT	.\iq_mism_g_est_rtl.vhd	/^  constant G_PSET_SIZE_CT      : integer := preset_width_g;$/;"	c
+ha	.\ha.vhd	/^entity ha is$/;"	e
+HALFW_CT	.\ahb_config_pkg.vhd	/^  constant HALFW_CT   : std_logic_vector(2 downto 0)  := "001";$/;"	c
+hamming_add	.\viterbi_rtl.vhd	/^  type hamming_add is array (TRELLIS_CT-1 downto 0) of$/;"	t
+hamming_calc_type	.\viterbi_rtl.vhd	/^  type hamming_calc_type is array (3 downto 0) of$/;"	t
+hamming_dist_index_type	.\viterbi_rtl.vhd	/^  type hamming_dist_index_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+hamming_type	.\viterbi_rtl.vhd	/^  type hamming_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+HEADER_TIMEOUT_CT	.\cca_timers_maxim.vhd	/^  constant HEADER_TIMEOUT_CT : std_logic_vector(16 downto 0) := "00000000000010100";$/;"	c
+HISSCLK_CT	.\decode_add_RTL.vhd	/^  constant HISSCLK_CT              : integer                        := 0;  -- place of LSB of HISSCLK$/;"	c
+hiss_buffer	.\hiss_buffer.vhd	/^entity hiss_buffer is$/;"	e
+hiss_buffer_pkg	.\hiss_buffer_pkg.vhd	/^package hiss_buffer_pkg is$/;"	P
+HISTEXPZ_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant HISTEXPZ_WIDTH_CT : integer := 5;$/;"	c
+HISTOFFSET_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant HISTOFFSET_WIDTH_CT  : integer  := 2;  -- histoffset width$/;"	c
+HISTOFFSET_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant HISTOFFSET_WIDTH_CT  : integer  := 2;  -- histoffset width$/;"	c
+HPOWEXP_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant HPOWEXP_WIDTH_CT: integer := 4;$/;"	c
+HPOWMAN_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   HPOWMAN_ARRAY_T       is array (5 downto 3) of std_logic_vector (MANTLEN_CT-1 downto 0);$/;"	t
+HPOWMAN_INSTAGE_T	.\rx_equ_rtl.vhd	/^   type   HPOWMAN_INSTAGE_T     is array (2 downto 1) of std_logic_vector (HPOWMAN_PROD_WIDTH_CT-1 downto 0);$/;"	t
+HPOWMAN_PROD_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant HPOWMAN_PROD_WIDTH_CT: integer := (FFT_WIDTH_CT + CHMEM_WIDTH_CT -4)-1;$/;"	c
+HWORD_CT	.\bup2_sm_pkg.vhd	/^  constant HWORD_CT : std_logic_vector(1 downto 0) := "01";$/;"	c
+HWORD_CT	.\endianness_converter_pkg.vhd	/^  constant HWORD_CT : std_logic_vector(1 downto 0) := "01";$/;"	c
+IDLE	.\serialif.vhd	/^   constant  IDLE                  :  std_logic_vector(1 downto 0) := "00";    $/;"	c
+IDLE_CT	.\ahb_config_pkg.vhd	/^  constant  IDLE_CT    : std_logic_vector(1 downto 0) := "00";$/;"	c
+IDLE_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant IDLE_ST_CT : std_logic_vector(3 downto 0) := "0000";$/;"	c
+IDLE_ST_CT	.\cca_maxim_pkg.vhd	/^  constant IDLE_ST_CT                   : std_logic_vector(4 downto 0) := "00010";$/;"	c
+IFX	.\target_config_pkg.vhd	/^  constant IFX        : integer := 4;$/;"	c
+IFX_RF_CT	.\modem802_11a2_pack.vhd	/^  constant IFX_RF_CT            : integer := 0;$/;"	c
+IL_TYPE	.\agc_cca_RTL.vhd	/^  type IL_TYPE is array(1 downto 0) of std_logic_vector(7 downto 0);$/;"	t
+IMMSTOP_TYPE	.\modem_tx_sm_RTL.vhd	/^type IMMSTOP_TYPE is (idle_state,            -- idle state$/;"	t
+INCR16_CT	.\ahb_config_pkg.vhd	/^  constant  INCR16_CT  : std_logic_vector(2 downto 0) := "111";$/;"	c
+INCR4_CT	.\ahb_config_pkg.vhd	/^  constant  INCR4_CT   : std_logic_vector(2 downto 0) := "011";$/;"	c
+INCR8_CT	.\ahb_config_pkg.vhd	/^  constant  INCR8_CT   : std_logic_vector(2 downto 0) := "101";$/;"	c
+INCR_CT	.\ahb_config_pkg.vhd	/^  constant  INCR_CT    : std_logic_vector(2 downto 0) := "001";$/;"	c
+INDATADELAY_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant INDATADELAY_CT : integer := 8*4;  -- 8 samples at 20 Msamples\/s$/;"	c
+IndexTable	.\fft_2cordic_pkg.vhd	/^  CONSTANT IndexTable : IndexTableType                           := (1, 4, 5, 7, 8, 10, 11, 12, 14, 17, 18, 19, 21, 22, 24, 25, 27, 29);$/;"	c
+IndexTableType	.\fft_2cordic_pkg.vhd	/^  TYPE IndexTableType IS ARRAY (0 TO 17) OF INTEGER RANGE 1 TO 29;$/;"	t
+index_type	.\viterbi_rtl.vhd	/^    subtype index_type is integer range 0 to TRELLIS_CT-1;$/;"	T
+INITSYNC_CTRL_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant INITSYNC_CTRL_ADDR_CT  : std_logic_vector(5 downto 0) := "100000";$/;"	c
+INIT_RADIO	.\txrxcntl.vhd	/^   constant  INIT_RADIO            :  std_logic_vector(2 downto 0) := "001";    $/;"	c
+init_sync	.\init_sync.vhd	/^entity init_sync is$/;"	e
+init_sync_pkg	.\init_sync_pkg.vhd	/^package init_sync_pkg is$/;"	P
+INPUT_CLIP_CT	.\divider_rtl.vhd	/^  constant INPUT_CLIP_CT        : std_logic_vector(nbit_input_g-1 downto 0)  := '1' & ZEROS_CT & '1';$/;"	c
+INPUT_MIN_CT	.\divider_rtl.vhd	/^  constant INPUT_MIN_CT         : std_logic_vector(nbit_input_g-1 downto 0)  := '1' & ZEROS_CT & '0';$/;"	c
+int2slv	.\conv_pkg_body.vhd	/^  function int2slv (a : integer; size : integer) return std_logic_vector is$/;"	f
+integer_ar_16	.\preamble_gen_pkg.vhd	/^  type integer_ar_16 is array (0 to 15) of std_logic_vector(9 downto 0);$/;"	t
+integer_ar_32	.\preamble_gen_pkg.vhd	/^  type integer_ar_32 is array (0 to 31) of std_logic_vector(9 downto 0);$/;"	t
+interleaver	.\interleaver.vhd	/^entity interleaver is$/;"	e
+interleaver_pkg	.\interleaver_pkg.vhd	/^package interleaver_pkg is$/;"	P
+interl_ctrl	.\interl_ctrl.vhd	/^entity interl_ctrl is$/;"	e
+interl_mem	.\interl_mem.vhd	/^entity interl_mem is$/;"	e
+INTERNAL_WIDTH_CT	.\rx_equ_instage0_corman_rtl.vhd	/^  constant INTERNAL_WIDTH_CT : integer := (FFT_WIDTH_CT + CHMEM_WIDTH_CT); $/;"	c
+INTERNAL_WIDTH_CT	.\rx_equ_instage0_hpowman_rtl.vhd	/^  constant INTERNAL_WIDTH_CT : integer := (FFT_WIDTH_CT + CHMEM_WIDTH_CT); $/;"	c
+INTTIME_CT	.\logarithm_RTL.vhd	/^  constant INTTIME_CT     : std_logic_vector(13 downto 0) := "11110010000111"; --"11101111100111";--$/;"	c
+INT_LENGTH_CT	.\rx_equ_outstage0_rtl.vhd	/^  constant INT_LENGTH_CT    : integer  := MANTLEN_CT + 2; $/;"	c
+INT_LENGTH_CT	.\rx_equ_outstage1_rtl.vhd	/^  constant INT_LENGTH_CT    : integer  := MANTLEN_CT + 2; $/;"	c
+INT_LENGTH_CT	.\rx_equ_outstage2_rtl.vhd	/^  constant INT_LENGTH_CT    : integer  := MANTLEN_CT + 2; $/;"	c
+INVERTER_STATE_T	.\freq_domain_rtl.vhd	/^  type INVERTER_STATE_T is (idle_state, invert_state);$/;"	t
+inv_matrix	.\inv_matrix.vhd	/^entity inv_matrix is$/;"	e
+INV_PI_CT	.\ramp_phase_rot_RTL.vhd	/^  constant INV_PI_CT : std_logic_vector(17 downto 0) := "111001101101111001";-- -pi$/;"	c
+inv_sbox_ct	.\aes_invsubbytes_RTL.vhd	/^constant inv_sbox_ct : inv_sbox_type$/;"	c
+inv_sbox_type	.\aes_invsubbytes_RTL.vhd	/^type inv_sbox_type   is array (255 downto 0) of std_logic_vector (7 downto 0);$/;"	t
+IQCALIB_CTRL_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant IQCALIB_CTRL_ADDR_CT   : std_logic_vector(5 downto 0) := "101000";$/;"	c
+IQMM_STATE_TYPE	.\rx_ctrl_RTL.vhd	/^  type IQMM_STATE_TYPE is (idle_state,          -- idle state  $/;"	t
+IQ_ACCU_SIZE_CT	.\iq_mism_g_est_rtl.vhd	/^  constant IQ_ACCU_SIZE_CT     : integer := iq_accum_width_g;$/;"	c
+IQ_ACCU_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant IQ_ACCU_SIZE_CT     : integer := iq_accum_width_g;$/;"	c
+IQ_ARR_TYPE	.\residual_dc_offset_RTL.vhd	/^  type IQ_ARR_TYPE is array(15 downto 0) of std_logic_vector(10 downto 0);$/;"	t
+iq_calibration_gen	.\iq_calibration_gen.vhd	/^entity iq_calibration_gen is$/;"	e
+iq_calibration_gen_pkg	.\iq_calibration_gen_pkg.vhd	/^package iq_calibration_gen_pkg is$/;"	P
+iq_compensation	.\iq_compensation.vhd	/^entity iq_compensation is$/;"	e
+iq_compensation_pkg	.\iq_compensation_pkg.vhd	/^package iq_compensation_pkg is$/;"	P
+IQ_COMP_ENABLE_CT	.\rx_ctrl_RTL.vhd	/^  constant IQ_COMP_ENABLE_CT  : std_logic_vector(8 downto 0) $/;"	c
+IQ_EN_COUNT_TYPE	.\rx_ctrl_RTL.vhd	/^  type IQ_EN_COUNT_TYPE is (idle_state,         -- idle state$/;"	t
+iq_estimation	.\iq_estimation.vhd	/^entity iq_estimation is$/;"	e
+iq_estimation_pkg	.\iq_estimation_pkg.vhd	/^package iq_estimation_pkg is$/;"	P
+IQ_ESTIM_DISABLE_CT	.\rx_ctrl_RTL.vhd	/^  constant IQ_ESTIM_DISABLE_CT : std_logic_vector(8 downto 0) $/;"	c
+IQ_ESTIM_EN_COUNT_CT	.\rx_ctrl_RTL.vhd	/^  constant IQ_ESTIM_EN_COUNT_CT : std_logic_vector(5 downto 0) := "101010";  --44(d)=2C(h)$/;"	c
+iq_mismatch	.\iq_mismatch.vhd	/^entity iq_mismatch is$/;"	e
+iq_mismatch_pkg	.\iq_mismatch_pkg.vhd	/^package iq_mismatch_pkg is$/;"	P
+iq_mism_g_est	.\iq_mism_g_est.vhd	/^entity iq_mism_g_est is$/;"	e
+iq_mism_ph_est	.\iq_mism_ph_est.vhd	/^entity iq_mism_ph_est is$/;"	e
+K11_LUT_CT	.\kalman_rtl.vhd	/^  constant K11_LUT_CT : K_ARRAY_T := ($/;"	c
+K21_LUT_CT	.\kalman_rtl.vhd	/^  constant K21_LUT_CT : K_ARRAY_T := ($/;"	c
+kalman	.\kalman.vhd	/^entity kalman is$/;"	e
+kalman_lut	.\kalman_lut.vhd	/^entity kalman_lut is$/;"	e
+keyloading_type	.\rc4_keyloading_RTL.vhd	/^type keyloading_type is (idle_state,    -- Idle phase.$/;"	t
+keymix_phase1	.\keymix_phase1.vhd	/^entity keymix_phase1 is$/;"	e
+keymix_phase2	.\keymix_phase2.vhd	/^entity keymix_phase2 is$/;"	e
+KEYMIX_STATE_TYPE	.\key_mixing_sm_RTL.vhd	/^  type KEYMIX_STATE_TYPE is (idle_state,$/;"	t
+KEYSCHED_TYPE	.\aes_keyschedule_RTL.vhd	/^type KEYSCHED_TYPE  is array (16 downto 0)$/;"	t
+key_mixing_sbox	.\key_mixing_sbox.vhd	/^entity key_mixing_sbox is$/;"	e
+key_mixing_sm	.\key_mixing_sm.vhd	/^entity key_mixing_sm is$/;"	e
+KEY_STATE_TYPE	.\aes_keyschedule_RTL.vhd	/^type KEY_STATE_TYPE is (idle_state,     -- Idle phase$/;"	t
+KEY_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant KEY_ST_CT  : std_logic_vector(3 downto 0) := "0010";$/;"	c
+K_ARRAY_T	.\kalman_rtl.vhd	/^  type K_ARRAY_T is array (0 to 32) of integer range 0 to 16383;$/;"	t
+K_MAX_CT	.\residual_dc_offset_RTL.vhd	/^  constant K_MAX_CT : std_logic_vector(5 downto 0) := "111111";  -- 63$/;"	c
+LAST_SAMPLE_CT	.\rx_predmx_pkg.vhd	/^  constant LAST_SAMPLE_CT   : integer := 27; --47;$/;"	c
+LENGTH_MANTISSE_CT	.\rx_equ_pkg.vhd	/^  constant LENGTH_MANTISSE_CT    : integer := 9;  -- Despite of its name this parameter is no more $/;"	c
+LOCK_TIME	.\txrxcntl.vhd	/^   constant  LOCK_TIME             :  std_logic_vector(15 downto 0) := "0000000000100000";$/;"	c
+logarithm	.\logarithm.vhd	/^entity logarithm is$/;"	e
+long_seq_im	.\preamble_gen_pkg.vhd	/^  constant long_seq_im : integer_ar_32 := ($/;"	c
+long_seq_re	.\preamble_gen_pkg.vhd	/^  constant long_seq_re : integer_ar_32 := ($/;"	c
+LONG_SFD_CHAIN_CT	.\long_sfd_comp_RTL.vhd	/^  constant LONG_SFD_CHAIN_CT : std_logic_vector (15 downto 0)$/;"	c
+long_sfd_comp	.\long_sfd_comp.vhd	/^entity long_sfd_comp is$/;"	e
+LOW_POWER_CT	.\config_pkg.vhd	/^  constant LOW_POWER_CT       : BOOLEAN := true;$/;"	c
+LP_STEP_131072HZ_CT	.\bup2_timers_RTL.vhd	/^  constant LP_STEP_131072HZ_CT   : std_logic_vector(11 downto 0)$/;"	c
+LP_STEP_32768HZ_CT	.\bup2_timers_RTL.vhd	/^  constant LP_STEP_32768HZ_CT    : std_logic_vector(11 downto 0)$/;"	c
+LP_STEP_32KHZ_CT	.\bup2_timers_RTL.vhd	/^  constant LP_STEP_32KHZ_CT      : std_logic_vector(11 downto 0)$/;"	c
+MACINT_STATE_T	.\mac_interface_RTL.vhd	/^  type MACINT_STATE_T is (wait_ready_state, wait_data_state, send_data_state);$/;"	t
+MACSLOT_INIT_CT	.\bup2_registers_pkg.vhd	/^   constant MACSLOT_INIT_CT : std_logic_vector(7 downto 0) := "00010011";$/;"	c
+mac_interface	.\mac_interface.vhd	/^entity mac_interface is$/;"	e
+mac_interface_pkg	.\mac_interface_pkg.vhd	/^package mac_interface_pkg is$/;"	P
+magnitude_gen	.\magnitude_gen.vhd	/^entity magnitude_gen is$/;"	e
+MANTLEN_CT	.\rx_equ_pkg.vhd	/^  constant MANTLEN_CT            : integer := LENGTH_MANTISSE_CT + 1;  -- Lenght mantissa without sign$/;"	c
+mapper	.\mapper.vhd	/^entity mapper is$/;"	e
+mapper_pkg	.\mapper_pkg.vhd	/^package mapper_pkg is$/;"	P
+mapping	.\mapping.vhd	/^entity mapping is$/;"	e
+mapping_pkg	.\mapping_pkg.vhd	/^package mapping_pkg is$/;"	P
+MARKER_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   MARKER_ARRAY_T        is array (6 downto 1) of std_logic;$/;"	t
+MASK_INIT_CT	.\interl_ctrl_RTL.vhd	/^  constant MASK_INIT_CT     : std_logic_vector( 5 downto 0) := "100000";$/;"	c
+master_dec_data	.\master_dec_data.vhd	/^entity master_dec_data is$/;"	e
+master_deseria	.\master_deseria.vhd	/^entity master_deseria is$/;"	e
+master_hiss	.\master_hiss.vhd	/^entity master_hiss is$/;"	e
+master_hiss_pkg	.\master_hiss_pkg.vhd	/^package master_hiss_pkg is$/;"	P
+master_hiss_sm	.\master_hiss_sm.vhd	/^entity master_hiss_sm is$/;"	e
+master_interface	.\master_interface.vhd	/^entity master_interface is$/;"	e
+master_interface_pkg	.\master_interface_pkg.vhd	/^package master_interface_pkg is$/;"	P
+master_seria	.\master_seria.vhd	/^entity master_seria is$/;"	e
+MASTER_STATE	.\master_interface_rtl.vhd	/^  type MASTER_STATE is ( idle,              -- idle phase$/;"	t
+matrix_type	.\viterbi_rtl.vhd	/^  type matrix_type is array (reg_length_g-1 downto 0) of$/;"	t
+MAXCOUNT_CT	.\tcombine_preamble_mux_RTL.vhd	/^  constant MAXCOUNT_CT : std_logic_vector(5 downto 0) := "111111"; -- 62   $/;"	c
+MAX_ADDR_CT	.\sine_table_rom_rtl.vhd	/^  constant MAX_ADDR_CT : integer := 1024;$/;"	c
+MAX_BACKOFF_CT	.\backoff2_RTL.vhd	/^  constant MAX_BACKOFF_CT : std_logic_vector(9 downto 0) := (others => '1');$/;"	c
+max_decision	.\max_decision.vhd	/^entity max_decision is$/;"	e
+MAX_HISTEXPZ_CT	.\rx_equ_pkg.vhd	/^  constant MAX_HISTEXPZ_CT : integer := (HPOWMAN_PROD_WIDTH_CT -1);$/;"	c
+MAX_HISTOFFSET_CT	.\rx_equ_pkg.vhd	/^  constant MAX_HISTOFFSET_CT   :  std_logic_vector(HISTOFFSET_WIDTH_CT -1 downto 0) := "10";$/;"	c
+MAX_HPOWEXP_CT	.\rx_equ_pkg.vhd	/^  constant MAX_HPOWEXP_CT  : integer := HPOWMAN_PROD_WIDTH_CT - LENGTH_MANTISSE_CT; -- 10$/;"	c
+MAX_INPUT_CT	.\cordic_RTL.vhd	/^  constant MAX_INPUT_CT        : integer := 4;$/;"	c
+MAX_INTERNAL_CT	.\rx_equ_outstage0_rtl.vhd	/^  constant MAX_INTERNAL_CT  : integer  := MAX_SOFTBIT_CT * 4 - 1; --59$/;"	c
+MAX_INTERNAL_CT	.\rx_equ_outstage1_rtl.vhd	/^  constant MAX_INTERNAL_CT  : integer  := MAX_SOFTBIT_CT * 4 - 1; --59$/;"	c
+MAX_INTERNAL_CT	.\rx_equ_outstage2_rtl.vhd	/^  constant MAX_INTERNAL_CT  : integer  := MAX_SOFTBIT_CT * 4 - 1; --59$/;"	c
+MAX_LENGTH_DECODE_CT	.\channel_decoder_control_RTL.vhd	/^  constant MAX_LENGTH_DECODE_CT     : std_logic_vector(11 downto 0) := "111111111111";$/;"	c
+MAX_LOOP1_CT	.\key_mixing_sm_RTL.vhd	/^  constant MAX_LOOP1_CT : std_logic_vector(2 downto 0) := "100";$/;"	c
+MAX_LOOP2_CT	.\key_mixing_sm_RTL.vhd	/^  constant MAX_LOOP2_CT : std_logic_vector(2 downto 0) := "101";$/;"	c
+MAX_LOOP_CT	.\keymix_phase2_RTL.vhd	/^  constant MAX_LOOP_CT : std_logic_vector(2 downto 0) := "101";$/;"	c
+MAX_MANTISSE_CT	.\rx_equ_pkg.vhd	/^  constant MAX_MANTISSE_CT: integer := 1023;$/;"	c
+MAX_PEAK_CT	.\barker_cor_RTL.vhd	/^  constant MAX_PEAK_CT :  std_logic_vector(7 downto 0) := "01111111";$/;"	c
+max_picker_2	.\max_picker_2.vhd	/^entity max_picker_2 is$/;"	e
+MAX_SHIFT_SOFT_CT	.\rx_equ_pkg.vhd	/^  constant MAX_SHIFT_SOFT_CT    : integer :=  4 + LENGTH_MANTISSE_CT - 5; -- 8$/;"	c
+MAX_SHIFT_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant MAX_SHIFT_WIDTH_CT     : integer := 2; -- max_shift width $/;"	c
+MAX_SHIFT_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant MAX_SHIFT_WIDTH_CT     : integer := 2; -- max_shift width $/;"	c
+MAX_SOFTBIT_CT	.\rx_equ_pkg.vhd	/^  constant MAX_SOFTBIT_CT       : integer := 15 ;    -- max value of soft_bit$/;"	c
+mdma2_rx_sm	.\mdma2_rx_sm.vhd	/^entity mdma2_rx_sm is$/;"	e
+mdma2_rx_sm_pkg	.\mdma2_rx_sm_pkg.vhd	/^package mdma2_rx_sm_pkg is$/;"	P
+MDMaVERSION_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant MDMaVERSION_ADDR_CT    : std_logic_vector(5 downto 0) := "111000";$/;"	c
+MDMbCCA_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbCCA_ADDR_CT      : std_logic_vector(5 downto 0) := "100000";--h'20$/;"	c
+MDMbCNTL1_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbCNTL1_ADDR_CT : std_logic_vector(5 downto 0) := "011000";  -- h'18$/;"	c
+MDMbCNTL2_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbCNTL2_ADDR_CT : std_logic_vector(5 downto 0) := "101000";--h'28$/;"	c
+MDMBCNTL_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMBCNTL_ADDR_CT     : std_logic_vector(5 downto 0) := "000000";--h'00$/;"	c
+MDMbEQCNTL_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbEQCNTL_ADDR_CT   : std_logic_vector(5 downto 0) := "100100";--h'24$/;"	c
+MDMbPRMINIT_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbPRMINIT_ADDR_CT  : std_logic_vector(5 downto 0) := "001000";--h'08$/;"	c
+MDMbRFCNTL_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbRFCNTL_ADDR_CT   : std_logic_vector(5 downto 0) := "011100";--h'1C$/;"	c
+MDMbSTAT0_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbSTAT0_ADDR_CT : std_logic_vector(5 downto 0) := "101100";--h'2C$/;"	c
+MDMbSTAT1_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbSTAT1_ADDR_CT  : std_logic_vector(5 downto 0) := "110000";--h'30$/;"	c
+MDMbTALPHA_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbTALPHA_ADDR_CT   : std_logic_vector(5 downto 0) := "001100";--h'0C$/;"	c
+MDMbTBETA_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbTBETA_ADDR_CT    : std_logic_vector(5 downto 0) := "010000";--h'10$/;"	c
+MDMbTMU_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbTMU_ADDR_CT      : std_logic_vector(5 downto 0) := "010100";--h'14$/;"	c
+MDMbVERSION_ADDR_CT	.\modemb_registers_pkg.vhd	/^  constant MDMbVERSION_ADDR_CT  : std_logic_vector(5 downto 0) := "110100";--h'34$/;"	c
+MDMg11hCNTL_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMg11hCNTL_ADDR_CT    : std_logic_vector(5 downto 0) := "010000";$/;"	c
+MDMg11hSTAT_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMg11hSTAT_ADDR_CT    : std_logic_vector(5 downto 0) := "010100";$/;"	c
+MDMgADDESTMDUR_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMgADDESTMDUR_ADDR_CT : std_logic_vector(5 downto 0) := "001100";$/;"	c
+MDMgAGCCCA_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMgAGCCCA_ADDR_CT     : std_logic_vector(5 downto 0) := "001000";$/;"	c
+MDMgCNTL_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMgCNTL_ADDR_CT       : std_logic_vector(5 downto 0) := "000100";$/;"	c
+MDMgVERSION_ADDR_CT	.\modemg_registers_pkg.vhd	/^  constant MDMgVERSION_ADDR_CT    : std_logic_vector(5 downto 0) := "000000";$/;"	c
+mdm_math_func_pkg	.\mdm_math_func_pkg.vhd	/^package mdm_math_func_pkg is$/;"	P
+mdm_math_func_pkg	.\mdm_math_func_pkg_body.vhd	/^package body mdm_math_func_pkg is$/;"	P
+mem2_seq	.\mem2_seq.vhd	/^entity mem2_seq is$/;"	e
+mem2_seq_pkg	.\mem2_seq_pkg.vhd	/^package mem2_seq_pkg is$/;"	P
+MEMORY_T	.\interl_mem_RTL.vhd	/^  type MEMORY_T is array (23 downto 0) of std_logic_vector(11 downto 0);$/;"	t
+MEM_SUPPLIER_CT	.\config_pkg.vhd	/^  constant MEM_SUPPLIER_CT    : integer := 0;$/;"	c
+MEM_TYPE	.\ring_buffer_RTL.vhd	/^  type  MEM_TYPE is array(0 to fifo_depth_g - 1)$/;"	t
+MICCS_OFFSET_CT	.\aes_control_RTL.vhd	/^  constant MICCS_OFFSET_CT : std_logic_vector( 5 downto 0) := "011100";$/;"	c
+michael_blkfunc	.\michael_blkfunc.vhd	/^entity michael_blkfunc is$/;"	e
+MICHAEL_STATE_TYPE	.\michael_blkfunc_RTL.vhd	/^type MICHAEL_STATE_TYPE is (blk0_state,  -- Block function step 0.$/;"	t
+microrotation	.\microrotation.vhd	/^entity microrotation is$/;"	e
+MIC_CRC_SIZE_CT	.\rc4_control_RTL.vhd	/^  constant MIC_CRC_SIZE_CT : std_logic_vector(3 downto 0) := "1100"; -- 12 bytes$/;"	c
+MIC_FRAG_CRC_SIZE_CT	.\rc4_control_RTL.vhd	/^  constant MIC_FRAG_CRC_SIZE_CT : std_logic_vector(3 downto 0) := "0000"; -- 16b$/;"	c
+MIC_FRAG_SIZE_CT	.\rc4_control_RTL.vhd	/^  constant MIC_FRAG_SIZE_CT     : std_logic_vector(3 downto 0) := "1100"; -- 12b$/;"	c
+MIC_PADDING_CT	.\rc4_control_RTL.vhd	/^  constant MIC_PADDING_CT  : std_logic_vector(31 downto 0) -- X"0000005A"$/;"	c
+MIC_SIZE_CT	.\aes_control_RTL.vhd	/^  constant MIC_SIZE_CT     : std_logic_vector( 3 downto 0) := "1000"; -- 8 bytes$/;"	c
+MIC_SIZE_CT	.\rc4_control_RTL.vhd	/^  constant MIC_SIZE_CT     : std_logic_vector(3 downto 0) := "1000"; -- 8 bytes$/;"	c
+MINUS40_CT	.\agc_cca_RTL.vhd	/^  constant MINUS40_CT : std_logic_vector(7 downto 0) := "11011000";$/;"	c
+MINUS45_CT	.\agc_cca_RTL.vhd	/^  constant MINUS45_CT : std_logic_vector(7 downto 0) := "11010011";$/;"	c
+MIN_LENGTH_DECODE_CHK_CT	.\channel_decoder_control_RTL.vhd	/^  constant MIN_LENGTH_DECODE_CHK_CT : std_logic_vector(11 downto 0) := "000000001110";$/;"	c
+MIN_LENGTH_DECODE_CT	.\channel_decoder_control_RTL.vhd	/^  constant MIN_LENGTH_DECODE_CT     : std_logic_vector(11 downto 0) := "000000000001";$/;"	c
+MIN_MANTISSE_CT	.\rx_equ_pkg.vhd	/^  constant MIN_MANTISSE_CT: integer := -1024;$/;"	c
+MIN_PEAK_CT	.\barker_cor_RTL.vhd	/^  constant MIN_PEAK_CT :  std_logic_vector(7 downto 0) := "10000000";$/;"	c
+MIN_SOFTBIT_CT	.\rx_equ_pkg.vhd	/^  constant MIN_SOFTBIT_CT       : integer := -15 ;   -- min value of soft_bit$/;"	c
+MK_DATA_CT	.\punct_cpath_RTL.vhd	/^  constant MK_DATA_CT       : std_logic_vector(1 downto 0) := "10";$/;"	c
+MK_ENDBURST_CT	.\punct_cpath_RTL.vhd	/^  constant MK_ENDBURST_CT   : std_logic_vector(1 downto 0) := "11";$/;"	c
+MK_SIGNAL_CT	.\punct_cpath_RTL.vhd	/^  constant MK_SIGNAL_CT     : std_logic_vector(1 downto 0) := "01";$/;"	c
+modem2bup_sync	.\modem2bup_sync.vhd	/^entity modem2bup_sync is$/;"	e
+modem2bup_sync_pkg	.\modem2bup_sync_pkg.vhd	/^package modem2bup_sync_pkg is$/;"	P
+modem802_11a2_core	.\modem802_11a2_core.vhd	/^entity modem802_11a2_core is$/;"	e
+modem802_11a2_pack	.\modem802_11a2_pack.vhd	/^package modem802_11a2_pack is $/;"	P
+modem802_11a2_pkg	.\modem802_11a2_pkg.vhd	/^package modem802_11a2_pkg is$/;"	P
+modem802_11b_core	.\modem802_11b_core.vhd	/^entity modem802_11b_core is$/;"	e
+modem802_11b_pkg	.\modem802_11b_pkg.vhd	/^package modem802_11b_pkg is$/;"	P
+modem802_11g_core	.\modem802_11g_core.vhd	/^entity modem802_11g_core is$/;"	e
+modem802_11g_maxim	.\modem802_11g_maxim.vhd	/^entity modem802_11g_maxim is$/;"	e
+modem802_11g_maxim_pkg	.\modem802_11g_maxim_pkg.vhd	/^package modem802_11g_maxim_pkg is$/;"	P
+modem802_11g_pkg	.\modem802_11g_pkg.vhd	/^package modem802_11g_pkg is$/;"	P
+modem802_11g_wildrf	.\modem802_11g_wildrf.vhd	/^entity modem802_11g_wildrf is$/;"	e
+modem802_11g_wildrf_pkg	.\modem802_11g_wildrf_pkg.vhd	/^package modem802_11g_wildrf_pkg is$/;"	P
+modema2_registers	.\modema2_registers.vhd	/^entity modema2_registers is$/;"	e
+modema2_registers_pkg	.\modema2_registers_pkg.vhd	/^package modema2_registers_pkg is$/;"	P
+modema_tx_sm	.\modema_tx_sm.vhd	/^entity modema_tx_sm is$/;"	e
+modema_tx_sm_pkg	.\modema_tx_sm_pkg.vhd	/^package modema_tx_sm_pkg is$/;"	P
+modemb_registers	.\modemb_registers.vhd	/^entity modemb_registers is$/;"	e
+modemb_registers_if	.\modemb_registers_if.vhd	/^entity modemb_registers_if is$/;"	e
+modemb_registers_pkg	.\modemb_registers_pkg.vhd	/^package modemb_registers_pkg is$/;"	P
+modemg2bup_if	.\modemg2bup_if.vhd	/^entity modemg2bup_if is$/;"	e
+modemg2bup_if_pkg	.\modemg2bup_if_pkg.vhd	/^package modemg2bup_if_pkg is$/;"	P
+modemg_registers	.\modemg_registers.vhd	/^entity modemg_registers is$/;"	e
+modemg_registers_pkg	.\modemg_registers_pkg.vhd	/^package modemg_registers_pkg is$/;"	P
+modem_rx_sm	.\modem_rx_sm.vhd	/^entity modem_rx_sm is$/;"	e
+modem_sm_b	.\modem_sm_b.vhd	/^entity modem_sm_b is$/;"	e
+modem_sm_b_pkg	.\modem_sm_b_pkg.vhd	/^package modem_sm_b_pkg is$/;"	P
+modem_tx_sm	.\modem_tx_sm.vhd	/^entity modem_tx_sm is$/;"	e
+MOD_16QAM_CT	.\padding_RTL.vhd	/^  constant MOD_16QAM_CT     : std_logic_vector(1 downto 0) := "10";$/;"	c
+MOD_64QAM_CT	.\padding_RTL.vhd	/^  constant MOD_64QAM_CT     : std_logic_vector(1 downto 0) := "00";$/;"	c
+MOD_BPSK_CT	.\padding_RTL.vhd	/^  constant MOD_BPSK_CT      : std_logic_vector(1 downto 0) := "11";$/;"	c
+MOD_QPSK_CT	.\padding_RTL.vhd	/^  constant MOD_QPSK_CT      : std_logic_vector(1 downto 0) := "01";$/;"	c
+mon_sto_cpe	.\mon_sto_cpe.vhd	/^entity mon_sto_cpe is$/;"	e
+MPI2_SCALED_CT	.\cordic_vect_RTL.vhd	/^  constant MPI2_SCALED_CT : std_logic_vector(errorsize_g-2 downto 0) := (others =>'0');$/;"	c
+MSB_CORMAN_CT	.\rx_equ_instage0_corman_rtl.vhd	/^  constant MSB_CORMAN_CT     : integer := corman_o'high;$/;"	c
+MSB_HPOWMAN_CT	.\rx_equ_instage0_hpowman_rtl.vhd	/^  constant MSB_HPOWMAN_CT    : integer := hpowman_o'high;$/;"	c
+multerr_ct	.\equalizer_global_pkg.vhd	/^    constant multerr_ct  : integer := 12;         -- data size after the mult by error$/;"	c
+mult_operand	.\phase_slope_comput_RTL.vhd	/^  constant mult_operand   : std_logic_vector(5  downto 0) := "110011"; -- = 1\/10$/;"	c
+MULT_STATE_T	.\fft_2cordic_rtl.vhd	/^  type MULT_STATE_T is (idle, mult_state_1, mult_state_2, mult_state_3,$/;"	t
+MUX_STATE_T	.\tx_mux_RTL.vhd	/^  type MUX_STATE_T is (mux_begin_state,$/;"	t
+NBCOL_BPSK_CT	.\interl_ctrl_RTL.vhd	/^  constant NBCOL_BPSK_CT    : std_logic_vector( 2 downto 0) := "000"; -- 1 col.$/;"	c
+NBCOL_QAM16_CT	.\interl_ctrl_RTL.vhd	/^  constant NBCOL_QAM16_CT   : std_logic_vector( 2 downto 0) := "011"; -- 4 col.$/;"	c
+NBCOL_QAM64_CT	.\interl_ctrl_RTL.vhd	/^  constant NBCOL_QAM64_CT   : std_logic_vector( 2 downto 0) := "101"; -- 6 col.$/;"	c
+NBCOL_QPSK_CT	.\interl_ctrl_RTL.vhd	/^  constant NBCOL_QPSK_CT    : std_logic_vector( 2 downto 0) := "001"; -- 2 col.$/;"	c
+NBIT_CPE_MEAS_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_CPE_MEAS_CT   : integer := 16;$/;"	c
+NBIT_DETM_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_DETM_CT  : integer := 24;$/;"	c
+NBIT_EQ_CT	.\equalize_pilots_rtl.vhd	/^  constant NBIT_EQ_CT    : integer := 12;$/;"	c
+NBIT_INPUT_SRT_CT	.\divider_rtl.vhd	/^  constant NBIT_INPUT_SRT_CT    : integer := nbit_input_g+1;$/;"	c
+NBIT_INV_MATRIX_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_INV_MATRIX_CT : integer := 12;$/;"	c
+NBIT_I_CT	.\kalman_rtl.vhd	/^  constant NBIT_I_CT  : integer := 17;   -- innovation$/;"	c
+NBIT_K_CT	.\kalman_rtl.vhd	/^  constant NBIT_K_CT  : integer := 14;   -- Kalman Gain$/;"	c
+NBIT_M11_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_M11_CT   : integer := 16;$/;"	c
+NBIT_M12_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_M12_CT   : integer := 12;$/;"	c
+NBIT_M21_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_M21_CT   : integer := NBIT_M12_CT;$/;"	c
+NBIT_M22_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_M22_CT   : integer := 8;$/;"	c
+NBIT_N1_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_N1_CT    : integer := 12;$/;"	c
+NBIT_N2_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_N2_CT    : integer := 10;$/;"	c
+NBIT_N3_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_N3_CT    : integer := 9;$/;"	c
+NBIT_N4_CT	.\inv_matrix_rtl.vhd	/^  constant NBIT_N4_CT    : integer := 11;$/;"	c
+NBIT_PH_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_PH_CT         : integer := 13;$/;"	c
+NBIT_PILOTS_EQ_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_PILOTS_EQ_CT  : integer := 12;$/;"	c
+NBIT_PILOT_CT	.\equalize_pilots_rtl.vhd	/^  constant NBIT_PILOT_CT : integer := 12;$/;"	c
+NBIT_PREDICTION_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_PREDICTION_CT : integer := 17;$/;"	c
+NBIT_QUOTIENT_SRT_CT	.\divider_rtl.vhd	/^  constant NBIT_QUOTIENT_SRT_CT : integer := nbit_quotient_g + nintbit_quotient_g+1;$/;"	c
+NBIT_STO_CPE_F_CT	.\ext_sto_cpe_rtl.vhd	/^  constant NBIT_STO_CPE_F_CT : integer := Nbit_inv_matrix_g + Nbit_ph_g + 2;$/;"	c
+NBIT_STO_MEAS_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_STO_MEAS_CT   : integer := 14;$/;"	c
+NBIT_WEIGHT_CT	.\pilot_tracking_rtl.vhd	/^  constant NBIT_WEIGHT_CT     : integer := 6;$/;"	c
+NBIT_X_CT	.\kalman_rtl.vhd	/^  constant NBIT_X_CT  : integer := 17;   -- Xpriori$/;"	c
+NBIT_Y_CT	.\kalman_rtl.vhd	/^  constant NBIT_Y_CT  : integer := 17;   -- K*innovation$/;"	c
+NBIT_Z_CT	.\kalman_rtl.vhd	/^  constant NBIT_Z_CT  : integer := 17;   -- Xposteriori$/;"	c
+NBR_COMBSTAGE_CT	.\comp_angle_rtl.vhd	/^  constant NBR_COMBSTAGE_CT : integer := 3;  -- must be > 0$/;"	c
+NBR_PIPE_CT	.\comp_angle_rtl.vhd	/^  constant NBR_PIPE_CT      : integer := 4;  -- must be > 0$/;"	c
+NBR_PIPE_G_PLUS_1_CT	.\cordic_RTL.vhd	/^  constant NBR_PIPE_G_PLUS_1_CT : integer := nbr_pipe_g+1;$/;"	c
+NB_CLK_PERIOD_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant NB_CLK_PERIOD_CT : integer := 320 - 1;  -- nummber of clk$/;"	c
+NB_NULL_BEGIN_CT	.\tx_mux_RTL.vhd	/^  constant NB_NULL_BEGIN_CT : std_logic_vector(7 downto 0) := "00000011";$/;"	c
+NB_SYMBOL_CT	.\t1t2_demux_RTL.vhd	/^  constant NB_SYMBOL_CT             : std_logic_vector(1 downto 0) := "11"; $/;"	c
+NDBPS144_CT	.\padding_RTL.vhd	/^  constant NDBPS144_CT      : std_logic_vector(7 downto 0) := "10001111";$/;"	c
+NDBPS192_CT	.\padding_RTL.vhd	/^  constant NDBPS192_CT      : std_logic_vector(7 downto 0) := "10111111";$/;"	c
+NDBPS216_CT	.\padding_RTL.vhd	/^  constant NDBPS216_CT      : std_logic_vector(7 downto 0) := "11010111";$/;"	c
+NDBPS24_CT	.\padding_RTL.vhd	/^  constant NDBPS24_CT       : std_logic_vector(7 downto 0) := "00010111";$/;"	c
+NDBPS36_CT	.\padding_RTL.vhd	/^  constant NDBPS36_CT       : std_logic_vector(7 downto 0) := "00100011";$/;"	c
+NDBPS48_CT	.\padding_RTL.vhd	/^  constant NDBPS48_CT       : std_logic_vector(7 downto 0) := "00101111";$/;"	c
+NDBPS72_CT	.\padding_RTL.vhd	/^  constant NDBPS72_CT       : std_logic_vector(7 downto 0) := "01000111";$/;"	c
+NDBPS96_CT	.\padding_RTL.vhd	/^  constant NDBPS96_CT       : std_logic_vector(7 downto 0) := "01011111";$/;"	c
+NFRAC_I_CT	.\kalman_rtl.vhd	/^  constant NFRAC_I_CT : integer := 13;   -- innovation$/;"	c
+NFRAC_X_CT	.\kalman_rtl.vhd	/^  constant NFRAC_X_CT : integer := 13;   -- Xpriori$/;"	c
+NFRAC_Y_CT	.\kalman_rtl.vhd	/^  constant NFRAC_Y_CT : integer := 13;   -- K*innovation$/;"	c
+NFRAC_Z_CT	.\kalman_rtl.vhd	/^  constant NFRAC_Z_CT : integer := 13;   -- Xposteriori$/;"	c
+NONSEQ_CT	.\ahb_config_pkg.vhd	/^  constant  NONSEQ_CT  : std_logic_vector(1 downto 0) := "10";$/;"	c
+NORM_CT	.\freq_corr_RTL.vhd	/^  constant NORM_CT : std_logic_vector(12 downto 0) := "0100110110111";$/;"	c
+NSIGNAL2DATA0END_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant NSIGNAL2DATA0END_CT : integer $/;"	c
+NULL_CT	.\agc_cca_RTL.vhd	/^  constant NULL_CT     : std_logic_vector(6 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\ana_int_ctrl_RTL.vhd	/^  constant NULL_CT : std_logic_vector(19 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\butterfly_rtl.vhd	/^  constant NULL_CT : std_logic_vector(data_size_g-2 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\eucl_divider_RTL.vhd	/^  constant NULL_CT : std_logic_vector(qsize_g+dsize_g downto 0) := (others => '0');$/;"	c
+NULL_CT	.\fft_2cordic_pkg.vhd	/^  CONSTANT NULL_CT    : STD_LOGIC_VECTOR(data_size_g-2 DOWNTO 0) := (OTHERS => '0');$/;"	c
+NULL_CT	.\logarithm_RTL.vhd	/^  constant NULL_CT        : std_logic_vector(31 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\mem2_seq_rtl.vhd	/^  constant NULL_CT : std_logic_vector(31 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\radioctrl_registers_RTL.vhd	/^  constant NULL_CT : std_logic_vector(31 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\radiotrl_registers.vhd	/^  constant NULL_CT               : std_logic_vector(31 downto 0) := (others => '0');$/;"	c
+NULL_CT	.\rc4_control_RTL.vhd	/^  constant NULL_CT         : std_logic_vector(31 downto 0) := (others =>'0');$/;"	c
+NULL_CT	.\srt_div_rtl.vhd	/^  constant NULL_CT : std_logic_vector(nbit_quotient_g-1 downto 0) := $/;"	c
+NULL_EIGHT_US_CT	.\residual_dc_offset_RTL.vhd	/^  constant NULL_EIGHT_US_CT : std_logic_vector(3 downto 0) := "1111";-- 0.8 us$/;"	c
+N_MICRO_ROTATION_CT	.\cordic_RTL.vhd	/^  constant N_MICRO_ROTATION_CT : integer := nbr_combstage_g * nbr_pipe_g + 1;$/;"	c
+ofdm_preamble_detector	.\ofdm_preamble_detector.vhd	/^entity ofdm_preamble_detector is$/;"	e
+OFDM_SEARCH1_ST_CT	.\cca_maxim_pkg.vhd	/^  constant OFDM_SEARCH1_ST_CT           : std_logic_vector(4 downto 0) := "00100";$/;"	c
+OFDM_SEARCH2_ST_CT	.\cca_maxim_pkg.vhd	/^  constant OFDM_SEARCH2_ST_CT           : std_logic_vector(4 downto 0) := "00101";$/;"	c
+OFDM_SYMBOL_T	.\deintpun_datapath_RTL.vhd	/^  type OFDM_SYMBOL_T is array (47 downto 0) of SUB_CARRIER_T;$/;"	t
+OKAY_CT	.\ahb_config_pkg.vhd	/^  constant  OKAY_CT   : std_logic_vector(1 downto 0)  := "00";$/;"	c
+OMEGASIZE_CT	.\rx11b_demod_RTL.vhd	/^  constant OMEGASIZE_CT : integer := data_length_g+3;$/;"	c
+ONE4_CT	.\master_deseria_RTL.vhd	/^  constant ONE4_CT         : std_logic_vector(3 downto 0) := "0001";$/;"	c
+ones	.\cck_mod_RTL.vhd	/^  constant ones         : std_logic_vector ( 1 downto 0):= "11";$/;"	c
+ones_cnt	.\ones_cnt.vhd	/^entity ones_cnt is$/;"	e
+ONES_CT	.\cordic_vect_RTL.vhd	/^  constant ONES_CT  : std_logic_vector(datasize_g downto 0) := (others => '1');$/;"	c
+ONES_CT	.\eucl_divider_top_RTL.vhd	/^  constant ONES_CT : std_logic_vector(qsize_g-z_neg_g-2 downto 0) := (others => '1');$/;"	c
+ONEUS_CT	.\agc_cca_RTL.vhd	/^  constant ONEUS_CT   : std_logic_vector(5 downto 0) := "101100";$/;"	c
+ONE_PH_IQ_ACCUM_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant ONE_PH_IQ_ACCUM_SIZE_CT : std_logic_vector(PH_IQ_ACCUM_SIZE_CT-1 downto 0)$/;"	c
+ONE_US_CT	.\rx_ctrl_RTL.vhd	/^  constant ONE_US_CT          : std_logic_vector(5 downto 0) := "101011";$/;"	c
+OR_T1T2DEMUX_DATA_WIDTH_CT	.\time_domain_pkg.vhd	/^  constant OR_T1T2DEMUX_DATA_WIDTH_CT : integer := 11;$/;"	c
+output_modes	.\output_modes.vhd	/^entity output_modes is$/;"	e
+outsize_ct	.\equalizer_global_pkg.vhd	/^    constant outsize_ct  : integer := 9;$/;"	c
+OUT_MAX_CT	.\fft_serial_RTL.vhd	/^  constant OUT_MAX_CT   : std_logic_vector(9 downto 0) := "0111111111";$/;"	c
+OUT_MIN_CT	.\fft_serial_RTL.vhd	/^  constant OUT_MIN_CT   : std_logic_vector(9 downto 0) := "1000000000";$/;"	c
+P1_MEM_STATE_T	.\interl_ctrl_RTL.vhd	/^  type P1_MEM_STATE_T is (mem_write_state, -- memory is written,$/;"	t
+padding	.\padding.vhd	/^entity padding is$/;"	e
+padding_pkg	.\padding_pkg.vhd	/^package padding_pkg is$/;"	P
+PAD_STATE_T	.\padding_RTL.vhd	/^  type PAD_STATE_T is (init_state,$/;"	t
+path_ext_type	.\viterbi_rtl.vhd	/^  type path_ext_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+path_type	.\viterbi_rtl.vhd	/^  type path_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+PCM_CVSD_CT	.\config_boost_platform_pkg.vhd	/^  constant PCM_CVSD_CT           : BOOLEAN := true;$/;"	c
+peak_detect	.\peak_detect.vhd	/^entity peak_detect is$/;"	e
+peak_detect_pkg	.\peak_detect_pkg.vhd	/^package peak_detect_pkg is$/;"	P
+PEAK_INTERVAL_CT	.\phase_computation_RTL.vhd	/^  constant PEAK_INTERVAL_CT : std_logic_vector(4 downto 0) := "10000"; -- 16$/;"	c
+peak_search	.\peak_search.vhd	/^entity peak_search is$/;"	e
+PERM0_CT	.\interl_ctrl_RTL.vhd	/^  constant PERM0_CT         : std_logic_vector( 1 downto 0) := "00"; $/;"	c
+PERM1_CT	.\interl_ctrl_RTL.vhd	/^  constant PERM1_CT         : std_logic_vector( 1 downto 0) := "01"; $/;"	c
+PERM2_CT	.\interl_ctrl_RTL.vhd	/^  constant PERM2_CT         : std_logic_vector( 1 downto 0) := "10";$/;"	c
+PGM_CHAN	.\txrxcntl.vhd	/^   constant  PGM_CHAN              :  std_logic_vector(2 downto 0) := "011";    $/;"	c
+phase_computation	.\phase_computation.vhd	/^entity phase_computation is$/;"	e
+phase_estimation	.\phase_estimation.vhd	/^entity phase_estimation is$/;"	e
+phase_estimation_pkg	.\phase_estimation_pkg.vhd	/^package phase_estimation_pkg is$/;"	P
+phase_slope_comput	.\phase_slope_comput.vhd	/^entity phase_slope_comput is$/;"	e
+PHASE_STATETYPE_T	.\ramp_phase_rot_RTL.vhd	/^  type PHASE_STATETYPE_T is (idle,$/;"	t
+PHISIZE_CT	.\rx11b_demod_RTL.vhd	/^  constant PHISIZE_CT   : integer := data_length_g+6;$/;"	c
+PH_EST_SEL_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant PH_EST_SEL_CT       : integer := AV_PH_SIZE_CT-PH_EST_SIZE_CT;$/;"	c
+PH_EST_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant PH_EST_SIZE_CT      : integer := phase_width_g;$/;"	c
+PH_EST_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant PH_EST_SIZE_CT      : integer := phase_width_g;$/;"	c
+PH_IQ_ACCUM_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant PH_IQ_ACCUM_SIZE_CT : integer := 14;$/;"	c
+PH_PSET_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant PH_PSET_SIZE_CT     : integer := preset_width_g;$/;"	c
+PI2_CT	.\comp_angle_rtl.vhd	/^  constant PI2_CT : std_logic_vector(12 downto 0) := "0110010010001";  -- 2*pi with 9Bit fraction$/;"	c
+PI2_SCALED_CT	.\cordic_vect_RTL.vhd	/^  constant PI2_SCALED_CT : std_logic_vector(errorsize_g-2 downto 0) := (others =>'1');$/;"	c
+PILOT_1_CT	.\rx_predmx_pkg.vhd	/^  constant PILOT_1_CT       : integer := 43; --5; $/;"	c
+PILOT_2_CT	.\rx_predmx_pkg.vhd	/^  constant PILOT_2_CT       : integer := 57; --19;$/;"	c
+PILOT_3_CT	.\rx_predmx_pkg.vhd	/^  constant PILOT_3_CT       : integer := 7; --33;$/;"	c
+PILOT_4_CT	.\rx_predmx_pkg.vhd	/^  constant PILOT_4_CT       : integer := 21; --47;$/;"	c
+pilot_scr	.\pilot_scr.vhd	/^entity pilot_scr is$/;"	e
+pilot_scr_pkg	.\pilot_scr_pkg.vhd	/^package pilot_scr_pkg is$/;"	P
+pilot_tracking	.\pilot_tracking.vhd	/^entity pilot_tracking is$/;"	e
+pilot_tracking_pkg	.\pilot_tracking_pkg.vhd	/^package pilot_tracking_pkg is$/;"	P
+PIPELINE_T	.\wiener_ctrl_rtl.vhd	/^  type PIPELINE_T is array (11 downto 0) of $/;"	t
+PI_CT	.\comp_angle_rtl.vhd	/^  constant PI_CT  : std_logic_vector(11 downto 0) := "011001001000";  -- pi with 9Bit fraction$/;"	c
+PI_CT	.\cordic_RTL.vhd	/^  constant PI_CT       : std_logic_vector(31 downto 0) := "01100100100001111110110101010001";$/;"	c
+PI_CT	.\cordic_vectoring_rtl.vhd	/^  constant PI_CT       : std_logic_vector(31 downto 0) := "01100100100001111110110101010001";$/;"	c
+PI_CT	.\ff_estim_compute_RTL.vhd	/^  constant PI_CT            : std_logic_vector (19 downto 0) := "10000000000000000000";$/;"	c
+PI_CT	.\filter_RTL.vhd	/^  constant PI_CT     : std_logic_vector(37 downto 0)     :=$/;"	c
+PI_CT	.\kalman_rtl.vhd	/^  constant PI_CT : std_logic_vector(NBIT_X_CT-1 downto 0)$/;"	c
+PI_CT	.\mon_sto_cpe_rtl.vhd	/^  constant PI_CT : std_logic_vector(nbit_sto_cpe_g-1 downto 0)$/;"	c
+PI_CT	.\phase_computation_RTL.vhd	/^  constant PI_CT            : std_logic_vector (xb_size_g+2 downto 0) := "1000000000000";$/;"	c
+PI_CT	.\ramp_phase_rot_RTL.vhd	/^  constant PI_CT     : std_logic_vector(17 downto 0) := "000110010010000111";-- pi$/;"	c
+PI_DIV_2_CT	.\cordic_RTL.vhd	/^  constant PI_DIV_2_CT : std_logic_vector(31 downto 0) := "00110010010000111111011010101000";$/;"	c
+PI_SCALED_CT	.\cordic_RTL.vhd	/^  constant PI_SCALED_CT       : std_logic_vector(30 downto 0) := (others => '0');$/;"	c
+PI_VALMAX_CT	.\coarse_freq_sync_RTL.vhd	/^  constant PI_VALMAX_CT : std_logic_vector(xp_size_g   downto 0) := "01000000000000";$/;"	c
+PLCP_STATE_TYPE	.\modem_tx_sm_RTL.vhd	/^type PLCP_STATE_TYPE is (idle_state,     -- idle state  $/;"	t
+PLCP_TIMEOUT_CT	.\cca_timers_maxim.vhd	/^  constant PLCP_TIMEOUT_CT   : std_logic_vector(16 downto 0) := "00000000000110100";$/;"	c
+postprocessing	.\postprocessing.vhd	/^entity postprocessing is$/;"	e
+postprocessing_pkg	.\postprocessing_pkg.vhd	/^package postprocessing_pkg is$/;"	P
+power	.\conv_pkg_body.vhd	/^  function power(root : integer; puiss : integer) return integer is$/;"	f
+POWER_UP_CT	.\config_pkg.vhd	/^  constant POWER_UP_CT        : STD_LOGIC_VECTOR(8 downto 0)$/;"	c
+PRBS_CTRL_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant PRBS_CTRL_ADDR_CT      : std_logic_vector(5 downto 0) := "100100";$/;"	c
+PREAMBLE_CT	.\rx_equ_pkg.vhd	/^  constant PREAMBLE_CT      : std_logic_vector (1 downto 0) := "00";$/;"	c
+preamble_gen	.\preamble_gen.vhd	/^entity preamble_gen is$/;"	e
+preamble_gen_pkg	.\preamble_gen_pkg.vhd	/^package preamble_gen_pkg is$/;"	P
+PREAMBLE_STATE_T	.\preamble_gen_RTL.vhd	/^  type PREAMBLE_STATE_T is (idle_state, -- idle state.$/;"	t
+PRECOMP_PSI_MAX_CT	.\filter_RTL.vhd	/^  constant PRECOMP_PSI_MAX_CT  : std_logic_vector(esize_g-1 downto 0):="0110110101100";--3088$/;"	c
+PRECOMP_PSI_MIN_CT	.\filter_RTL.vhd	/^  constant PRECOMP_PSI_MIN_CT  : std_logic_vector(esize_g-1 downto 0):="0001000000000";--512$/;"	c
+PREDMUX_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant PREDMUX_WIDTH_CT       : integer := FFT_WIDTH_CT;  --$/;"	c
+PREDMUX_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant PREDMUX_WIDTH_CT       : integer := FFT_WIDTH_CT;  --$/;"	c
+PREMUX_STATE_TYPE	.\t1t2_preamble_mux_RTL.vhd	/^  type PREMUX_STATE_TYPE is (idle_e,            -- Wait for start_of_burst$/;"	t
+preprocessing	.\preprocessing.vhd	/^entity preprocessing is$/;"	e
+preprocessing_pkg	.\preprocessing_pkg.vhd	/^package preprocessing_pkg is$/;"	P
+PSET_SIZE_CT	.\iq_estimation_rtl.vhd	/^  constant PSET_SIZE_CT        : integer := preset_width_g;$/;"	c
+puncturer	.\puncturer.vhd	/^entity puncturer is$/;"	e
+puncturer_pkg	.\puncturer_pkg.vhd	/^package puncturer_pkg is$/;"	P
+punct_cpath	.\punct_cpath.vhd	/^entity punct_cpath is$/;"	e
+punct_dpath	.\punct_dpath.vhd	/^entity punct_dpath is$/;"	e
+PUNCT_STATE_T	.\punct_cpath_RTL.vhd	/^  type PUNCT_STATE_T is (punct_idle_state,   -- Idle state.$/;"	t
+PUNC_T	.\deintpun_pkg.vhd	/^  subtype PUNC_T is integer range 0 to 1;$/;"	T
+PUNC_TABLE_T	.\deintpun_pkg.vhd	/^  type PUNC_TABLE_T is array (1 to BITS_PER_SYMBOL_QAM64_3_4_CT) of PUNC_T;$/;"	t
+PUN_MODE_SIGNAL_CT	.\channel_decoder_control_RTL.vhd	/^  constant PUN_MODE_SIGNAL_CT      : std_logic_vector(1 downto 0) := "00";$/;"	c
+QAM16_CT	.\freq_domain_pack.vhd	/^  constant QAM16_CT : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "01"; $/;"	c
+QAM16_CT	.\interl_ctrl_RTL.vhd	/^  constant QAM16_CT         : std_logic_vector( 1 downto 0) := "10"; $/;"	c
+QAM16_CT	.\mapper_RTL.vhd	/^  constant QAM16_CT         : std_logic_vector( 1 downto 0) := "10"; $/;"	c
+QAM16_CT	.\modem802_11a2_pack.vhd	/^  constant QAM16_CT : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "01"; $/;"	c
+QAM64_CT	.\freq_domain_pack.vhd	/^  constant QAM64_CT : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "00";$/;"	c
+QAM64_CT	.\interl_ctrl_RTL.vhd	/^  constant QAM64_CT         : std_logic_vector( 1 downto 0) := "00"; $/;"	c
+QAM64_CT	.\mapper_RTL.vhd	/^  constant QAM64_CT         : std_logic_vector( 1 downto 0) := "00"; $/;"	c
+QAM64_CT	.\modem802_11a2_pack.vhd	/^  constant QAM64_CT : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "00";$/;"	c
+QAM_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   QAM_ARRAY_T           is array (5 downto 3) of std_logic_vector (QAM_MODE_WIDTH_CT-1 downto 0);$/;"	t
+QAM_LEFT_BOUND_CT	.\rx_equ_pkg.vhd	/^  constant QAM_LEFT_BOUND_CT  :    integer := 1;$/;"	c
+QAM_MODE_SIGNAL_CT	.\channel_decoder_control_RTL.vhd	/^  constant QAM_MODE_SIGNAL_CT      : std_logic_vector(1 downto 0) := "11";$/;"	c
+QAM_MODE_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant QAM_MODE_WIDTH_CT    : integer := 2; -- qam_mode width$/;"	c
+QAM_MODE_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant QAM_MODE_WIDTH_CT    : integer := 2; -- qam_mode width$/;"	c
+QAM_RIGHT_BOUND_CT	.\rx_equ_pkg.vhd	/^  constant QAM_RIGHT_BOUND_CT :    integer := 0;$/;"	c
+qerr_mult	.\qerr_mult.vhd	/^entity qerr_mult is$/;"	e
+QPSK_CT	.\freq_domain_pack.vhd	/^  constant QPSK_CT  : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "10"; $/;"	c
+QPSK_CT	.\interl_ctrl_RTL.vhd	/^  constant QPSK_CT          : std_logic_vector( 1 downto 0) := "01"; $/;"	c
+QPSK_CT	.\mapper_RTL.vhd	/^  constant QPSK_CT          : std_logic_vector( 1 downto 0) := "01"; $/;"	c
+QPSK_CT	.\modem802_11a2_pack.vhd	/^  constant QPSK_CT  : std_logic_vector(QAM_MODE_WIDTH_CT -1 downto 0) := "10"; $/;"	c
+qpsk_enc	.\functions_pkg_body.vhd	/^function qpsk_enc $/;"	f
+QPSK_MODE_CT	.\decode_path_RTL.vhd	/^  constant QPSK_MODE_CT       : std_logic_vector (1 downto 0) := "01";$/;"	c
+QPSK_MODE_CT	.\deserializer_RTL.vhd	/^  constant QPSK_MODE_CT       : std_logic_vector (1 downto 0) := "01";$/;"	c
+radar_detection_pkg	.\radar_detection_pkg.vhd	/^package radar_detection_pkg is$/;"	P
+radioctrl	.\radioctrl.vhd	/^entity radioctrl is$/;"	e
+radioctrl_maxair	.\radioctrl_maxair.vhd	/^entity radioctrl_maxair is$/;"	e
+radioctrl_pkg	.\radioctrl_pkg.vhd	/^package radioctrl_pkg is$/;"	P
+radioctrl_registers	.\radioctrl_registers.vhd	/^entity radioctrl_registers is$/;"	e
+radioctrl_registers	.\radiotrl_registers.vhd	/^entity radioctrl_registers is$/;"	e
+RADIO_MANCNTL_CT	.\config_pkg.vhd	/^  constant RADIO_MANCNTL_CT   : BOOLEAN := false;$/;"	c
+RADIO_TX2RX_DELAY	.\txrxcntl.vhd	/^   constant  RADIO_TX2RX_DELAY     :  std_logic_vector(8 downto 0)  := "001111000";$/;"	c
+ramp_phase_rot	.\ramp_phase_rot.vhd	/^entity ramp_phase_rot is$/;"	e
+ramp_phase_rot_pkg	.\ramp_phase_rot_pkg.vhd	/^package ramp_phase_rot_pkg is$/;"	P
+RATE_12_CT	.\rx_equ_pkg.vhd	/^  constant RATE_12_CT  :    std_logic_vector (3 downto 0) := "1010";$/;"	c
+RATE_18_CT	.\rx_equ_pkg.vhd	/^  constant RATE_18_CT  :    std_logic_vector (3 downto 0) := "1110";$/;"	c
+RATE_24_CT	.\rx_equ_pkg.vhd	/^  constant RATE_24_CT  :    std_logic_vector (3 downto 0) := "1001";$/;"	c
+RATE_36_CT	.\rx_equ_pkg.vhd	/^  constant RATE_36_CT  :    std_logic_vector (3 downto 0) := "1101";$/;"	c
+RATE_48_CT	.\rx_equ_pkg.vhd	/^  constant RATE_48_CT  :    std_logic_vector (3 downto 0) := "1000";$/;"	c
+RATE_54_CT	.\rx_equ_pkg.vhd	/^  constant RATE_54_CT  :    std_logic_vector (3 downto 0) := "1100";$/;"	c
+RATE_6_CT	.\rx_equ_pkg.vhd	/^  constant RATE_6_CT   :    std_logic_vector (3 downto 0) := "1011";$/;"	c
+RATE_9_CT	.\rx_equ_pkg.vhd	/^  constant RATE_9_CT   :    std_logic_vector (3 downto 0) := "1111";$/;"	c
+rc4_control	.\rc4_control.vhd	/^entity rc4_control is$/;"	e
+rc4_crc	.\rc4_crc.vhd	/^entity rc4_crc is$/;"	e
+rc4_crc_pkg	.\rc4_crc_pkg.vhd	/^package rc4_crc_pkg is$/;"	P
+rc4_keyloading	.\rc4_keyloading.vhd	/^entity rc4_keyloading is$/;"	e
+rc4_keystream	.\rc4_keystream.vhd	/^entity rc4_keystream is$/;"	e
+rc4_sboxgenerator	.\rc4_sboxgenerator.vhd	/^entity rc4_sboxgenerator is$/;"	e
+rc4_sboxinit	.\rc4_sboxinit.vhd	/^entity rc4_sboxinit is$/;"	e
+RC4_STATE_TYPE	.\rc4_control_RTL.vhd	/^  type RC4_STATE_TYPE is (idle_state,       -- Idle phase.$/;"	t
+RCADCDACCNTL_ADDR	.\radiotrl_registers.vhd	/^  constant RCADCDACCNTL_ADDR     : std_logic_vector(6 downto 0) := "0000000";  $/;"	c
+RCCMD_ADD_CT	.\radioctrl_pkg.vhd	/^  constant RCCMD_ADD_CT      : std_logic_vector(6 downto 0) := "0000100";$/;"	c
+RCCNTL_ADDR_CT	.\radioctrl_pkg.vhd	/^  constant RCCNTL_ADDR_CT    : std_logic_vector(6 downto 0) := "0000000";$/;"	c
+RCCNTL_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCCNTL_ADDR_CT       : std_logic_vector(5 downto 0) := "000100";  --04$/;"	c
+RCCURRFREQ_ADDR	.\radiotrl_registers.vhd	/^  constant RCCURRFREQ_ADDR       : std_logic_vector(6 downto 0) := "0010100";  $/;"	c
+RCINTACK_ADDR_CT	.\radioctrl_pkg.vhd	/^  constant RCINTACK_ADDR_CT  : std_logic_vector(6 downto 0) := "0001100";$/;"	c
+RCINTACK_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCINTACK_ADDR_CT     : std_logic_vector(5 downto 0) := "010100";  --14$/;"	c
+RCINTEN_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCINTEN_ADDR_CT      : std_logic_vector(5 downto 0) := "011000";  --18$/;"	c
+RCINTSTAT_ADDR_CT	.\radioctrl_pkg.vhd	/^  constant RCINTSTAT_ADDR_CT : std_logic_vector(6 downto 0) := "0001000";$/;"	c
+RCINTSTAT_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCINTSTAT_ADDR_CT    : std_logic_vector(5 downto 0) := "010000";  --10$/;"	c
+RCRADIOCONFIG_ADDR	.\radiotrl_registers.vhd	/^  constant RCRADIOCONFIG_ADDR    : std_logic_vector(6 downto 0) := "0010000";  $/;"	c
+RCRAMPUP_ADDR	.\radiotrl_registers.vhd	/^  constant RCRAMPUP_ADDR         : std_logic_vector(6 downto 0) := "0011100";  $/;"	c
+RCRDDATA_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCRDDATA_ADDR_CT     : std_logic_vector(5 downto 0) := "001100";  --0C$/;"	c
+RCRFANACNTL_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCRFANACNTL_ADDR_CT  : std_logic_vector(5 downto 0) := "100100";  --24$/;"	c
+RCRFCNTL_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCRFCNTL_ADDR_CT     : std_logic_vector(5 downto 0) := "100000";  --20$/;"	c
+RCRFHISSCNTL_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCRFHISSCNTL_ADDR_CT : std_logic_vector(5 downto 0) := "101000";  --28$/;"	c
+RCRSSI_ADDR	.\radiotrl_registers.vhd	/^  constant RCRSSI_ADDR           : std_logic_vector(6 downto 0) := "0000100";  $/;"	c
+RCRXRAMPCOUNT_ADDR	.\radiotrl_registers.vhd	/^  constant RCRXRAMPCOUNT_ADDR    : std_logic_vector(6 downto 0) := "0001100";  $/;"	c
+RCSTAT_ADDR	.\radiotrl_registers.vhd	/^  constant RCSTAT_ADDR           : std_logic_vector(6 downto 0) := "0100000";  $/;"	c
+RCSWRFOFFREQ_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCSWRFOFFREQ_ADDR_CT : std_logic_vector(5 downto 0) := "101100";  --2C$/;"	c
+RCTXRAMPCOUNT_ADDR	.\radiotrl_registers.vhd	/^  constant RCTXRAMPCOUNT_ADDR    : std_logic_vector(6 downto 0) := "0001000";  $/;"	c
+RCTXSTARTDEL_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCTXSTARTDEL_ADDR_CT : std_logic_vector(5 downto 0) := "011100";  --1C$/;"	c
+RCVERSION_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCVERSION_ADDR_CT    : std_logic_vector(5 downto 0) := "000000";  --00$/;"	c
+RCWRDATA_ADDR	.\radiotrl_registers.vhd	/^  constant RCWRDATA_ADDR         : std_logic_vector(6 downto 0) := "0011000";  $/;"	c
+RCWRDATA_ADDR_CT	.\radioctrl_registers_RTL.vhd	/^  constant RCWRDATA_ADDR_CT     : std_logic_vector(5 downto 0) := "001000";  --08$/;"	c
+RC_RELEASE_CT	.\radioctrl_registers_RTL.vhd	/^  constant RC_RELEASE_CT : std_logic_vector(7 downto 0) := "00000000";$/;"	c
+RC_UPGRADE_CT	.\radioctrl_registers_RTL.vhd	/^  constant RC_UPGRADE_CT : std_logic_vector(7 downto 0) := "00001100"; -- 12$/;"	c
+RD_CNT_INIT_CT	.\interl_ctrl_RTL.vhd	/^  constant RD_CNT_INIT_CT   : std_logic_vector( 1 downto 0) := "10"; $/;"	c
+RD_REG_SHIFT_CT	.\master_deseria_RTL.vhd	/^  constant RD_REG_SHIFT_CT : std_logic_vector(3 downto 0) := "1000";  -- 8 (x2 data only) $/;"	c
+RD_REG_SHIFT_CT	.\master_seria_RTL.vhd	/^  constant RD_REG_SHIFT_CT : std_logic_vector(4 downto 0) := "00100";  -- 3+1 (x2 (i\/q)) $/;"	c
+READ_STATE_TYPE_T	.\bup2_tx_sm_RTL.vhd	/^type READ_STATE_TYPE_T is (idle_state,          -- idle state     $/;"	t
+READ_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant READ_ST_CT : std_logic_vector(3 downto 0) := "0001";$/;"	c
+reference_value0	.\viterbi_rtl.vhd	/^  function reference_value0 (vector0, vector1 : std_logic_vector(6 downto 0))$/;"	f
+reference_value1	.\viterbi_rtl.vhd	/^  function reference_value1 (vector0, vector1 : std_logic_vector(6 downto 0))$/;"	f
+ref_type	.\viterbi_rtl.vhd	/^  type ref_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+regbank_maxim	.\regbank_maxim.vhd	/^entity regbank_maxim is$/;"	e
+reg_type	.\viterbi_rtl.vhd	/^  type reg_type is array (TRELLIS_CT-1 downto 0) of$/;"	t
+reqdata_handler	.\reqdata_handler.vhd	/^entity reqdata_handler is$/;"	e
+REQ_HANDLER_STATE_TYPE	.\reqdata_handler_RTL.vhd	/^  type REQ_HANDLER_STATE_TYPE is (idle_state ,     -- Idle state$/;"	t
+RESCALE_ADC_CT	.\logarithm_RTL.vhd	/^  constant RESCALE_ADC_CT : std_logic_vector(13 downto 0) := "11011011111001" ;--$/;"	c
+RESET_ACCU_CT	.\ffwd_filter_RTL.vhd	/^  constant RESET_ACCU_CT : std_logic_vector(1 downto 0) := "11";$/;"	c
+residual_dc_offset	.\residual_dc_offset.vhd	/^entity residual_dc_offset is$/;"	e
+residual_dc_offset_pkg	.\residual_dc_offset_pkg.vhd	/^package residual_dc_offset_pkg is$/;"	P
+RETRY_CT	.\ahb_config_pkg.vhd	/^  constant  RETRY_CT  : std_logic_vector(1 downto 0)  := "10";$/;"	c
+RFCHAN_ADDR_CT	.\ana_int_ctrl_RTL.vhd	/^  constant RFCHAN_ADDR_CT   : std_logic_vector(5 downto 0) := "000010";$/;"	c
+RFCLKCNTL_ADD_CT	.\decode_add_RTL.vhd	/^  constant RFCLKCNTL_ADD_CT        : std_logic_vector(5 downto 0) := "000011";  -- 03h$/;"	c
+RFCNTL_ADDR_CT	.\ana_int_ctrl_RTL.vhd	/^  constant RFCNTL_ADDR_CT   : std_logic_vector(5 downto 0) := "000110";$/;"	c
+RFDYNCNTL_ADDR_CT	.\reqdata_handler_RTL.vhd	/^  constant RFDYNCNTL_ADDR_CT : std_logic_vector(5 downto 0):="000010";$/;"	c
+RFOFF_ST_CT	.\cca_maxim_pkg.vhd	/^  constant RFOFF_ST_CT                  : std_logic_vector(4 downto 0) := "00000";$/;"	c
+RFRSSI_ADDR_CT	.\ana_int_ctrl_RTL.vhd	/^  constant RFRSSI_ADDR_CT   : std_logic_vector(5 downto 0) := "000001";$/;"	c
+RFRXGAIN_ADDR_CT	.\ana_int_ctrl_RTL.vhd	/^  constant RFRXGAIN_ADDR_CT : std_logic_vector(5 downto 0) := "000000";$/;"	c
+RFTXGAIN_ADDR_CT	.\ana_int_ctrl_RTL.vhd	/^  constant RFTXGAIN_ADDR_CT : std_logic_vector(5 downto 0) := "000011";$/;"	c
+RFTXGAIN_CT	.\reqdata_handler_RTL.vhd	/^  constant RFTXGAIN_CT            : std_logic_vector(5 downto 0) := "000011";$/;"	c
+RF_BIAS_SETTING_ST_CT	.\cca_maxim_pkg.vhd	/^  constant RF_BIAS_SETTING_ST_CT        : std_logic_vector(4 downto 0) := "00001";$/;"	c
+RF_EN_DELAYM3_CT	.\master_hiss_sm_RTL.vhd	/^  constant RF_EN_DELAYM3_CT : std_logic_vector (3 downto 0) := "1100"; -- "Rf_en delay" - "power-on delay" $/;"	c
+ring_buffer	.\ring_buffer.vhd	/^entity ring_buffer is$/;"	e
+ROM_MEM_T	.\sine_table_rom_rtl.vhd	/^  type ROM_MEM_T is array (0 to MAX_ADDR_CT - 1) of integer ;$/;"	t
+ROM_STORAGE_T	.\wiener_coeff_rtl.vhd	/^  type ROM_STORAGE_T is array (0 to 2**(WIENER_ADDR_WIDTH_CT)-1) of$/;"	t
+ROWS_CT	.\aes_invmixcolumns_RTL.vhd	/^constant ROWS_CT    : integer := 4;     -- Number of rows in the State.$/;"	c
+ROWS_CT	.\aes_invshiftrows_RTL.vhd	/^constant ROWS_CT    : integer := 4;     -- Number of rows in the State.$/;"	c
+ROWS_CT	.\aes_mixcolumns_RTL.vhd	/^constant ROWS_CT    : integer := 4;     -- Number of rows in the State.$/;"	c
+ROWS_CT	.\aes_shiftrows_RTL.vhd	/^constant ROWS_CT    : integer := 4;     -- Number of rows in the State.$/;"	c
+row_type	.\aes_invmixcolumns_RTL.vhd	/^type row_type     is array (COLUMNS_CT-1 downto 0)$/;"	t
+row_type	.\aes_invshiftrows_RTL.vhd	/^type row_type     is array (COLUMNS_CT-1 downto 0)$/;"	t
+row_type	.\aes_mixcolumns_RTL.vhd	/^type row_type     is array (COLUMNS_CT-1 downto 0)$/;"	t
+row_type	.\aes_shiftrows_RTL.vhd	/^type row_type     is array (COLUMNS_CT-1 downto 0)$/;"	t
+RSSIDB_TYPE	.\agc_cca_RTL.vhd	/^  type RSSIDB_TYPE is array(1 downto 0) of std_logic_vector(8 downto 0);$/;"	t
+rssi_ctrl	.\rssi_ctrl.vhd	/^entity rssi_ctrl is$/;"	e
+RSSI_SAT_CT	.\agc_cca_RTL.vhd	/^  constant RSSI_SAT_CT : std_logic_vector(6 downto 0) := "1111100";$/;"	c
+rw_wlanbb_11g_maxim	.\rw_wlanbb_11g_maxin.vhd	/^entity rw_wlanbb_11g_maxim is$/;"	e
+RX	.\txrxcntl.vhd	/^   constant  RX                    :  std_logic_vector(2 downto 0) := "010";    $/;"	c
+rx11b_demod	.\rx11b_demod.vhd	/^entity rx11b_demod is$/;"	e
+rx11b_demod_pkg	.\rx11b_demod_pkg.vhd	/^package rx11b_demod_pkg is$/;"	P
+RXABTCNT_MIN_CT	.\bup2_registers_pkg.vhd	/^   constant RXABTCNT_MIN_CT : std_logic_vector(5 downto 0) := "001101";$/;"	c
+RXEND_TIMEOUT_CT	.\cca_timers_maxim.vhd	/^  constant RXEND_TIMEOUT_CT  : std_logic_vector(16 downto 0) := "00000000000000101";$/;"	c
+rx_ctrl	.\rx_ctrl.vhd	/^entity rx_ctrl is$/;"	e
+RX_CTRL0_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant RX_CTRL0_ADDR_CT       : std_logic_vector(5 downto 0) := "001000";$/;"	c
+RX_CTRL1_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant RX_CTRL1_ADDR_CT       : std_logic_vector(5 downto 0) := "101100";$/;"	c
+rx_ctrl_pkg	.\rx_ctrl_pkg.vhd	/^package rx_ctrl_pkg is$/;"	P
+rx_descr	.\rx_descr.vhd	/^entity rx_descr is$/;"	e
+rx_descr_pkg	.\rx_descr_pkg.vhd	/^package rx_descr_pkg is$/;"	P
+rx_equ	.\rx_equ.vhd	/^entity rx_equ is$/;"	e
+rx_equ_fsm	.\rx_equ_fsm.vhd	/^entity rx_equ_fsm is$/;"	e
+rx_equ_instage0	.\rx_equ_instage0.vhd	/^entity rx_equ_instage0 is$/;"	e
+rx_equ_instage0_corman	.\rx_equ_instage0_corman.vhd	/^entity rx_equ_instage0_corman is$/;"	e
+rx_equ_instage0_ctr	.\rx_equ_instage0_ctr.vhd	/^entity rx_equ_instage0_ctr is$/;"	e
+rx_equ_instage0_hpowman	.\rx_equ_instage0_hpowman.vhd	/^entity rx_equ_instage0_hpowman is$/;"	e
+rx_equ_instage1	.\rx_equ_instage1.vhd	/^entity rx_equ_instage1 is$/;"	e
+rx_equ_instage2	.\rx_equ_instage2.vhd	/^entity rx_equ_instage2 is$/;"	e
+rx_equ_outstage0	.\rx_equ_outstage0.vhd	/^entity rx_equ_outstage0 is$/;"	e
+rx_equ_outstage1	.\rx_equ_outstage1.vhd	/^entity rx_equ_outstage1 is$/;"	e
+rx_equ_outstage2	.\rx_equ_outstage2.vhd	/^entity rx_equ_outstage2 is$/;"	e
+rx_equ_pkg	.\rx_equ_pkg.vhd	/^package rx_equ_pkg is$/;"	P
+RX_HISS_STATE_TYPE	.\master_hiss_sm_RTL.vhd	/^  type RX_HISS_STATE_TYPE is (rx_idle,           -- no received data$/;"	t
+RX_IQEST_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant RX_IQEST_ADDR_CT       : std_logic_vector(5 downto 0) := "010000";$/;"	c
+RX_IQPRESET_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant RX_IQPRESET_ADDR_CT    : std_logic_vector(5 downto 0) := "001100";$/;"	c
+rx_mac_if	.\rx_mac_if.vhd	/^entity rx_mac_if is$/;"	e
+rx_mac_if_pkg	.\rx_mac_if_pkg.vhd	/^package rx_mac_if_pkg is$/;"	P
+RX_MAX_INDEX_CT	.\fft_shell_RTL.vhd	/^  constant RX_MAX_INDEX_CT   : std_logic_vector(5 downto 0) := "110111"; -- 55$/;"	c
+RX_MODEM_AGC_ST_CT	.\cca_maxim_pkg.vhd	/^  constant RX_MODEM_AGC_ST_CT           : std_logic_vector(4 downto 0) := "01011";$/;"	c
+RX_MODEM_ONLY_ST_CT	.\cca_maxim_pkg.vhd	/^  constant RX_MODEM_ONLY_ST_CT          : std_logic_vector(4 downto 0) := "01101";$/;"	c
+rx_path_core	.\rx_path_core.vhd	/^entity rx_path_core is$/;"	e
+rx_path_pkg	.\rx_path_pkg.vhd	/^package rx_path_pkg is$/;"	P
+rx_predmx	.\rx_predmx.vhd	/^entity rx_predmx is$/;"	e
+rx_predmx_pkg	.\rx_predmx_pkg.vhd	/^package rx_predmx_pkg is$/;"	P
+rx_resync_60to80	.\rx_resync_60to80.vhd	/^entity rx_resync_60to80 is$/;"	e
+RX_START_INDEX_CT	.\fft_shell_RTL.vhd	/^  constant RX_START_INDEX_CT : std_logic_vector(5 downto 0) := "111000"; -- 56$/;"	c
+RX_STATE_TYPE	.\bup2_rx_sm_RTL.vhd	/^type RX_STATE_TYPE is (idle_state,         -- idle state     $/;"	t
+RX_STATE_TYPE	.\modem_rx_sm_RTL.vhd	/^  type RX_STATE_TYPE is (idle_state,         -- idle state  $/;"	t
+rx_top	.\rx_top.vhd	/^entity rx_top is$/;"	e
+rx_top_pkg	.\rx_top_pkg.vhd	/^package rx_top_pkg is$/;"	P
+S1_QAM16_CT	.\rx_equ_pkg.vhd	/^  constant S1_QAM16_CT          :integer := 162;$/;"	c
+S1_QAM64_CT	.\rx_equ_pkg.vhd	/^  constant S1_QAM64_CT          :integer := 158;$/;"	c
+S2B_STATE_TYPE	.\state2byte_RTL.vhd	/^type S2B_STATE_TYPE is (idle_state,       -- Idle phase$/;"	t
+SAMPLES_64_CT	.\t1t2_preamble_mux_RTL.vhd	/^  constant SAMPLES_64_CT : std_logic_vector(5 downto 0):= (others => '1');$/;"	c
+sample_fifo	.\sample_fifo.vhd	/^entity sample_fifo is$/;"	e
+sample_fifo_pkg	.\sample_fifo_pkg.vhd	/^package sample_fifo_pkg is$/;"	P
+sample_fifo_sm	.\sample_fifo_sm.vhd	/^entity sample_fifo_sm is$/;"	e
+SAMPLE_NUM_CT	.\freq_corr_RTL.vhd	/^  constant SAMPLE_NUM_CT      : integer := 128;$/;"	c
+SAMPL_CT	.\ffwd_estimation_RTL.vhd	/^  constant SAMPL_CT : std_logic_vector(1 downto 0)         := "11";$/;"	c
+SATMAXNCARR_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant SATMAXNCARR_WIDTH_CT : integer  := 6;  -- satmaxncarr width$/;"	c
+SATMAXNCARR_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant SATMAXNCARR_WIDTH_CT : integer  := 6;  -- satmaxncarr width$/;"	c
+saturateandtrunc	.\butterfly_rtl.vhd	/^  function saturateandtrunc(data_in:std_logic_vector(data_size_g+2 downto 0)) return std_logic_vector is$/;"	f
+sat_round_signed_slv	.\mdm_math_func_pkg_body.vhd	/^  function sat_round_signed_slv$/;"	f
+sat_round_signed_sym_slv	.\mdm_math_func_pkg_body.vhd	/^  function sat_round_signed_sym_slv$/;"	f
+sat_signed_slv	.\mdm_math_func_pkg_body.vhd	/^  function sat_signed_slv$/;"	f
+sat_unsigned_slv	.\mdm_math_func_pkg_body.vhd	/^  function sat_unsigned_slv$/;"	f
+SAVED_CHMEM_CT	.\rx_equ_pkg.vhd	/^  constant SAVED_CHMEM_CT	:std_logic_vector (1 downto 0) := "01";$/;"	c
+SAVED_DATA_CT	.\rx_equ_pkg.vhd	/^  constant SAVED_DATA_CT		:std_logic_vector (1 downto 0) := "10";$/;"	c
+sboxgen_state_type	.\rc4_sboxgenerator_RTL.vhd	/^type sboxgen_state_type is (idle_state,    -- Idle phase$/;"	t
+SBOX_ARRAY_TYPE	.\key_mixing_sbox_RTL.vhd	/^  type SBOX_ARRAY_TYPE is array(0 to 255) of std_logic_vector(15 downto 0);$/;"	t
+SBOX_TABLE_CT	.\key_mixing_sbox_RTL.vhd	/^  constant SBOX_TABLE_CT : SBOX_ARRAY_TYPE := ($/;"	c
+SCALE_CT	.\core_filter_RTL.vhd	/^  constant SCALE_CT    : std_logic_vector (9 downto 0) := "1110110011";-- 947$/;"	c
+scrambler_a2	.\scrambler_a2.vhd	/^entity scrambler_a2 is$/;"	e
+scrambler_a2_pkg	.\scrambler_a2_pkg.vhd	/^package scrambler_a2_pkg is$/;"	P
+SCRAMBLER_STATE_T	.\scrambler_a2_RTL.vhd	/^  type SCRAMBLER_STATE_T is (init_state,$/;"	t
+scrambling8_8	.\scrambling8_8.vhd	/^entity scrambling8_8 is$/;"	e
+scrambling_pkg	.\scrambling_pkg.vhd	/^package scrambling_pkg is$/;"	P
+SC_T	.\inv_matrix_rtl.vhd	/^  type SC_T is array (0 to 3) of signed(5 downto 0);$/;"	t
+SC_WEIGHT_T	.\inv_matrix_rtl.vhd	/^  type SC_WEIGHT_T is array (0 to 1) of unsigned(8 downto 0);$/;"	t
+SECONDEXP_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   SECONDEXP_ARRAY_T     is array (5 downto 3) of std_logic_vector (SHIFT_SOFT_WIDTH_CT-1 downto 0);$/;"	t
+SEL_131072HZ_CT	.\bup2_timers_RTL.vhd	/^  constant SEL_131072HZ_CT    : std_logic_vector(1 downto 0) := "10";$/;"	c
+SEL_32768HZ_CT	.\bup2_timers_RTL.vhd	/^  constant SEL_32768HZ_CT     : std_logic_vector(1 downto 0) := "01";$/;"	c
+SEL_32KHZ_CT	.\bup2_timers_RTL.vhd	/^  constant SEL_32KHZ_CT       : std_logic_vector(1 downto 0) := "00";$/;"	c
+SEQ_CT	.\ahb_config_pkg.vhd	/^  constant  SEQ_CT     : std_logic_vector(1 downto 0) := "11";$/;"	c
+serialif	.\serialif.vhd	/^entity serialif is$/;"	e
+serializer	.\serializer.vhd	/^entity serializer is$/;"	e
+serializer_pkg	.\serializer_pkg.vhd	/^package serializer_pkg is$/;"	P
+serial_parity_gen	.\serial_parity_gen.vhd	/^entity serial_parity_gen is$/;"	e
+serial_parity_pkg	.\serial_parity_pkg.vhd	/^package serial_parity_pkg is$/;"	P
+SERIA_STATE	.\serializer_RTL.vhd	/^  type SERIA_STATE is  ( idle,          -- idle phase$/;"	t
+SERVICE_FIELD_LENGTH_CT	.\freq_domain_pack.vhd	/^  constant SERVICE_FIELD_LENGTH_CT : integer := 16;$/;"	c
+SERVICE_FIELD_LENGTH_CT	.\modem802_11a2_pack.vhd	/^  constant SERVICE_FIELD_LENGTH_CT : integer := 16;$/;"	c
+sfd_comp_pkg	.\sfd_comp_pkg.vhd	/^package sfd_comp_pkg is$/;"	P
+SFD_DETECTION_CT	.\agc_cca_RTL.vhd	/^  constant SFD_DETECTION_CT : std_logic_vector(15 downto 0) := "0000000010000001";$/;"	c
+SFD_TIMEOUT_CT	.\cca_timers_maxim.vhd	/^  constant SFD_TIMEOUT_CT    : std_logic_vector(16 downto 0) := "00000000010010000";$/;"	c
+shared_fifo_mem	.\shared_fifo_mem.vhd	/^entity shared_fifo_mem is$/;"	e
+shared_fifo_mem_pkg	.\shared_fifo_mem_pkg.vhd	/^package shared_fifo_mem_pkg is$/;"	P
+shifta_ct	.\equalizer_global_pkg.vhd	/^    constant shifta_ct  : integer := 14;          -- data size after shifting by alpha.$/;"	c
+shiftb_ct	.\equalizer_global_pkg.vhd	/^    constant shiftb_ct   : integer := 12;         -- data size after shifting by beta$/;"	c
+shift_adder	.\shift_adder.vhd	/^entity shift_adder is$/;"	e
+shift_param_gen	.\shift_param_gen.vhd	/^entity shift_param_gen is$/;"	e
+SHIFT_SOFT_WIDTH_CT	.\rx_equ_pkg.vhd	/^  constant SHIFT_SOFT_WIDTH_CT  : integer :=  4;$/;"	c
+short_seq_im	.\preamble_gen_pkg.vhd	/^  constant short_seq_im : integer_ar_16 := ($/;"	c
+short_seq_re	.\preamble_gen_pkg.vhd	/^  constant short_seq_re : integer_ar_16 := ($/;"	c
+SHORT_SFD_CHAIN_CT	.\long_sfd_comp_RTL.vhd	/^  constant SHORT_SFD_CHAIN_CT : std_logic_vector (15 downto 0)$/;"	c
+SHORT_SFD_CHAIN_CT	.\short_sfd_comp_RTL.vhd	/^  constant SHORT_SFD_CHAIN_CT : std_logic_vector (22 downto 0)$/;"	c
+short_sfd_comp	.\short_sfd_comp.vhd	/^entity short_sfd_comp is$/;"	e
+SHUTDOWN_STATE	.\txrxcntl.vhd	/^   constant  SHUTDOWN_STATE        :  std_logic_vector(2 downto 0) := "000";    $/;"	c
+SHUTDOWN_TIME	.\txrxcntl.vhd	/^   constant  SHUTDOWN_TIME         :  std_logic_vector(15 downto 0) := "0000000000100000";$/;"	c
+SIFS_COUNTER_SM_TYPE	.\bup2_timers_RTL.vhd	/^  type SIFS_COUNTER_SM_TYPE is (idle_state, sifs_count_state, wait_state);$/;"	t
+SIGMASIZE_CT	.\rx11b_demod_RTL.vhd	/^  constant SIGMASIZE_CT : integer := data_length_g+1;$/;"	c
+signal_control	.\signal_control.vhd	/^entity signal_control is$/;"	e
+SIGNAL_CONTROL_STATE_T	.\signal_control_RTL.vhd	/^  type SIGNAL_CONTROL_STATE_T is (IDLE,$/;"	t
+SIGNAL_CONTROL_VALID_T	.\signal_control_RTL.vhd	/^  type SIGNAL_CONTROL_VALID_T is (INVALID,$/;"	t
+signal_datapath	.\signal_datapath.vhd	/^entity signal_datapath is$/;"	e
+SIGNAL_FIELD_CT	.\rx_equ_pkg.vhd	/^  constant SIGNAL_FIELD_CT  : std_logic_vector (1 downto 0) := "01";$/;"	c
+SIGNAL_FIELD_LENGTH_CT	.\freq_domain_pack.vhd	/^  constant SIGNAL_FIELD_LENGTH_CT  : integer := 18;$/;"	c
+SIGNAL_FIELD_LENGTH_CT	.\modem802_11a2_pack.vhd	/^  constant SIGNAL_FIELD_LENGTH_CT  : integer := 18;$/;"	c
+SIMULATION	.\target_config_pkg.vhd	/^  constant SIMULATION : integer := 5;$/;"	c
+sine_table_rom	.\sine_table_rom.vhd	/^entity sine_table_rom is$/;"	e
+sine_table_rom_pkg	.\sine_table_rom_pkg.vhd	/^package sine_table_rom_pkg is$/;"	P
+SINGLE_CT	.\ahb_config_pkg.vhd	/^  constant  SINGLE_CT  : std_logic_vector(2 downto 0) := "000";$/;"	c
+SIXUS_CT	.\agc_cca_RTL.vhd	/^  constant SIXUS_CT   : std_logic_vector(8 downto 0) := "100000111";$/;"	c
+SLEEP2ON_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant SLEEP2ON_CT : integer := 8;$/;"	c
+slv1	.\slv_pkg.vhd	/^  subtype slv1 is std_logic;$/;"	T
+slv10	.\slv_pkg.vhd	/^  subtype slv10 is std_logic_vector(9 downto 0);$/;"	T
+slv100	.\slv_pkg.vhd	/^  subtype slv100 is std_logic_vector(99 downto 0);$/;"	T
+SLV10_ARRAY	.\bup2_registers_RTL.vhd	/^  type SLV10_ARRAY is array(natural range <>) of std_logic_vector(9 downto 0);$/;"	t
+slv11	.\slv_pkg.vhd	/^  subtype slv11 is std_logic_vector(10 downto 0);$/;"	T
+slv12	.\slv_pkg.vhd	/^  subtype slv12 is std_logic_vector(11 downto 0);$/;"	T
+slv128	.\slv_pkg.vhd	/^  subtype slv128 is std_logic_vector(127 downto 0);$/;"	T
+slv13	.\slv_pkg.vhd	/^  subtype slv13 is std_logic_vector(12 downto 0);$/;"	T
+slv14	.\slv_pkg.vhd	/^  subtype slv14 is std_logic_vector(13 downto 0);$/;"	T
+slv15	.\slv_pkg.vhd	/^  subtype slv15 is std_logic_vector(14 downto 0);$/;"	T
+slv16	.\slv_pkg.vhd	/^  subtype slv16 is std_logic_vector(15 downto 0);$/;"	T
+slv17	.\slv_pkg.vhd	/^  subtype slv17 is std_logic_vector(16 downto 0);$/;"	T
+slv18	.\slv_pkg.vhd	/^  subtype slv18 is std_logic_vector(17 downto 0);$/;"	T
+slv19	.\slv_pkg.vhd	/^  subtype slv19 is std_logic_vector(18 downto 0);$/;"	T
+slv2	.\slv_pkg.vhd	/^  subtype slv2 is std_logic_vector(1 downto 0);$/;"	T
+slv20	.\slv_pkg.vhd	/^  subtype slv20 is std_logic_vector(19 downto 0);$/;"	T
+slv21	.\slv_pkg.vhd	/^  subtype slv21 is std_logic_vector(20 downto 0);$/;"	T
+slv22	.\slv_pkg.vhd	/^  subtype slv22 is std_logic_vector(21 downto 0);$/;"	T
+slv23	.\slv_pkg.vhd	/^  subtype slv23 is std_logic_vector(22 downto 0);$/;"	T
+slv24	.\slv_pkg.vhd	/^  subtype slv24 is std_logic_vector(23 downto 0);$/;"	T
+slv25	.\slv_pkg.vhd	/^  subtype slv25 is std_logic_vector(24 downto 0);$/;"	T
+slv256	.\slv_pkg.vhd	/^  subtype slv256 is std_logic_vector(255 downto 0);$/;"	T
+slv26	.\slv_pkg.vhd	/^  subtype slv26 is std_logic_vector(25 downto 0);$/;"	T
+SLV26_ARRAY	.\bup2_registers_RTL.vhd	/^  type SLV26_ARRAY is array(natural range <>) of std_logic_vector(25 downto 0);$/;"	t
+slv27	.\slv_pkg.vhd	/^  subtype slv27 is std_logic_vector(26 downto 0);$/;"	T
+slv28	.\slv_pkg.vhd	/^  subtype slv28 is std_logic_vector(27 downto 0);$/;"	T
+slv29	.\slv_pkg.vhd	/^  subtype slv29 is std_logic_vector(28 downto 0);$/;"	T
+slv2str	.\conv_pkg_body.vhd	/^  function slv2str (a      : std_logic_vector; $/;"	f
+slv3	.\slv_pkg.vhd	/^  subtype slv3 is std_logic_vector(2 downto 0);$/;"	T
+slv30	.\slv_pkg.vhd	/^  subtype slv30 is std_logic_vector(29 downto 0);$/;"	T
+slv31	.\slv_pkg.vhd	/^  subtype slv31 is std_logic_vector(30 downto 0);$/;"	T
+slv32	.\slv_pkg.vhd	/^  subtype slv32 is std_logic_vector(31 downto 0);$/;"	T
+slv33	.\slv_pkg.vhd	/^  subtype slv33 is std_logic_vector(32 downto 0);$/;"	T
+slv34	.\slv_pkg.vhd	/^  subtype slv34 is std_logic_vector(33 downto 0);$/;"	T
+slv35	.\slv_pkg.vhd	/^  subtype slv35 is std_logic_vector(34 downto 0);$/;"	T
+slv36	.\slv_pkg.vhd	/^  subtype slv36 is std_logic_vector(35 downto 0);$/;"	T
+slv37	.\slv_pkg.vhd	/^  subtype slv37 is std_logic_vector(36 downto 0);$/;"	T
+slv38	.\slv_pkg.vhd	/^  subtype slv38 is std_logic_vector(37 downto 0);$/;"	T
+slv39	.\slv_pkg.vhd	/^  subtype slv39 is std_logic_vector(38 downto 0);$/;"	T
+slv4	.\slv_pkg.vhd	/^  subtype slv4 is std_logic_vector(3 downto 0);$/;"	T
+slv40	.\slv_pkg.vhd	/^  subtype slv40 is std_logic_vector(39 downto 0);$/;"	T
+slv41	.\slv_pkg.vhd	/^  subtype slv41 is std_logic_vector(40 downto 0);$/;"	T
+slv42	.\slv_pkg.vhd	/^  subtype slv42 is std_logic_vector(41 downto 0);$/;"	T
+slv43	.\slv_pkg.vhd	/^  subtype slv43 is std_logic_vector(42 downto 0);$/;"	T
+slv44	.\slv_pkg.vhd	/^  subtype slv44 is std_logic_vector(43 downto 0);$/;"	T
+slv45	.\slv_pkg.vhd	/^  subtype slv45 is std_logic_vector(44 downto 0);$/;"	T
+slv46	.\slv_pkg.vhd	/^  subtype slv46 is std_logic_vector(45 downto 0);$/;"	T
+slv47	.\slv_pkg.vhd	/^  subtype slv47 is std_logic_vector(46 downto 0);$/;"	T
+slv48	.\slv_pkg.vhd	/^  subtype slv48 is std_logic_vector(47 downto 0);$/;"	T
+slv49	.\slv_pkg.vhd	/^  subtype slv49 is std_logic_vector(48 downto 0);$/;"	T
+SLV4_ARRAY	.\bup2_registers_RTL.vhd	/^  type SLV4_ARRAY  is array(natural range <>) of std_logic_vector(3 downto 0);$/;"	t
+slv5	.\slv_pkg.vhd	/^  subtype slv5 is std_logic_vector(4 downto 0);$/;"	T
+slv50	.\slv_pkg.vhd	/^  subtype slv50 is std_logic_vector(49 downto 0);$/;"	T
+slv51	.\slv_pkg.vhd	/^  subtype slv51 is std_logic_vector(50 downto 0);$/;"	T
+slv512	.\slv_pkg.vhd	/^  subtype slv512 is std_logic_vector(511 downto 0);$/;"	T
+slv52	.\slv_pkg.vhd	/^  subtype slv52 is std_logic_vector(51 downto 0);$/;"	T
+slv53	.\slv_pkg.vhd	/^  subtype slv53 is std_logic_vector(52 downto 0);$/;"	T
+slv54	.\slv_pkg.vhd	/^  subtype slv54 is std_logic_vector(53 downto 0);$/;"	T
+slv55	.\slv_pkg.vhd	/^  subtype slv55 is std_logic_vector(54 downto 0);$/;"	T
+slv56	.\slv_pkg.vhd	/^  subtype slv56 is std_logic_vector(55 downto 0);$/;"	T
+slv57	.\slv_pkg.vhd	/^  subtype slv57 is std_logic_vector(56 downto 0);$/;"	T
+slv58	.\slv_pkg.vhd	/^  subtype slv58 is std_logic_vector(57 downto 0);$/;"	T
+slv59	.\slv_pkg.vhd	/^  subtype slv59 is std_logic_vector(58 downto 0);$/;"	T
+slv6	.\slv_pkg.vhd	/^  subtype slv6 is std_logic_vector(5 downto 0);$/;"	T
+slv60	.\slv_pkg.vhd	/^  subtype slv60 is std_logic_vector(59 downto 0);$/;"	T
+slv61	.\slv_pkg.vhd	/^  subtype slv61 is std_logic_vector(60 downto 0);$/;"	T
+slv62	.\slv_pkg.vhd	/^  subtype slv62 is std_logic_vector(61 downto 0);$/;"	T
+slv63	.\slv_pkg.vhd	/^  subtype slv63 is std_logic_vector(62 downto 0);$/;"	T
+slv64	.\slv_pkg.vhd	/^  subtype slv64 is std_logic_vector(63 downto 0);$/;"	T
+slv65	.\slv_pkg.vhd	/^  subtype slv65 is std_logic_vector(64 downto 0);$/;"	T
+slv66	.\slv_pkg.vhd	/^  subtype slv66 is std_logic_vector(65 downto 0);$/;"	T
+slv67	.\slv_pkg.vhd	/^  subtype slv67 is std_logic_vector(66 downto 0);$/;"	T
+slv68	.\slv_pkg.vhd	/^  subtype slv68 is std_logic_vector(67 downto 0);$/;"	T
+slv69	.\slv_pkg.vhd	/^  subtype slv69 is std_logic_vector(68 downto 0);$/;"	T
+slv7	.\slv_pkg.vhd	/^  subtype slv7 is std_logic_vector(6 downto 0);$/;"	T
+slv70	.\slv_pkg.vhd	/^  subtype slv70 is std_logic_vector(69 downto 0);$/;"	T
+slv71	.\slv_pkg.vhd	/^  subtype slv71 is std_logic_vector(70 downto 0);$/;"	T
+slv72	.\slv_pkg.vhd	/^  subtype slv72 is std_logic_vector(71 downto 0);$/;"	T
+slv73	.\slv_pkg.vhd	/^  subtype slv73 is std_logic_vector(72 downto 0);$/;"	T
+slv74	.\slv_pkg.vhd	/^  subtype slv74 is std_logic_vector(73 downto 0);$/;"	T
+slv75	.\slv_pkg.vhd	/^  subtype slv75 is std_logic_vector(74 downto 0);$/;"	T
+slv76	.\slv_pkg.vhd	/^  subtype slv76 is std_logic_vector(75 downto 0);$/;"	T
+slv77	.\slv_pkg.vhd	/^  subtype slv77 is std_logic_vector(76 downto 0);$/;"	T
+slv78	.\slv_pkg.vhd	/^  subtype slv78 is std_logic_vector(77 downto 0);$/;"	T
+slv79	.\slv_pkg.vhd	/^  subtype slv79 is std_logic_vector(78 downto 0);$/;"	T
+SLV7_ARRAY	.\bup2_registers_RTL.vhd	/^  type SLV7_ARRAY  is array(natural range <>) of std_logic_vector(7 downto 0);$/;"	t
+slv8	.\slv_pkg.vhd	/^  subtype slv8 is std_logic_vector(7 downto 0);$/;"	T
+slv80	.\slv_pkg.vhd	/^  subtype slv80 is std_logic_vector(79 downto 0);$/;"	T
+slv81	.\slv_pkg.vhd	/^  subtype slv81 is std_logic_vector(80 downto 0);$/;"	T
+slv82	.\slv_pkg.vhd	/^  subtype slv82 is std_logic_vector(81 downto 0);$/;"	T
+slv83	.\slv_pkg.vhd	/^  subtype slv83 is std_logic_vector(82 downto 0);$/;"	T
+slv84	.\slv_pkg.vhd	/^  subtype slv84 is std_logic_vector(83 downto 0);$/;"	T
+slv85	.\slv_pkg.vhd	/^  subtype slv85 is std_logic_vector(84 downto 0);$/;"	T
+slv86	.\slv_pkg.vhd	/^  subtype slv86 is std_logic_vector(85 downto 0);$/;"	T
+slv87	.\slv_pkg.vhd	/^  subtype slv87 is std_logic_vector(86 downto 0);$/;"	T
+slv88	.\slv_pkg.vhd	/^  subtype slv88 is std_logic_vector(87 downto 0);$/;"	T
+slv89	.\slv_pkg.vhd	/^  subtype slv89 is std_logic_vector(88 downto 0);$/;"	T
+SLV8_ARRAY	.\bup2_registers_RTL.vhd	/^  type SLV8_ARRAY  is array(natural range <>) of std_logic_vector(7 downto 0);$/;"	t
+slv9	.\slv_pkg.vhd	/^  subtype slv9 is std_logic_vector(8 downto 0);$/;"	T
+slv90	.\slv_pkg.vhd	/^  subtype slv90 is std_logic_vector(89 downto 0);$/;"	T
+slv91	.\slv_pkg.vhd	/^  subtype slv91 is std_logic_vector(90 downto 0);$/;"	T
+slv92	.\slv_pkg.vhd	/^  subtype slv92 is std_logic_vector(91 downto 0);$/;"	T
+slv93	.\slv_pkg.vhd	/^  subtype slv93 is std_logic_vector(92 downto 0);$/;"	T
+slv94	.\slv_pkg.vhd	/^  subtype slv94 is std_logic_vector(93 downto 0);$/;"	T
+slv95	.\slv_pkg.vhd	/^  subtype slv95 is std_logic_vector(94 downto 0);$/;"	T
+slv96	.\slv_pkg.vhd	/^  subtype slv96 is std_logic_vector(95 downto 0);$/;"	T
+slv97	.\slv_pkg.vhd	/^  subtype slv97 is std_logic_vector(96 downto 0);$/;"	T
+slv98	.\slv_pkg.vhd	/^  subtype slv98 is std_logic_vector(97 downto 0);$/;"	T
+slv99	.\slv_pkg.vhd	/^  subtype slv99 is std_logic_vector(98 downto 0);$/;"	T
+SLV_ARRAY	.\eucl_divider_RTL.vhd	/^  type SLV_ARRAY is array (natural range <>)$/;"	t
+slv_pkg	.\slv_pkg.vhd	/^package slv_pkg is$/;"	P
+SMU_PARTITION_SIGNAL_CT	.\channel_decoder_control_RTL.vhd	/^  constant SMU_PARTITION_SIGNAL_CT : std_logic_vector(1 downto 0) := "00";$/;"	c
+SOFTBIT_COUNTER_INCREMENT_CT	.\deintpun_control_RTL.vhd	/^  constant SOFTBIT_COUNTER_INCREMENT_CT   : SOFTBIT_COUNTER_STATE_T := 1;$/;"	c
+SOFTBIT_COUNTER_RESET_VALUE_CT	.\deintpun_control_RTL.vhd	/^  constant SOFTBIT_COUNTER_RESET_VALUE_CT : SOFTBIT_COUNTER_STATE_T := 1;$/;"	c
+SOFTBIT_COUNTER_STATE_T	.\deintpun_control_RTL.vhd	/^  subtype SOFTBIT_COUNTER_STATE_T is integer range 1 to 217;$/;"	T
+SOFTBIT_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant SOFTBIT_WIDTH_CT     : integer  := 5;  -- softbit width$/;"	c
+SOFTBIT_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant SOFTBIT_WIDTH_CT     : integer  := 5;  -- softbit width$/;"	c
+SOFT_ARRAY_T	.\rx_equ_rtl.vhd	/^   type   SOFT_ARRAY_T          is array (5 downto 4) of std_logic_vector (SOFTBIT_WIDTH_CT-1 downto 0);$/;"	t
+SOFT_BIT_T	.\deintpun_datapath_RTL.vhd	/^  subtype SOFT_BIT_T is std_logic_vector (SOFTBIT_WIDTH_CT-1 downto 0);$/;"	T
+SOFT_T	.\deintpun_pkg.vhd	/^  subtype SOFT_T is integer range 0 to 5;$/;"	T
+SOFT_TABLE_T	.\deintpun_pkg.vhd	/^  type SOFT_TABLE_T is array (1 to BITS_PER_SYMBOL_QAM64_3_4_CT) of SOFT_T;$/;"	t
+SPLIT_CT	.\ahb_config_pkg.vhd	/^  constant  SPLIT_CT  : std_logic_vector(1 downto 0)  := "11";$/;"	c
+spreading	.\spreading.vhd	/^entity spreading is$/;"	e
+spreading_pkg	.\spreading_pkg.vhd	/^package spreading_pkg is$/;"	P
+sp_ahb_access	.\sp_ahb_access.vhd	/^entity sp_ahb_access is$/;"	e
+sp_ahb_access_pkg	.\sp_ahb_access_pkg.vhd	/^package sp_ahb_access_pkg is$/;"	P
+SP_FIFO_SM_TYPE	.\sample_fifo_sm_RTL.vhd	/^  type   SP_FIFO_SM_TYPE is (short_preamble, -- wait for frame_start_valid$/;"	t
+sp_registers	.\sp_registers.vhd	/^entity sp_registers is$/;"	e
+SP_STATE_TYPE	.\str_proc_control_RTL.vhd	/^  type SP_STATE_TYPE is (idle_state,            -- Idle phase$/;"	t
+SRAM_STATE_TYPE	.\rc4_keystream_RTL.vhd	/^type SRAM_STATE_TYPE is (idle_state,     -- Idle phase$/;"	t
+SRAM_WIDTH_CT	.\boostchip_config_pkg.vhd	/^  constant SRAM_WIDTH_CT : integer := 15;$/;"	c
+srt_div	.\srt_div.vhd	/^entity srt_div is$/;"	e
+SSHR	.\mdm_math_func_pkg_body.vhd	/^  function SSHR ($/;"	f
+START_INDEX_CT	.\rx_predmx_pkg.vhd	/^  constant START_INDEX_CT   : integer := 38; $/;"	c
+START_RECEPTION_ST_CT	.\cca_maxim_pkg.vhd	/^  constant START_RECEPTION_ST_CT        : std_logic_vector(4 downto 0) := "01010";$/;"	c
+state2byte	.\state2byte.vhd	/^entity state2byte is$/;"	e
+STATE_T	.\deintpun_control_RTL.vhd	/^  type STATE_T is (IDLE,$/;"	t
+STATE_T	.\mdma2_rx_sm_rtl.vhd	/^  type STATE_T is (TX, RESET, RX_IDLE, ADC_PU, WAIT_PREAMB, WAIT_SIG_F,$/;"	t
+STATE_T	.\rx_equ_fsm_rtl.vhd	/^  type STATE_T is (hist_eval, wait_symbol, soft_eval, wait_data, wait_ch);$/;"	t
+state_type	.\aes_invmixcolumns_RTL.vhd	/^type state_type   is array (ROWS_CT-1 downto 0) of row_type;$/;"	t
+state_type	.\aes_invshiftrows_RTL.vhd	/^type state_type   is array (ROWS_CT-1 downto 0) of row_type;$/;"	t
+state_type	.\aes_mixcolumns_RTL.vhd	/^type state_type   is array (ROWS_CT-1 downto 0) of row_type;$/;"	t
+state_type	.\aes_shiftrows_RTL.vhd	/^type state_type   is array (ROWS_CT-1 downto 0) of row_type;$/;"	t
+STATE_TYPE	.\fwt_RTL.vhd	/^type STATE_TYPE is (add0_state, add1_state, add2_state, add3_state,$/;"	t
+STATE_TYPE_T	.\sp_ahb_access_RTL.vhd	/^  type STATE_TYPE_T is (idle_state, -- Idle phase.$/;"	t
+STEP_131072HZ_CT	.\bup2_timers_RTL.vhd	/^  constant STEP_131072HZ_CT      : std_logic_vector(26 downto 0)$/;"	c
+STEP_32768HZ_CT	.\bup2_timers_RTL.vhd	/^  constant STEP_32768HZ_CT       : std_logic_vector(26 downto 0)$/;"	c
+STEP_32KHZ_CT	.\bup2_timers_RTL.vhd	/^  constant STEP_32KHZ_CT         : std_logic_vector(26 downto 0)$/;"	c
+STEP_SIZE_CT	.\iq_mism_g_est_rtl.vhd	/^  constant STEP_SIZE_CT        : integer := 8;$/;"	c
+STEP_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant STEP_SIZE_CT        : integer := 8;$/;"	c
+STO_LSB_CT	.\ext_sto_cpe_rtl.vhd	/^  constant STO_LSB_CT        : integer := 7;$/;"	c
+str2slv	.\conv_pkg_body.vhd	/^  function str2slv (a      : string;$/;"	f
+stream_processor	.\stream_processor.vhd	/^entity stream_processor is$/;"	e
+stream_processor_pkg	.\stream_processor_pkg.vhd	/^package stream_processor_pkg is$/;"	P
+STRPCNTL_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPCNTL_ADDR_CT     : std_logic_vector( 2 downto 0) := "001";-- 04'H$/;"	c
+STRPCSTRUCT0_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPCSTRUCT0_ADDR_CT : std_logic_vector( 2 downto 0) := "010";-- 08'H$/;"	c
+STRPCSTRUCT1_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPCSTRUCT1_ADDR_CT : std_logic_vector( 2 downto 0) := "011";-- 0C'H$/;"	c
+STRPINTACK_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPINTACK_ADDR_CT   : std_logic_vector( 2 downto 0) := "101";-- 14'H$/;"	c
+STRPINTMASK_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPINTMASK_ADDR_CT  : std_logic_vector( 2 downto 0) := "100";-- 10'H$/;"	c
+STRPSTAT_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPSTAT_ADDR_CT     : std_logic_vector( 2 downto 0) := "110";-- 18'H$/;"	c
+STRPVERS_ADDR_CT	.\sp_registers_RTL.vhd	/^constant STRPVERS_ADDR_CT     : std_logic_vector( 2 downto 0) := "000";-- 00'H$/;"	c
+STRP_BUILD_CT	.\sp_registers_RTL.vhd	/^constant STRP_BUILD_CT     : std_logic_vector(15 downto 0)$/;"	c
+STRP_RELEASE_CT	.\sp_registers_RTL.vhd	/^constant STRP_RELEASE_CT   : std_logic_vector( 7 downto 0) := "00000010"; -- d'2$/;"	c
+STRP_UPGRADE_CT	.\sp_registers_RTL.vhd	/^constant STRP_UPGRADE_CT   : std_logic_vector( 7 downto 0) := "00000001"; --d'0$/;"	c
+str_proc_control	.\str_proc_control.vhd	/^entity str_proc_control is$/;"	e
+SUB0_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant SUB0_ST_CT : std_logic_vector(3 downto 0) := "0100";$/;"	c
+SUB1_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant SUB1_ST_CT : std_logic_vector(3 downto 0) := "0101";$/;"	c
+SUB2_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant SUB2_ST_CT : std_logic_vector(3 downto 0) := "0110";$/;"	c
+SUB3_ST_CT	.\aes_blockcipher_pkg.vhd	/^constant SUB3_ST_CT : std_logic_vector(3 downto 0) := "0111";$/;"	c
+SUBCARRIER_PER_SYMBOL_CT	.\deintpun_pkg.vhd	/^  constant SUBCARRIER_PER_SYMBOL_CT     : integer :=  48;$/;"	c
+SUB_CARRIER_T	.\deintpun_datapath_RTL.vhd	/^  type SUB_CARRIER_T is array ( 5 downto 0) of SOFT_BIT_T;$/;"	t
+sub_offset	.\preprocessing_RTL.vhd	/^  function sub_offset (data_in    : std_logic_vector(10 downto 0);$/;"	f
+sum_ct	.\equalizer_global_pkg.vhd	/^    constant sum_ct      : integer := 8;         -- data size of the sum$/;"	c
+SUM_T	.\rx_equ_pkg.vhd	/^  type SUM_T         is array (HPOWMAN_PROD_WIDTH_CT-1 downto 1) of integer range 0 to EQU_SYMB_LENGTH_CT;$/;"	t
+SYMBOL_COUNTER_RESET_VALUE_CT	.\deintpun_control_RTL.vhd	/^  constant SYMBOL_COUNTER_RESET_VALUE_CT  : SYMBOL_COUNTER_STATE_T  := 0;$/;"	c
+SYMBOL_COUNTER_STATE_T	.\deintpun_control_RTL.vhd	/^  subtype SYMBOL_COUNTER_STATE_T is integer range 0 to 34000;$/;"	T
+SYMBOL_LENGTH_CT	.\freq_corr_RTL.vhd	/^  constant SYMBOL_LENGTH_CT   : integer := 64;$/;"	c
+SYMBOL_LENGTH_CT	.\sample_fifo_sm_RTL.vhd	/^  constant SYMBOL_LENGTH_CT  : std_logic_vector(6 downto 0) := "0111111";  -- 63 (64-1)$/;"	c
+SYMBOL_NUM_CT	.\freq_corr_RTL.vhd	/^  constant SYMBOL_NUM_CT      : integer := 8;$/;"	c
+symbol_sync	.\symbol_sync.vhd	/^entity symbol_sync is$/;"	e
+symbol_sync_pkg	.\symbol_sync_pkg.vhd	/^package symbol_sync_pkg is$/;"	P
+sync_240to80	.\sync_240to80.vhd	/^entity sync_240to80 is$/;"	e
+sync_80to240	.\sync_80to240.vhd	/^entity sync_80to240 is$/;"	e
+SYNC_IMPLEMENTATION_CT	.\target_config_pkg.vhd	/^  constant SYNC_IMPLEMENTATION_CT  : SYNC_t := FLIPFLOP;$/;"	c
+SYNC_SYMBOL_CT	.\peak_detect_RTL.vhd	/^  constant SYNC_SYMBOL_CT : std_logic_vector(5 downto 0) := "000000";$/;"	c
+SYNC_t	.\target_config_pkg.vhd	/^  subtype SYNC_t is integer; $/;"	T
+SYNC_TIMEOUT_CT	.\cca_timers_maxim.vhd	/^  constant SYNC_TIMEOUT_CT   : std_logic_vector(16 downto 0) := "00000000000001010";$/;"	c
+SYNTHESIS	.\config_pkg.vhd	/^  constant SYNTHESIS      : integer := 2;$/;"	c
+s_box_ct	.\aes_subbytes_RTL.vhd	/^constant s_box_ct : s_box_type$/;"	c
+s_box_type	.\aes_subbytes_RTL.vhd	/^type s_box_type   is array (255 downto 0) of std_logic_vector (7 downto 0);$/;"	t
+T128US_CT	.\cca_gen_maxim.vhd	/^  constant T128US_CT : std_logic_vector(12 downto 0) := "1111000000000";$/;"	c
+t1t2_demux	.\t1t2_demux.vhd	/^entity t1t2_demux is$/;"	e
+t1t2_demux_pkg	.\t1t2_demux_pkg.vhd	/^package t1t2_demux_pkg is$/;"	P
+t1t2_preamble_mux	.\t1t2_preamble_mux.vhd	/^entity t1t2_preamble_mux is$/;"	e
+t1t2_preamble_mux_pkg	.\t1t2_preamble_mux_pkg.vhd	/^package t1t2_preamble_mux_pkg is$/;"	P
+T1_T2_LENGTH_CT	.\sample_fifo_sm_RTL.vhd	/^  constant T1_T2_LENGTH_CT   : std_logic_vector(6 downto 0) := "1111111";  -- 127(128-1)$/;"	c
+TABLE_CARR_X_BPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_BPSK_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_BPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_BPSK_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_QAM16_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QAM16_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_QAM16_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QAM16_3_4_CT : CARR_TABLE_T := $/;"	c
+TABLE_CARR_X_QAM64_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QAM64_2_3_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_QAM64_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QAM64_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_QPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QPSK_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_X_QPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_X_QPSK_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_BPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_BPSK_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_BPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_BPSK_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QAM16_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QAM16_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QAM16_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QAM16_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QAM64_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QAM64_2_3_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QAM64_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QAM64_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QPSK_1_2_CT : CARR_TABLE_T :=$/;"	c
+TABLE_CARR_Y_QPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_CARR_Y_QPSK_3_4_CT : CARR_TABLE_T :=$/;"	c
+TABLE_PUNC_X_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_X_1_2_CT : PUNC_TABLE_T := (others => 0);$/;"	c
+TABLE_PUNC_X_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_X_2_3_CT : PUNC_TABLE_T := (others => 0);$/;"	c
+TABLE_PUNC_X_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_X_3_4_CT : PUNC_TABLE_T :=$/;"	c
+TABLE_PUNC_Y_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_Y_1_2_CT : PUNC_TABLE_T := (others => 0);$/;"	c
+TABLE_PUNC_Y_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_Y_2_3_CT : PUNC_TABLE_T :=$/;"	c
+TABLE_PUNC_Y_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_PUNC_Y_3_4_CT : PUNC_TABLE_T := $/;"	c
+TABLE_SOFT_X_BPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_BPSK_1_2_CT : SOFT_TABLE_T := (others => 0);$/;"	c
+TABLE_SOFT_X_BPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_BPSK_3_4_CT : SOFT_TABLE_T := (others => 0);$/;"	c
+TABLE_SOFT_X_QAM16_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QAM16_1_2_CT : SOFT_TABLE_T := $/;"	c
+TABLE_SOFT_X_QAM16_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QAM16_3_4_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_X_QAM64_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QAM64_2_3_CT : SOFT_TABLE_T := $/;"	c
+TABLE_SOFT_X_QAM64_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QAM64_3_4_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_X_QPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QPSK_1_2_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_X_QPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_X_QPSK_3_4_CT : SOFT_TABLE_T := $/;"	c
+TABLE_SOFT_Y_BPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_BPSK_1_2_CT : SOFT_TABLE_T := (others => 0);$/;"	c
+TABLE_SOFT_Y_BPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_BPSK_3_4_CT : SOFT_TABLE_T := (others => 0);$/;"	c
+TABLE_SOFT_Y_QAM16_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QAM16_1_2_CT : SOFT_TABLE_T := $/;"	c
+TABLE_SOFT_Y_QAM16_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QAM16_3_4_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_Y_QAM64_2_3_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QAM64_2_3_CT : SOFT_TABLE_T := $/;"	c
+TABLE_SOFT_Y_QAM64_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QAM64_3_4_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_Y_QPSK_1_2_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QPSK_1_2_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_SOFT_Y_QPSK_3_4_CT	.\deintpun_pkg.vhd	/^  constant TABLE_SOFT_Y_QPSK_3_4_CT : SOFT_TABLE_T :=$/;"	c
+TABLE_WRITE_CT	.\deintpun_pkg.vhd	/^  constant TABLE_WRITE_CT : CARR_TABLE_T :=$/;"	c
+TAIL_BITS_CT	.\freq_domain_pack.vhd	/^  constant TAIL_BITS_CT            : integer :=  6;$/;"	c
+TAIL_BITS_CT	.\modem802_11a2_pack.vhd	/^  constant TAIL_BITS_CT            : integer :=  6;$/;"	c
+target_config_pkg	.\target_config_pkg.vhd	/^package target_config_pkg is$/;"	P
+TARGET_CT	.\config_pkg.vhd	/^  constant TARGET_CT : TARGET_t := SYNTHESIS;$/;"	c
+TARGET_CT	.\target_config_pkg.vhd	/^  constant TARGET_CT : TARGET_t := ASIC;$/;"	c
+TARGET_SUPPLIER_CT	.\target_config_pkg.vhd	/^  constant TARGET_SUPPLIER_CT  : TARGET_SUPPLIER_t := TSMC;$/;"	c
+TARGET_SUPPLIER_t	.\target_config_pkg.vhd	/^  subtype TARGET_SUPPLIER_t is integer; $/;"	T
+TARGET_t	.\config_pkg.vhd	/^  subtype TARGET_t is integer; $/;"	T
+TARGET_t	.\target_config_pkg.vhd	/^  subtype TARGET_t is integer; $/;"	T
+TAUSIZE_CT	.\rx11b_demod_RTL.vhd	/^  constant TAUSIZE_CT   : integer := 18;$/;"	c
+tcombine_preamble_mux	.\tcombine_preamble_mux.vhd	/^entity tcombine_preamble_mux is$/;"	e
+tcombine_preamble_mux_pkg	.\tcombine_preamble_mux_pkg.vhd	/^package tcombine_preamble_mux_pkg is$/;"	P
+TCOMB_STATE_T	.\tcombine_preamble_mux_RTL.vhd	/^  type TCOMB_STATE_T is (idle_e,          -- wait for a start_of_symbol$/;"	t
+THIRTY_ONE_CT	.\preprocessing_RTL.vhd	/^  constant THIRTY_ONE_CT : std_logic_vector(4 downto 0) := "11111";--31;$/;"	c
+three_correlators	.\three_correlators.vhd	/^entity three_correlators is$/;"	e
+THREE_CT	.\logarithm_RTL.vhd	/^  constant THREE_CT       : std_logic_vector(10 downto 0) := "11000000101";  -- 3.0$/;"	c
+TIMER_MAX_CT	.\mon_sto_cpe_rtl.vhd	/^  constant TIMER_MAX_CT : std_logic_vector(3 downto 0) := "1100";$/;"	c
+TIMER_THR_CT	.\mon_sto_cpe_rtl.vhd	/^  constant TIMER_THR_CT : std_logic_vector(3 downto 0) := "1000";$/;"	c
+TIME_BEFORE_IQ_ESTIM_ENABLE_CT	.\mdma2_rx_sm_rtl.vhd	/^  constant TIME_BEFORE_IQ_ESTIM_ENABLE_CT : integer := (208-4)*4-2; $/;"	c
+time_domain	.\time_domain.vhd	/^entity time_domain is$/;"	e
+time_domain_pkg	.\time_domain_pkg.vhd	/^package time_domain_pkg is$/;"	P
+TIME_DOM_STAT_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant TIME_DOM_STAT_ADDR_CT  : std_logic_vector(5 downto 0) := "010100";$/;"	c
+tkip_key_mixing	.\tkip_key_mixing.vhd	/^entity tkip_key_mixing is$/;"	e
+tkip_key_mixing_pkg	.\tkip_key_mixing_pkg.vhd	/^package tkip_key_mixing_pkg is$/;"	P
+to_integer	.\serialif.vhd	/^  function to_integer(arg: std_logic_vector; size: integer) return integer is$/;"	f
+TRANS_OVER	.\serialif.vhd	/^   constant  TRANS_OVER            :  std_logic_vector(1 downto 0) := "10";    $/;"	c
+TRANS_VAL_BPSK_CT	.\deserializer_RTL.vhd	/^  constant TRANS_VAL_BPSK_CT  : std_logic_vector(2 downto 0):= "111";$/;"	c
+TRANS_VAL_BPSK_CT	.\serializer_RTL.vhd	/^  constant TRANS_VAL_BPSK_CT : std_logic_vector(2 downto 0):= "111";$/;"	c
+TRANS_VAL_CCK11_CT	.\deserializer_RTL.vhd	/^  constant TRANS_VAL_CCK11_CT  : std_logic_vector(2 downto 0):= "000";$/;"	c
+TRANS_VAL_CCK55_CT	.\deserializer_RTL.vhd	/^  constant TRANS_VAL_CCK55_CT  : std_logic_vector(2 downto 0):= "001";$/;"	c
+TRANS_VAL_QPSK_CT	.\deserializer_RTL.vhd	/^  constant TRANS_VAL_QPSK_CT  : std_logic_vector(2 downto 0):= "011";$/;"	c
+TRANS_VAL_QPSK_CT	.\serializer_RTL.vhd	/^  constant TRANS_VAL_QPSK_CT : std_logic_vector(2 downto 0):= "011";$/;"	c
+TRELLIS_CT	.\viterbi_rtl.vhd	/^  constant TRELLIS_CT : integer := 64;  -- Number of states in the trellis.$/;"	c
+TRUE_CT	.\master_interface_rtl.vhd	/^  constant TRUE_CT  : integer := 1;$/;"	c
+TSMC	.\target_config_pkg.vhd	/^  constant TSMC       : integer := 2;$/;"	c
+TWOPI_CT	.\kalman_rtl.vhd	/^  constant TWOPI_CT : std_logic_vector(Nbit_cpe_meas_g-1 downto 0)$/;"	c
+TWOUS_CT	.\agc_cca_RTL.vhd	/^  constant TWOUS_CT   : std_logic_vector(6 downto 0) := "1010111";                                                                   $/;"	c
+TWO_CT	.\master_deseria_RTL.vhd	/^  constant TWO_CT          : std_logic_vector(3 downto 0) := "0010";$/;"	c
+TWO_PI_CT	.\coarse_freq_sync_RTL.vhd	/^  constant TWO_PI_CT    : std_logic_vector(xp_size_g+1 downto 0) := "010000000000000";$/;"	c
+TWO_PI_CT	.\ramp_phase_rot_RTL.vhd	/^  constant TWO_PI_CT : std_logic_vector(17 downto 0) := "001100100100001111";-- 2*pi$/;"	c
+TX	.\txrxcntl.vhd	/^   constant  TX                    :  std_logic_vector(2 downto 0) := "100";    $/;"	c
+TXREB_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant TXREB_WIDTH_CT         : integer := 4; -- $/;"	c
+TXREB_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant TXREB_WIDTH_CT         : integer := 4; -- $/;"	c
+txrxcntrl	.\txrxcntl.vhd	/^entity txrxcntrl is$/;"	e
+tx_activ_gen	.\tx_activ_gen.vhd	/^entity tx_activ_gen is$/;"	e
+TX_CONST_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant TX_CONST_ADDR_CT       : std_logic_vector(5 downto 0) := "110100";$/;"	c
+TX_CTRL_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant TX_CTRL_ADDR_CT        : std_logic_vector(5 downto 0) := "000000";$/;"	c
+TX_HISS_STATE_TYPE	.\master_hiss_sm_RTL.vhd	/^  type TX_HISS_STATE_TYPE is (tx_idle,  -- no transmission$/;"	t
+TX_IQCOMP_ADDR_CT	.\modema2_registers_pkg.vhd	/^  constant TX_IQCOMP_ADDR_CT      : std_logic_vector(5 downto 0) := "000100";$/;"	c
+TX_MAX_INDEX_CT	.\fft_shell_RTL.vhd	/^  constant TX_MAX_INDEX_CT   : std_logic_vector(5 downto 0) := "111111"; -- 63$/;"	c
+tx_mux	.\tx_mux.vhd	/^entity tx_mux is$/;"	e
+tx_mux_pkg	.\tx_mux_pkg.vhd	/^package tx_mux_pkg is$/;"	P
+TX_OVER	.\txrxcntl.vhd	/^   constant  TX_OVER               :  std_logic_vector(2 downto 0) := "101";    $/;"	c
+tx_path_core	.\tx_path_core.vhd	/^entity tx_path_core is$/;"	e
+tx_path_pkg	.\tx_path_pkg.vhd	/^package tx_path_pkg is$/;"	P
+tx_resync_80to60	.\tx_resync_80to60.vhd	/^entity tx_resync_80to60 is$/;"	e
+tx_rx_filter	.\tx_rx_filter.vhd	/^entity tx_rx_filter is$/;"	e
+tx_rx_filter_pkg	.\tx_rx_filter_pkg.vhd	/^package tx_rx_filter_pkg is$/;"	P
+tx_rx_iq_comp	.\tx_rx_iq_comp.vhd	/^entity tx_rx_iq_comp is$/;"	e
+TX_STATE_T	.\modema_tx_sm_RTL.vhd	/^  type TX_STATE_T is (tx_init_state,$/;"	t
+TX_STATE_TYPE	.\modem_tx_sm_RTL.vhd	/^type TX_STATE_TYPE is (idle_state,     -- idle state     $/;"	t
+TX_STATE_TYPE_T	.\bup2_tx_sm_RTL.vhd	/^type TX_STATE_TYPE_T is (tx_abort_state,  -- abort transmission$/;"	t
+tx_top_a2	.\tx_top_a2.vhd	/^entity tx_top_a2 is$/;"	e
+tx_top_a2_pkg	.\tx_top_a2_pkg.vhd	/^package tx_top_a2_pkg is$/;"	P
+t_corrcntl_state	.\gating_control.vhd	/^  type t_corrcntl_state          is (txreset0,txreset1,txreset2,tx,idle);$/;"	t
+UART_MASK_CT	.\config_boost_platform_pkg.vhd	/^  constant UART_MASK_CT          : STD_LOGIC_VECTOR(1 downto 0) := "11"; $/;"	c
+UMC	.\target_config_pkg.vhd	/^  constant UMC        : integer := 3;$/;"	c
+USE_23HOP_CT	.\config_pkg.vhd	/^  constant USE_23HOP_CT       : BOOLEAN := false;$/;"	c
+USE_AFH_KERNEL_CT	.\config_pkg.vhd	/^  constant USE_AFH_KERNEL_CT  : BOOLEAN := false;$/;"	c
+USE_AGERE_RADIO_4120_CT	.\config_pkg.vhd	/^  constant USE_AGERE_RADIO_4120_CT  : BOOLEAN := true;$/;"	c
+USE_BASIC_XTR_CT	.\config_pkg.vhd	/^  constant USE_BASIC_XTR_CT         : BOOLEAN := true;$/;"	c
+USE_CNX_RADIO_72303_CT	.\config_pkg.vhd	/^  constant USE_CNX_RADIO_72303_CT   : BOOLEAN := true;$/;"	c
+USE_ELG_XTR_CT	.\config_pkg.vhd	/^  constant USE_ELG_XTR_CT           : BOOLEAN := true;$/;"	c
+USE_ENCRYPTION_CT	.\config_pkg.vhd	/^  constant USE_ENCRYPTION_CT  : BOOLEAN := true;$/;"	c
+USE_NL_ANALYZER_CT	.\wild_config_pkg.vhd	/^  constant USE_NL_ANALYZER_CT  : BOOLEAN := false;$/;"	c
+USE_NL_RADIO_A_CT	.\config_pkg.vhd	/^  constant USE_NL_RADIO_A_CT        : BOOLEAN := true;$/;"	c
+USE_RFMD_RADIO_2968_CT	.\config_pkg.vhd	/^  constant USE_RFMD_RADIO_2968_CT   : BOOLEAN := true;$/;"	c
+USE_SIW_RADIO_1502_CT	.\config_pkg.vhd	/^  constant USE_SIW_RADIO_1502_CT    : BOOLEAN := true;$/;"	c
+USE_SIW_RADIO_1701_CT	.\config_pkg.vhd	/^  constant USE_SIW_RADIO_1701_CT    : BOOLEAN := true;$/;"	c
+USE_ST_RADIO_CT	.\config_pkg.vhd	/^  constant USE_ST_RADIO_CT          : BOOLEAN := true;$/;"	c
+USE_UART_CT	.\wild_config_pkg.vhd	/^  constant USE_UART_CT      : BOOLEAN := true;$/;"	c
+USE_WLANCOEX_IF_CT	.\config_pkg.vhd	/^  constant USE_WLANCOEX_IF_CT : BOOLEAN := false;$/;"	c
+US_CT	.\cca_timers_maxim.vhd	/^  constant US_CT             : std_logic_vector(5 downto 0) := "111011";$/;"	c
+US_to_44_MHZ_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant US_to_44_MHZ_CT : STD_LOGIC_VECTOR(6 downto 0) := "0101100";$/;"	c
+US_to_80_MHZ_CT	.\agc_cca_hissbb_RTL.vhd	/^  constant US_to_80_MHZ_CT : STD_LOGIC_VECTOR(6 downto 0) := "1010000";$/;"	c
+VAL6b_63_CT	.\ff_estim_sm_RTL.vhd	/^  constant VAL6b_63_CT  : std_logic_vector(5 downto 0) := "111111";   -- 63 $/;"	c
+VAL8b_127_CT	.\ff_estim_sm_RTL.vhd	/^  constant VAL8b_127_CT : std_logic_vector(7 downto 0) := "01111111";  -- 127$/;"	c
+VAL8b_64_CT	.\ff_estim_sm_RTL.vhd	/^  constant VAL8b_64_CT  : std_logic_vector(7 downto 0) := "01000000";  -- 64$/;"	c
+VALID_T	.\data_control_RTL.vhd	/^  type VALID_T is (INVALID,$/;"	t
+VHDL	.\target_config_pkg.vhd	/^  constant VHDL : integer := 1;$/;"	c
+viterbi	.\viterbi.vhd	/^entity viterbi is$/;"	e
+viterbi_boundary	.\viterbi_boundary.vhd	/^entity viterbi_boundary is$/;"	e
+viterbi_pkg	.\viterbi_pkg.vhd	/^package viterbi_pkg is$/;"	P
+VOICE_PORT_NB_CT	.\config_pkg.vhd	/^  constant VOICE_PORT_NB_CT   : INTEGER := 1; $/;"	c
+WAIT_FOR_INACTIVE	.\serialif.vhd	/^   constant  WAIT_FOR_INACTIVE     :  std_logic_vector(1 downto 0) := "11";    $/;"	c
+WAIT_GAIN1_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_GAIN1_ST_CT             : std_logic_vector(4 downto 0) := "00011";$/;"	c
+WAIT_GAIN3_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_GAIN3_ST_CT             : std_logic_vector(4 downto 0) := "00111";$/;"	c
+WAIT_OFDM_HEADER_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_OFDM_HEADER_ST_CT       : std_logic_vector(4 downto 0) := "00110";$/;"	c
+WAIT_PACKET_END_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_PACKET_END_ST_CT        : std_logic_vector(4 downto 0) := "01110";$/;"	c
+WAIT_PLCP_HEADER_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_PLCP_HEADER_ST_CT       : std_logic_vector(4 downto 0) := "01001";$/;"	c
+WAIT_RAMP_DOWN1_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_RAMP_DOWN1_ST_CT        : std_logic_vector(4 downto 0) := "01100";$/;"	c
+WAIT_RAMP_DOWN2_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_RAMP_DOWN2_ST_CT        : std_logic_vector(4 downto 0) := "01111";$/;"	c
+WAIT_RAMP_DOWN_RF_BIAS_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_RAMP_DOWN_RF_BIAS_ST_CT : std_logic_vector(4 downto 0) := "10000";$/;"	c
+WAIT_RX_CHAIN_DELAY_ST_CT	.\cca_maxim_pkg.vhd	/^  constant WAIT_RX_CHAIN_DELAY_ST_CT    : std_logic_vector(4 downto 0) := "10001";$/;"	c
+WEIGHTS_T	.\est_mag_rtl.vhd	/^  type WEIGHTS_T is array (3 downto 0) of std_logic_vector(14 downto 0);$/;"	t
+WEIGHT_OFFSET_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant WEIGHT_OFFSET_WIDTH_CT : integer := 4; -- weight_offset width $/;"	c
+WEIGHT_OFFSET_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant WEIGHT_OFFSET_WIDTH_CT : integer := 4; -- weight_offset width $/;"	c
+WIENER_ADDR_WIDTH_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_ADDR_WIDTH_CT : integer := 9;$/;"	c
+wiener_coeff	.\wiener_coeff.vhd	/^entity wiener_coeff is$/;"	e
+WIENER_COEFF_CT	.\wiener_coeff_rtl.vhd	/^  constant WIENER_COEFF_CT : ROM_STORAGE_T := ($/;"	c
+WIENER_COEFF_WIDTH_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_COEFF_WIDTH_CT : integer := 10;$/;"	c
+wiener_ctrl	.\wiener_ctrl.vhd	/^entity wiener_ctrl is$/;"	e
+wiener_filter	.\wiener_filter.vhd	/^entity wiener_filter is$/;"	e
+wiener_filter_pkg	.\wiener_filter_pkg.vhd	/^package wiener_filter_pkg is$/;"	P
+WIENER_FIRSTADD_WIDTH_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_FIRSTADD_WIDTH_CT : integer := $/;"	c
+WIENER_FIRSTROUND_WIDTH_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_FIRSTROUND_WIDTH_CT : integer := 5;$/;"	c
+WIENER_MAX_NEG_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_MAX_NEG_CT : integer := -2**(FFT_WIDTH_CT-1);$/;"	c
+WIENER_MAX_POS_CT	.\wiener_filter_pkg.vhd	/^  constant WIENER_MAX_POS_CT : integer := (2**(FFT_WIDTH_CT-1))-1;$/;"	c
+wiener_multadd2	.\wiener_multadd2.vhd	/^entity wiener_multadd2 is$/;"	e
+WIEN_WIDTH_CT	.\freq_domain_pack.vhd	/^  constant WIEN_WIDTH_CT          : integer := FFT_WIDTH_CT;  --$/;"	c
+WIEN_WIDTH_CT	.\modem802_11a2_pack.vhd	/^  constant WIEN_WIDTH_CT          : integer := FFT_WIDTH_CT;  --$/;"	c
+WIE_COEFF_ARRAY_T	.\freq_domain_pack.vhd	/^  type WIE_COEFF_ARRAY_T is array(0 to 51) of std_logic_vector(FFT_WIDTH_CT-1 downto 0);$/;"	t
+WIE_COEFF_ARRAY_T	.\modem802_11a2_pack.vhd	/^  type WIE_COEFF_ARRAY_T is array(0 to 51) of std_logic_vector(FFT_WIDTH_CT-1 downto 0);$/;"	t
+wie_mem	.\wie_mem.vhd	/^entity wie_mem is$/;"	e
+wie_mem_pkg	.\wie_mem_pkg.vhd	/^package wie_mem_pkg is$/;"	P
+wildbb_11g_hiss	.\wildbb_11g_hiss.vhd	/^entity wildbb_11g_hiss is$/;"	e
+wildbb_11g_hiss_pkg	.\wildbb_11g_hiss_pkg.vhd	/^package wildbb_11g_hiss_pkg is$/;"	P
+wild_config_pkg	.\wild_config_pkg.vhd	/^package wild_config_pkg is$/;"	P
+WILD_RF_CT	.\modem802_11a2_pack.vhd	/^  constant WILD_RF_CT           : integer := 1;$/;"	c
+WORD_CT	.\ahb_config_pkg.vhd	/^  constant WORD_CT    : std_logic_vector(2 downto 0)  := "010";$/;"	c
+WORD_CT	.\bup2_sm_pkg.vhd	/^  constant WORD_CT  : std_logic_vector(1 downto 0) := "00";$/;"	c
+WORD_CT	.\endianness_converter_pkg.vhd	/^  constant WORD_CT  : std_logic_vector(1 downto 0) := "00";$/;"	c
+WRAP16_CT	.\ahb_config_pkg.vhd	/^  constant  WRAP16_CT  : std_logic_vector(2 downto 0) := "110";$/;"	c
+WRAP4_CT	.\ahb_config_pkg.vhd	/^  constant  WRAP4_CT   : std_logic_vector(2 downto 0) := "010";$/;"	c
+WRAP8_CT	.\ahb_config_pkg.vhd	/^  constant  WRAP8_CT   : std_logic_vector(2 downto 0) := "100";$/;"	c
+WRITE	.\serialif.vhd	/^   constant  WRITE                 :  std_logic_vector(1 downto 0) := "01";    $/;"	c
+writesram_type	.\rc4_keyloading_RTL.vhd	/^type writesram_type is (idle_state,     -- Idle phase.$/;"	t
+WRITE_DATA_SM_TYPE	.\bup2_rx_sm_RTL.vhd	/^type WRITE_DATA_SM_TYPE is (idle_state,          -- idle state     $/;"	t
+WR_REG_SHIFT_CT	.\master_seria_RTL.vhd	/^  constant WR_REG_SHIFT_CT : std_logic_vector(4 downto 0) := "01100";  -- 11+1 (x2 (i\/q)) $/;"	c
+XILINX	.\config_pkg.vhd	/^  constant XILINX         : integer := 0;$/;"	c
+XILINX	.\target_config_pkg.vhd	/^  constant XILINX     : integer := 0;$/;"	c
+XILINX_VIRTEX2	.\config_pkg.vhd	/^  constant XILINX_VIRTEX2 : integer := 3;$/;"	c
+X_LSB_CT	.\kalman_rtl.vhd	/^  constant X_LSB_CT   : integer   := NFRAC_Z_CT - NFRAC_X_CT;$/;"	c
+X_MSB_CT	.\kalman_rtl.vhd	/^  constant X_MSB_CT   : integer   := X_LSB_CT + NBIT_X_CT - 1;$/;"	c
+Y_LSB_CT	.\kalman_rtl.vhd	/^  constant Y_LSB_CT   : integer   := NFRAC_I_CT+NBIT_K_CT-NFRAC_Y_CT;$/;"	c
+Y_MSB_CT	.\kalman_rtl.vhd	/^  constant Y_MSB_CT   : integer   := Y_LSB_CT + NBIT_Y_CT -1;$/;"	c
+ZEROS_AV_G_M_ACC_CT	.\iq_mism_g_est_rtl.vhd	/^  constant ZEROS_AV_G_M_ACC_CT : std_logic_vector(AV_G_SIZE_CT-IQ_ACCU_SIZE_CT-1 downto 0)$/;"	c
+ZEROS_AV_G_M_G_EST_CT	.\iq_mism_g_est_rtl.vhd	/^  constant ZEROS_AV_G_M_G_EST_CT : std_logic_vector(G_EST_SEL_CT-1 downto 0)$/;"	c
+ZEROS_AV_PH_M_G_EST_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ZEROS_AV_PH_M_G_EST_CT : std_logic_vector(PH_EST_SEL_CT-1 downto 0)$/;"	c
+ZEROS_AV_PH_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ZEROS_AV_PH_SIZE_CT : std_logic_vector(AV_PH_SIZE_CT-1 downto 0)$/;"	c
+ZEROS_CT	.\cordic_vect_RTL.vhd	/^  constant ZEROS_CT : std_logic_vector(datasize_g downto 0) := (others => '0');$/;"	c
+ZEROS_CT	.\divider_rtl.vhd	/^  constant ZEROS_CT             : std_logic_vector(nbit_input_g -3 downto 0) := (others => '0');$/;"	c
+ZEROS_G_EST_M1_CT	.\iq_mism_g_est_rtl.vhd	/^  constant ZEROS_G_EST_M1_CT   : std_logic_vector(G_EST_SIZE_CT-2 downto 0) := (others => '0');$/;"	c
+ZEROS_G_EST_SIZEM1_CT	.\iq_estimation_rtl.vhd	/^  constant ZEROS_G_EST_SIZEM1_CT   : std_logic_vector(G_EST_SIZE_CT-2 downto 0)$/;"	c
+ZEROS_G_EST_SIZEM1_CT	.\iq_mism_g_est_rtl.vhd	/^  constant ZEROS_G_EST_SIZEM1_CT   : std_logic_vector(G_EST_SIZE_CT-2 downto 0)$/;"	c
+ZEROS_PH_EST_M1_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ZEROS_PH_EST_M1_CT : std_logic_vector(PH_EST_SIZE_CT-2 downto 0)$/;"	c
+ZEROS_PSET_PAD_CT	.\iq_mism_g_est_rtl.vhd	/^  constant ZEROS_PSET_PAD_CT   : std_logic_vector(AV_G_SIZE_CT-G_PSET_SIZE_CT-1 downto 0)$/;"	c
+ZEROS_PSET_PAD_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ZEROS_PSET_PAD_CT   : std_logic_vector(AV_PH_SIZE_CT-PH_PSET_SIZE_CT-1 downto 0)$/;"	c
+ZEROS_STEP_SIZE_CT	.\iq_mism_ph_est_rtl.vhd	/^  constant ZEROS_STEP_SIZE_CT  : std_logic_vector(STEP_SIZE_CT-1 downto 0)$/;"	c
+zero_for_delta0	.\equalizer_RTL.vhd	/^  constant zero_for_delta0  : std_logic_vector(dsize_g-3 downto 0):=(others => '0');  $/;"	c
+Z_LSB_CT	.\kalman_rtl.vhd	/^  constant Z_LSB_CT   : integer   := NFRAC_Y_CT - NFRAC_Z_CT;$/;"	c
+Z_MSB_CT	.\kalman_rtl.vhd	/^  constant Z_MSB_CT   : integer   := Z_LSB_CT + NBIT_Z_CT -1;$/;"	c
